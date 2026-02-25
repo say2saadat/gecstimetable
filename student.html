@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Timetable</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+      background: linear-gradient(120deg, #4facfe, #00f2fe);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .card {
+      background: #ffffff;
+      width: 100%;
+      max-width: 1000px;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+      text-align: center;
+      color: #0b3c5d;
+      margin-bottom: 20px;
+      font-size: 22px;
+    }
+
+    .input-group {
+      display: flex;
+      font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    select, button {
+      padding: 10px;
+      font-size: 14px;
+      border-radius: 6px;
+      border: 1px solid #0b5592;
+      min-width: 160px;
+      width: 100%;
+      max-width: 180px;
+    }
+
+    button {
+      background: #0b3c5d;
+      color: white;
+      cursor: pointer;
+      border: none;
+    }
+
+    button:hover {
+      background: #06263d;
+    }
+
+    .table-wrapper {
+      width: 100%;
+      margin-top: 15px;
+      overflow-x: hidden; /* desktop */
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background: white;
+      table-layout: fixed; /* fit table inside card */
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+      color: #0b3c5d;
+      font-size: 12px;
+      white-space: normal;
+      word-break: break-word;
+    }
+
+    /* MOBILE ONLY: allow horizontal scroll */
+    @media (max-width: 600px) {
+      .table-wrapper {
+        overflow-x: auto;
+      }
+
+      table {
+        min-width: 600px;
+      }
+    }
+
+    table {
+      table-layout: fixed;
+    }
+    th {
+      background: #0b3c5d;
+      color: white;
+      font-size: 12px;
+      position: sticky;
+      top: 0;
+    }
+
+    td:first-child {
+      background: #0b3c5d;
+      color: white;
+      font-weight: bold;
+      font-size: 11px;
+      position: sticky;
+      left: 0;
+      white-space: nowrap;
+      text-align: center;
+      z-index: 1;
+    }
+
+    th:first-child {
+      height: 48px;
+      font-size: 11px;
+      color: white;
+      font-weight: bold;
+      position: sticky;
+      left: 0;
+      white-space: nowrap;
+      width: auto;
+      z-index: 2;
+    }
+
+    .message {
+      text-align: center;
+      margin-top: 12px;
+      color: red;
+      font-weight: bold;
+    }
+
+    .logo-container {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .college-logo {
+      max-width: 120px;
+      height: auto;
+    }
+
+    .note {
+      text-align: center;
+      margin-top: 12px;
+      color: #0e4791;
+      font-weight: bold;
+      font-size: 11px;
+    }
+    /* ------ marging for DownloadPDF button--- */
+    #downloadSection {
+      margin-top: 50px; 
+    }
+
+    /* ===== ACTION BUTTONS FIX ===== */
+    #downloadSection {
+      display: flex;
+      justify-content: center;
+      gap: 50px;               /* space between buttons (desktop) */
+      flex-wrap: wrap;
+    }
+
+    .action-btn {
+      background: #0b3c5d;
+      color: white;
+      padding: 6px 12px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 12px;
+      min-width: 100px;
+    }
+
+    /* ===== Mobile specific tweaks ===== */
+    @media (max-width: 600px) {
+      h2 {
+        font-size: 16px;
+      }
+      th, td {
+        height: 35px;
+        font-size: 11px;
+      }
+      td:first-child,
+      th:first-child {
+        min-width: 70px;
+      }
+      .card {
+        padding: 15px;
+      }
+
+      .input-group {
+        flex-direction: column;
+        align-items: center;
+        max-width: 350px;
+      }
+
+      .college-logo {
+        max-width: 90px;
+      }
+
+      select, input, button {
+      width: 50%;
+      max-width: 250px;
+      margin: 1px auto;        /* 👈 centers horizontally */
+      display: block;          /* 👈 REQUIRED */
+      font-size: 12px;
+      padding: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="card">
+
+  <div class="logo-container">
+    <img src="gecs_logo.jpeg" alt="GEC Sheohar Logo" class="college-logo">
+  </div>
+
+  <h2>Class Timetable</h2>
+
+  <div class="input-group">
+    <select id="branch">
+      <option value="">Select Branch</option>
+      <option value="CE">CE</option>
+      <option value="CSE (DS)">CSE (DS)</option>
+      <option value="EE">EE</option>
+      <option value="ME">ME</option>
+      <option value="ECE">ECE</option>
+      <option value="CECA">CECA</option>
+    </select>
+
+    <select id="semester">
+      <option value="">Select Semester</option>
+      <option value="1">Sem 1</option>
+      <option value="2">Sem 2</option>
+      <option value="3">Sem 3</option>
+      <option value="4">Sem 4</option>
+      <option value="5">Sem 5</option>
+      <option value="6">Sem 6</option>
+      <option value="7">Sem 7</option>
+      <option value="8">Sem 8</option>
+    </select>
+
+    <button onclick="loadTimetable()">View Timetable</button>
+  </div>
+
+  <div id="classInfo" style="
+    text-align:center;
+    margin-bottom:10px;
+    font-size:15px;
+    font-weight:bold;
+    color:#0b3c5d;">
+  </div>
+
+  <div id="tableContainer" class="table-wrapper"></div>
+  <div id="msg" class="message"></div>
+    
+  <div id="downloadSection" style="text-align:center; display:none;">
+    
+    <button onclick="window.open('faculty_info.html','_blank')"
+    style="
+      background:#0b3c5d;
+      color:white;
+      padding:8px 12px;
+      border:none;
+      border-radius:6px;
+      cursor:pointer;
+      font-size:12px;">
+      Faculty Information
+    </button>
+    <button onclick="window.open('subject_info.html','_blank')"
+    style="
+      background:#0b3c5d;
+      color:white;
+      padding:8px 12px;
+      border:none;
+      border-radius:6px;
+      cursor:pointer;
+      font-size:12px;">
+      Subject Information
+    </button>
+
+    <button onclick="downloadPDF()" style="
+      background:#0b3c5d;
+      color:white;
+      padding:8px 12px;
+      border:none;
+      border-radius:6px;
+      cursor:pointer;
+      font-size:12px;">
+      Download(PDF)
+    </button>
+
+  </div>
+
+    <div class="note">
+    Academic Office GEC Sheohar <br>
+    For any concern write to: academics@gecsheohar.ac.in
+  </div>
+
+</div>
+
+<script>
+const API = "https://script.google.com/macros/s/AKfycbw0duReaY8Ng6Lldu4HLtVteum8G4KNviHY0pP0AMvtxwe_FOErLoaoTVANraUy_3CX/exec?type=student";
+
+async function loadTimetable() {
+  
+  document.getElementById("classInfo").innerHTML = "";
+  document.getElementById("classInfo").style.display = "none";
+  document.getElementById("downloadSection").style.display = "none";
+  document.getElementById("classInfo").innerHTML = "";
+  
+  const branch = document.getElementById("branch").value;
+  const semester = document.getElementById("semester").value;
+
+  document.getElementById("msg").innerText = "";
+  document.getElementById("tableContainer").innerHTML = "";
+
+  if (!branch || !semester) {
+    document.getElementById("msg").innerText =
+      "Please select both Branch and Semester";
+    return;
+  }
+
+  const response = await fetch(API);
+  const data = await response.json();
+
+  const filtered = data.filter(
+    row => row.Branch === branch && String(row.Semester) === semester
+  );
+
+  if (filtered.length === 0) {
+    document.getElementById("classInfo").innerHTML = "";
+    document.getElementById("msg").innerText =
+      "No timetable found for selected Branch & Semester";
+    return;
+  }
+
+  document.getElementById("downloadSection").style.display = "block";
+  document.getElementById("classInfo").style.display = "block";
+  document.getElementById("classInfo").innerHTML =
+    `Branch: ${document.getElementById("branch").value}
+    &nbsp;&nbsp;|&nbsp;&nbsp;
+    Semester: ${document.getElementById("semester").value}`;
+  document.getElementById("classInfo").style.display = "block";
+
+  renderTable(filtered);
+}
+
+function renderTable(rows) {
+  let table = `
+<table>
+  <thead>
+    <tr>
+      <th>Day</th>
+      <th>10:00<br>11:00AM</th>
+      <th>11:00<br>12:00PM</th>
+      <th>12:00<br>01:00PM</th>
+      <th>Lunch<br>Hour</th>
+      <th>02:00<br>03:00PM</th>
+      <th>03:00<br>04:00PM</th>
+      <th>04:00<br>05:00PM</th>
+    </tr>
+  </thead>
+  <tbody>
+`;
+
+  table += "</tr></thead><tbody>";
+
+  rows.forEach(row => {
+    table += "<tr>";
+    Object.keys(row).forEach(key => {
+      if (key !== "Branch" && key !== "Semester") {
+        table += `<td>${row[key] || ""}</td>`;
+      }
+    });
+    table += "</tr>";
+  });
+
+  table += "</tbody></table>";
+
+  document.getElementById("tableContainer").innerHTML = table;
+}
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+<script>
+function downloadPDF() {
+
+  const card = document.querySelector('.card');
+  const tableWrapper = document.querySelector('.table-wrapper');
+
+  /* ---- TEMP FIX FOR MOBILE PDF ---- */
+  tableWrapper.style.overflow = "visible";
+
+  document.querySelectorAll("th, td").forEach(el => {
+    el.style.position = "static";
+  });
+
+  const now = new Date();
+  const dateTime =
+    now.toLocaleDateString() + " " + now.toLocaleTimeString();
+
+  const footer = document.createElement("div");
+  footer.style.textAlign = "center";
+  footer.style.fontSize = "11px";
+  footer.style.marginTop = "10px";
+  footer.innerHTML = `Downloaded on: <b>${dateTime}</b>`;
+
+  card.appendChild(footer);
+
+  const opt = {
+    margin: 0.3,
+    filename: 'Timetable_' + now.getTime() + '.pdf',
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: {
+      scale: 2,
+      scrollX: 0,
+      scrollY: 0,
+      useCORS: true
+    },
+    jsPDF: {
+      unit: 'in',
+      format: 'a4',
+      orientation: 'landscape'
+    }
+  };
+
+  html2pdf().set(opt).from(card).save().then(() => {
+
+    /* ---- RESTORE UI AFTER DOWNLOAD ---- */
+    tableWrapper.style.overflowX = "";
+
+    document.querySelectorAll("th, td").forEach(el => {
+      el.style.position = "";
+    });
+
+    footer.remove();
+  });
+}
+</script>
+
+</body>
+</html>

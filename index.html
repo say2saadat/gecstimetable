@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Timetable Management System</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(120deg, #4facfe, #00f2fe);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;   /* important for mobile */
+  }
+
+  .card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 600px;
+    padding: 25px 20px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+  }
+
+  .logo {
+    max-width: 100px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  h1 {
+    margin: 10px 0 6px;
+    font-size: 22px;
+    color: #0b3c5d;
+  }
+
+  h2 {
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #065396;
+  }
+
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  button {
+    width: 100%;
+    max-width: 180px;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px;
+    background: #065396;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  button:hover {
+    background: #043d6f;
+  }
+
+  .footer {
+    margin-top: 25px;
+    font-size: 12px;
+    color: #0f477a;
+    font-weight: bold;
+  }
+
+  /* ---------- Mobile Specific ---------- */
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 20px;
+    }
+
+    h2 {
+      font-size: 15px;
+    }
+
+    .logo {
+      max-width: 85px;
+    }
+
+    button {
+      font-size: 14px;
+      padding: 12px;
+    }
+  }
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+  <!-- Logo -->
+  <img src="gecs_logo.jpeg" alt="GEC Sheohar Logo" class="logo">
+
+  <!-- College Name -->
+  <h1>Government Engineering College Sheohar</h1>
+
+  <!-- System Title -->
+  <h2>Academic Timetable</h2>
+
+  <!-- Buttons -->
+  <div class="button-group">
+    <button onclick="location.href='faculty.html'">Faculty Timetable</button>
+    <button onclick="location.href='student.html'">Student Timetable</button>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    Academic Office, GEC Sheohar
+  </div>
+
+</div>
+
+</body>
+</html>

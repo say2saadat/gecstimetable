@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Faculty Timetable</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+/* =====================
+   GLOBAL RESET
+===================== */
+* {
+  box-sizing: border-box;
+}
+
+/* =====================
+   PAGE BACKGROUND & LAYOUT
+===================== */
+body {
+  margin: 0;
+  font-family: Georgia, Arial, Helvetica, 'Times New Roman', Times, serif;
+  background: linear-gradient(120deg, #4facfe, #00f2fe);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* =====================
+   MAIN CARD CONTAINER
+===================== */
+.card {
+  background: #ffffff;
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* =====================
+   PAGE HEADING
+===================== */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 22px;
+}
+
+/* =====================
+   INPUT & BUTTON GROUP
+===================== */
+.input-group {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* Employee ID input box */
+input {
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 6px;
+  border: 1px solid #0b5592;
+  max-width: 150px;
+  width: 50%;
+}
+
+/* View Timetable & Download buttons */
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background: #065396;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  max-width: 150px;
+}
+
+button:hover {
+  background: #065396;
+}
+
+/* =====================
+   TABLE WRAPPER
+===================== */
+.table-wrapper {
+  width: 100%;
+  margin-top: 15px;
+  overflow-x: hidden; /* desktop */
+}
+
+/* =====================
+   TABLE STRUCTURE
+===================== */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: white;
+  table-layout: fixed;
+}
+
+/* =====================
+   TABLE CELL TEXT (MAIN CONTROL)
+   👉 THIS CONTROLS TABLE DATA SIZE & COLOR
+===================== */
+th,
+td {
+  border: 1px solid rgb(182, 200, 207);
+  padding: 8px;
+  text-align: center;
+  font-size: 11px;        /* ✅ table font size */
+  color: #0b3c5d;         /* ✅ table text color */
+  white-space: normal;
+  word-break: break-word;
+}
+
+/* =====================
+   TABLE HEADER ROW
+===================== */
+th {
+  background: #0b3c5d;
+  color: white;
+}
+
+/* =====================
+   FIRST COLUMN (DAY)
+===================== */
+td:first-child {
+  background: #0b3c5d;
+  color: white;
+  font-weight: bold;
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+
+th:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background: #0b3c5d;
+  color: white;
+}
+
+/* Alternate row background */
+tr:nth-child(even) {
+  background: #fcfaf7;
+}
+
+/* =====================
+   EMPLOYEE INFO TEXT
+===================== */
+.emp-text {
+  font-weight: 700;
+}
+
+/* Employee name & department ONLY */
+#empName,
+#empDept {
+  color: #186294;
+  font-size: 15px;
+}
+
+/* Reduce spacing between name & department */
+#empInfo p {
+  margin: 3px 0;
+  line-height: 1.2;
+}
+
+/* =====================
+   FOOTER NOTE
+===================== */
+.note {
+  text-align: center;
+  margin-top: 12px;
+  color: #0f477a;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+/* =====================
+   LOGO
+===================== */
+.logo-container {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.college-logo {
+  max-width: 120px;
+  height: auto;
+}
+
+/* ------ marging for DownloadPDF button--- */
+  #downloadSection {
+    margin-top: 50px; 
+  }
+
+/* ===== ACTION BUTTONS FIX ===== */
+#downloadSection {
+  display: flex;
+  justify-content: center;
+  gap: 50px;               /* space between buttons (desktop) */
+  flex-wrap: wrap;
+}
+
+.action-btn {
+  background: #0b3c5d;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  min-width: 100px;
+}
+
+/* ===== MOBILE FIX ===== */
+@media (max-width: 600px) {
+  #downloadSection {
+    flex-direction: column;   /* stack vertically */
+    align-items: center;
+  }
+
+  .action-btn {
+    width: 50%;               /* same width */
+    margin-bottom: 8px;       /* clean spacing */
+  }
+}
+
+/* =====================
+   MOBILE RESPONSIVE
+===================== */
+@media (max-width: 600px) {
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .table-wrapper {
+    overflow-x: auto;
+  }
+
+  table {
+    min-width: 600px;
+  }
+
+  /* MOBILE: reduce row height */
+  th, td {
+    padding: 4px 6px;        /* 👈 reduces vertical gap */
+    font-size: 11px;
+    height: auto;            /* 👈 IMPORTANT */
+    line-height: 1.4;
+  }
+
+  tbody tr {
+    height: 35px;              /* 👈 THIS fixes Saturday */
+  }
+
+  /* MOBILE: Day column (first column) */
+  td:first-child,
+  th:first-child {
+    min-width: 60px;
+    white-space: nowrap;
+    padding: 4px 6px;        /* 👈 match other cells */
+  }
+
+  .card {
+    padding: 12px;
+  }
+
+  .input-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  select,
+  input,
+  button {
+    max-width: 150px;
+    margin: 1px auto;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  button {
+    width: 50%;
+  }
+
+  .college-logo {
+    max-width: 90px;
+  }
+
+}
+</style>
+</head>
+
+<body>
+
+  <div class="card">
+    
+    <div class="logo-container">
+      <img src="gecs_logo.jpeg" alt="GEC Sheohar Logo" class="college-logo">
+    </div>
+
+    <h2>Faculty Timetable</h2>
+
+    <div class="input-group">
+      <input type="text" id="empId" placeholder="Enter Employee ID">
+      <button onclick="loadTimetable()">View Timetable</button>
+    </div>
+
+    <div id="empInfo" style="display:none; margin:15px 0; text-align: center; font-size:15px;">
+      <p><b>Faculty:</b> <span id="empName" class="emp-text"></span></p>
+      <p><b>Department:</b> <span id="empDept" class="emp-text"></span></p>
+    </div>
+    <div class="table-wrapper">
+      <table id="table" style="display:none;">
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>10:00<br>11:00AM</th>
+            <th>11:00AM<br>12:00PM</th>
+            <th>12:00<br>01:00PM</th>
+            <th>Lunch<br>Hour</th>
+            <th>02:00<br>03:00PM</th>
+            <th>03:00<br>04:00PM</th>
+            <th>04:00<br>05:00PM</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div id="downloadSection" style="text-align:center; display:none;">
+
+      <button onclick="window.open('subject_info.html','_blank')" class="action-btn">
+        Subject Information
+      </button>
+
+      <button onclick="downloadPDF()" class="action-btn">
+        Download (PDF)
+      </button>
+
+    </div>
+
+    <div class="note">
+      Academic Office GEC Sheohar<br>
+      For any concern write to: academics@gecsheohar.ac.in
+    </div>
+  </div>
+
+<script>
+const API_URL = "https://script.google.com/macros/s/AKfycbw0duReaY8Ng6Lldu4HLtVteum8G4KNviHY0pP0AMvtxwe_FOErLoaoTVANraUy_3CX/exec";
+
+const timeSlots = [
+  "10:00-11:00AM",
+  "11:00AM-12:00PM",
+  "12:00PM-01:00PM",
+  "Lunch",
+  "02:00PM-03:00PM",
+  "03:00PM-04:00PM",
+  "04:00PM-05:00PM"
+];
+
+function loadTimetable() {
+  const empId = document.getElementById("empId").value.trim();
+  const table = document.getElementById("table");
+  const tbody = table.querySelector("tbody");
+
+  if (!empId) {
+    alert("Please enter Employee ID");
+    return;
+  }
+
+  fetch(API_URL + "?empId=" + empId)
+    .then(res => res.json())
+    .then(data => {
+      if (!data.employee) {
+        alert("No timetable found");
+        return;
+      }
+
+      document.getElementById("empName").textContent = data.employee.name;
+      document.getElementById("empDept").textContent = data.employee.department;
+      document.getElementById("empInfo").style.display = "block";
+      document.getElementById("downloadSection").style.display = "block";
+
+      const timetableData = data.timetable;
+      tbody.innerHTML = "";
+
+      table.style.display = "table";
+
+      timetableData.forEach(dayRow => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `<td><b>${dayRow["Day"]}</b></td>` +
+          timeSlots.map(t => `<td>${dayRow[t] || ""}</td>`).join("");
+        tbody.appendChild(tr);
+      });
+    })
+    .catch(err => {
+      alert("Error fetching data");
+      console.error(err);
+    });
+}
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+<script>
+function downloadPDF() {
+
+  const card = document.querySelector('.card');
+  const tableWrapper = document.querySelector('.table-wrapper');
+
+  /* ---- TEMP FIX FOR MOBILE PDF ---- */
+  tableWrapper.style.overflow = "visible";
+
+  document.querySelectorAll("th, td").forEach(el => {
+    el.style.position = "static";
+  });
+
+  const now = new Date();
+  const dateTime =
+    now.toLocaleDateString() + " " + now.toLocaleTimeString();
+
+  const footer = document.createElement("div");
+  footer.style.textAlign = "center";
+  footer.style.fontSize = "11px";
+  footer.style.marginTop = "10px";
+  footer.innerHTML = `Downloaded on: <b>${dateTime}</b>`;
+
+  card.appendChild(footer);
+
+  const opt = {
+    margin: 0.3,
+    filename: 'Timetable_' + now.getTime() + '.pdf',
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: {
+      scale: 2,
+      scrollX: 0,
+      scrollY: 0,
+      useCORS: true
+    },
+    jsPDF: {
+      unit: 'in',
+      format: 'a4',
+      orientation: 'landscape'
+    }
+  };
+
+  html2pdf().set(opt).from(card).save().then(() => {
+
+    /* ---- RESTORE UI AFTER DOWNLOAD ---- */
+    tableWrapper.style.overflowX = "";
+
+    document.querySelectorAll("th, td").forEach(el => {
+      el.style.position = "";
+    });
+
+    footer.remove();
+  });
+}
+</script>
+
+</body>
+</html>
