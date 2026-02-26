@@ -24,7 +24,7 @@
       background: #ffffff;
       width: 100%;
       max-width: 1000px;
-      padding: 20px;
+      padding: 30px;
       border-radius: 12px;
       box-shadow: 0 15px 30px rgba(0,0,0,0.2);
     }
@@ -40,19 +40,20 @@
       display: flex;
       font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
       justify-content: center;
-      gap: 8px;
+      gap: 10px;
       margin-bottom: 20px;
       flex-wrap: wrap;
+      font-size: 14px;
     }
 
     select, button {
-      padding: 10px;
-      font-size: 14px;
+      padding: 8px;
+      font-size: 13px;
       border-radius: 6px;
       border: 1px solid #0b5592;
-      min-width: 160px;
+      min-width: 140px;
       width: 100%;
-      max-width: 180px;
+      max-width: 100px;
     }
 
     button {
@@ -87,17 +88,6 @@
       font-size: 12px;
       white-space: normal;
       word-break: break-word;
-    }
-
-    /* MOBILE ONLY: allow horizontal scroll */
-    @media (max-width: 600px) {
-      .table-wrapper {
-        overflow-x: auto;
-      }
-
-      table {
-        min-width: 600px;
-      }
     }
 
     table {
@@ -182,11 +172,11 @@
       font-size: 12px;
       min-width: 100px;
     }
-
+    
     /* ===== Mobile specific tweaks ===== */
     @media (max-width: 600px) {
       h2 {
-        font-size: 16px;
+        font-size: 20px;
       }
       th, td {
         height: 35px;
@@ -196,8 +186,23 @@
       th:first-child {
         min-width: 70px;
       }
+
+      .table-wrapper {
+        overflow-x: auto;
+      }
+      table {
+        min-width: 600px;
+      }
+
+      .controls, 
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   /* 👈 centers everything */
+      }
+
       .card {
-        padding: 15px;
+        padding: 30px;
       }
 
       .input-group {
@@ -207,17 +212,34 @@
       }
 
       .college-logo {
-        max-width: 90px;
+        max-width: 140px;
       }
 
       select, input, button {
       width: 50%;
-      max-width: 250px;
-      margin: 1px auto;        /* 👈 centers horizontally */
+      max-width: 350px;
+      margin: 4px auto;
+      margin-right: auto;        /* 👈 centers horizontally */
       display: block;          /* 👈 REQUIRED */
-      font-size: 12px;
-      padding: 10px;
+      font-size: 15px;
+      padding: 12px;
+      
       }
+
+      #downloadSection {
+      display: flex;
+      flex-direction: column;   /* stack vertically */
+      align-items: center;      /* center horizontally */
+      gap: 10px;                /* vertical spacing between buttons */
+      width: 100%;
+    }
+
+    .action-btn {
+      width: 100%;               /* centered, same size */
+      max-width: 350px;
+      padding: 14px;
+    }
+
     }
   </style>
 </head>
@@ -302,7 +324,7 @@
       border-radius:6px;
       cursor:pointer;
       font-size:12px;">
-      Download(PDF)
+      Download (PDF)
     </button>
 
   </div>
