@@ -23,11 +23,14 @@
     .card {
       background: #ffffff;
       width: 100%;
-      max-width: 1000px;
+      max-width: 700px;
       padding: 30px;
       border-radius: 12px;
       box-shadow: 0 15px 30px rgba(0,0,0,0.2);
-    }
+      }
+    .card.big {
+      max-width: 1000px;   /* bigger after table shows */
+      }
 
     h2 {
       text-align: center;
@@ -82,7 +85,7 @@
 
     th, td {
       border: 1px solid #ccc;
-      padding: 8px;
+      padding: 10px;
       text-align: center;
       color: #0b3c5d;
       font-size: 12px;
@@ -202,7 +205,13 @@
       }
 
       .card {
-        padding: 30px;
+        background: #ffffff;
+        width: 95%;
+        max-width: 600px;
+        padding: 40px 10px;
+        border-radius: 14px;
+        text-align: center;
+        box-shadow: 0 15px 30px rgba(0,0,0,0.25);
       }
 
       .input-group {
@@ -218,7 +227,7 @@
       select, input, button {
       width: 50%;
       max-width: 350px;
-      margin: 4px auto;
+      margin: 2px auto;
       margin-right: auto;        /* 👈 centers horizontally */
       display: block;          /* 👈 REQUIRED */
       font-size: 15px;
@@ -416,6 +425,7 @@ function renderTable(rows) {
   table += "</tbody></table>";
 
   document.getElementById("tableContainer").innerHTML = table;
+  document.querySelector(".card").classList.add("big");
 }
 </script>
 
