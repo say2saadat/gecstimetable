@@ -605,20 +605,24 @@ function loadTimetable() {
     return;
   }
 
-  fetch(API_URL + "?empId=" + empId)
-    .then(res => res.json())
-    .then(data => {
-      if (!data.employee) {
-        alert("No timetable found");
-        return;
-      }
+  fetch(API_URL)
+  .then(res => res.json())
+  .then(data => {
 
-      document.getElementById("empName").textContent = data.employee.name;
-      document.getElementById("empDept").textContent = data.employee.department;
+    const timetableData = data.filter(row =>
+      String(row.EmployeeID) === empId
+    );
+
+    if (timetableData.length === 0) {
+      alert("No timetable found");
+      return;
+    }
+
+    document.getElementById("empName").textContent = timetableData[0].Name;
+    document.getElementById("empDept").textContent = timetableData[0].Department;
       document.getElementById("empInfo").style.display = "block";
       document.getElementById("downloadSection").style.display = "block";
 
-      const timetableData = data.timetable;
       tbody.innerHTML = "";
 
       table.style.display = "table";
@@ -749,4 +753,5 @@ function closePopup(){
 </body>
 
 </html>
+
 
