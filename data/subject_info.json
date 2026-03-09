@@ -1,0 +1,1530 @@
+[
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 1,
+    "CourseCode": 100101,
+    "CourseAcr": "CHE",
+    "CourseName": "Engineering Chemistry",
+    "Credits": 4
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 1,
+    "CourseCode": 100102,
+    "CourseAcr": "M1",
+    "CourseName": "Engineering Mathematics-I",
+    "Credits": 4
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 1,
+    "CourseCode": 100103,
+    "CourseAcr": "ENG",
+    "CourseName": "Communicative English",
+    "Credits": 4
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 1,
+    "CourseCode": 100105,
+    "CourseAcr": "EMC",
+    "CourseName": "Engineering Mechanics",
+    "Credits": 4
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 1,
+    "CourseCode": 100104,
+    "CourseAcr": "EGD",
+    "CourseName": "Engg. Graphics & Design",
+    "Credits": 3
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 1,
+    "CourseCode": "100109P",
+    "CourseAcr": "SYNN",
+    "CourseName": "Sports/Yoga/NCC/NSS",
+    "Credits": 1
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 2,
+    "CourseCode": 100201,
+    "CourseAcr": "PHY",
+    "CourseName": "Engineering Physics",
+    "Credits": 4
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 2,
+    "CourseCode": 100202,
+    "CourseAcr": "M2",
+    "CourseName": "Engineering Mathematics-II",
+    "Credits": 4
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 2,
+    "CourseCode": 100203,
+    "CourseAcr": "PPS",
+    "CourseName": "Programming for Problem Solving",
+    "Credits": 4
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 2,
+    "CourseCode": 100211,
+    "CourseAcr": "WP",
+    "CourseName": "Workshop",
+    "Credits": 3
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 2,
+    "CourseCode": 100212,
+    "CourseAcr": "BEE",
+    "CourseName": "Basic Electrical Engineering",
+    "Credits": 4
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 2,
+    "CourseCode": "100214P",
+    "CourseAcr": "SBM",
+    "CourseName": "Swacha Bharat Mission",
+    "Credits": 1
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 3,
+    "CourseCode": 101307,
+    "CourseAcr": "IKS",
+    "CourseName": "Indian Knowledge System",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 3,
+    "CourseCode": 101306,
+    "CourseAcr": "MTE",
+    "CourseName": "Material, Testing & Evaluation",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 3,
+    "CourseCode": 101305,
+    "CourseAcr": "FLM",
+    "CourseName": "Fluid Mechanics",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 3,
+    "CourseCode": 101304,
+    "CourseAcr": "SG",
+    "CourseName": "Surveying and Geomatics",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 3,
+    "CourseCode": 101303,
+    "CourseAcr": "UHV",
+    "CourseName": "Universal Human Values",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 3,
+    "CourseCode": 101302,
+    "CourseAcr": "M3",
+    "CourseName": "Engineering Mathematics-III",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 3,
+    "CourseCode": 101301,
+    "CourseAcr": "SM",
+    "CourseName": "Solid Mechanics",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 5,
+    "CourseCode": 101501,
+    "CourseAcr": "ADCS",
+    "CourseName": "Analysis & Design of Concrete Structure",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 5,
+    "CourseCode": 101502,
+    "CourseAcr": "EE1",
+    "CourseName": "Environmental Engineering-I",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 5,
+    "CourseCode": 101503,
+    "CourseAcr": "GE1",
+    "CourseName": "Geotechnical Engineering-I",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 5,
+    "CourseCode": 101504,
+    "CourseAcr": "HYE",
+    "CourseName": "Hydraulics Engineering",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 5,
+    "CourseCode": 101505,
+    "CourseAcr": "HWRE",
+    "CourseName": "Hydrology & Water Resources Engineering",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 5,
+    "CourseCode": 101506,
+    "CourseAcr": "MOM",
+    "CourseName": "Mechanics of Materials",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 5,
+    "CourseCode": 101507,
+    "CourseAcr": "TE",
+    "CourseName": "Transportation Engineering",
+    "Credits": ""
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 1,
+    "CourseCode": 100102,
+    "CourseAcr": "M1",
+    "CourseName": "Engineering Mathematics-I",
+    "Credits": 4
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 1,
+    "CourseCode": 100103,
+    "CourseAcr": "ENG",
+    "CourseName": "Communicative English",
+    "Credits": 4
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 1,
+    "CourseCode": 100106,
+    "CourseAcr": "BEE",
+    "CourseName": "Basic Electrical Engineering",
+    "Credits": 4
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 1,
+    "CourseCode": 100104,
+    "CourseAcr": "EGD",
+    "CourseName": "Engg. Graphics & Design",
+    "Credits": 3
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 1,
+    "CourseCode": "100109P",
+    "CourseAcr": "SYNN",
+    "CourseName": "Sports/Yoga/NCC/NSS",
+    "Credits": ""
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 1,
+    "CourseCode": 100101,
+    "CourseAcr": "CHE",
+    "CourseName": "Engineering Chemistry",
+    "Credits": 4
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 2,
+    "CourseCode": 100201,
+    "CourseAcr": "PHY",
+    "CourseName": "Engineering Physics",
+    "Credits": 4
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 2,
+    "CourseCode": 100202,
+    "CourseAcr": "M2",
+    "CourseName": "Engineering Mathematics-II",
+    "Credits": 4
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 2,
+    "CourseCode": 100203,
+    "CourseAcr": "PPS",
+    "CourseName": "Programming for Problem Solving",
+    "Credits": 4
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 2,
+    "CourseCode": 100206,
+    "CourseAcr": "WP",
+    "CourseName": "Workshop Practices",
+    "Credits": 3
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 2,
+    "CourseCode": 100204,
+    "CourseAcr": "EME",
+    "CourseName": "Elements of Mechanical Engineering",
+    "Credits": 4
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 2,
+    "CourseCode": "100214P",
+    "CourseAcr": "SBM",
+    "CourseName": "Swacha Bharat Mission",
+    "Credits": 1
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 3,
+    "CourseCode": 102301,
+    "CourseAcr": "EMC",
+    "CourseName": "Engineering Mechanics",
+    "Credits": 5
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 3,
+    "CourseCode": 102302,
+    "CourseAcr": "MSE",
+    "CourseName": "Materials Science and Engineering",
+    "Credits": 3
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 3,
+    "CourseCode": 102303,
+    "CourseAcr": "M3",
+    "CourseName": "Mathematics-III",
+    "Credits": 4
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 3,
+    "CourseCode": 102304,
+    "CourseAcr": "TD",
+    "CourseName": "Thermodynamics",
+    "Credits": 3
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 3,
+    "CourseCode": 102305,
+    "CourseAcr": "BECE",
+    "CourseName": "Basic Electronics Engineering",
+    "Credits": 4
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 3,
+    "CourseCode": 102306,
+    "CourseAcr": "UHV",
+    "CourseName": "Universal Human Values",
+    "Credits": 3
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 3,
+    "CourseCode": 102307,
+    "CourseAcr": "IKS",
+    "CourseName": "Indian Knowledge System",
+    "Credits": 3
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 4,
+    "CourseCode": 102403,
+    "CourseAcr": "FM",
+    "CourseName": "Fluid Mechanics",
+    "Credits": 4.5
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 4,
+    "CourseCode": 102401,
+    "CourseAcr": "ATD",
+    "CourseName": "Applied Thermodynamics",
+    "Credits": 4
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 4,
+    "CourseCode": 102405,
+    "CourseAcr": "SOM",
+    "CourseName": "Strength of Materials",
+    "Credits": 4.5
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 4,
+    "CourseCode": 102402,
+    "CourseAcr": "EM",
+    "CourseName": "Engineering Materials",
+    "Credits": 3
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 4,
+    "CourseCode": 102404,
+    "CourseAcr": "IC",
+    "CourseName": "Instrumentation and Control",
+    "Credits": 4
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 5,
+    "CourseCode": 102501,
+    "CourseAcr": "FMC",
+    "CourseName": "Fluid Machinery",
+    "Credits": 4.5
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 5,
+    "CourseCode": 102502,
+    "CourseAcr": "HT",
+    "CourseName": "Heat Transfer",
+    "Credits": 4.5
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 5,
+    "CourseCode": 102503,
+    "CourseAcr": "KM",
+    "CourseName": "Kinematics of Machine",
+    "Credits": 4
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 5,
+    "CourseCode": 102504,
+    "CourseAcr": "MFP",
+    "CourseName": "Manufacturing Processes",
+    "Credits": 4.5
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 5,
+    "CourseCode": "100210P",
+    "CourseAcr": "SE2",
+    "CourseName": "Summer Entrepreneurship-II",
+    "Credits": 6
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 5,
+    "CourseCode": 100511,
+    "CourseAcr": "NPTEL",
+    "CourseName": "MOOCs/SWAYAM/NPTEL -2",
+    "Credits": 2
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 6,
+    "CourseCode": 102601,
+    "CourseAcr": "DME",
+    "CourseName": "Design of Machine Elements",
+    "Credits": 4
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 6,
+    "CourseCode": 102602,
+    "CourseAcr": "DM",
+    "CourseName": "Dynamics of Machinery",
+    "Credits": 4.5
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 6,
+    "CourseCode": 102603,
+    "CourseAcr": "MT",
+    "CourseName": "Manufacturing Technology",
+    "Credits": 4.5
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 6,
+    "CourseCode": 102605,
+    "CourseAcr": "AIM",
+    "CourseName": "Automation in Manufacturing",
+    "Credits": 4
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 6,
+    "CourseCode": "102xxx",
+    "CourseAcr": "PPE",
+    "CourseName": "PE-I(Powerplant Engineering)",
+    "Credits": 3
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 6,
+    "CourseCode": "102xxx",
+    "CourseAcr": "CM",
+    "CourseName": "PE-II(Composite Materials)",
+    "Credits": 3
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 6,
+    "CourseCode": 102611,
+    "CourseAcr": "RES",
+    "CourseName": "Renewable Energy Systems OE-I",
+    "Credits": 3
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 7,
+    "CourseCode": 102701,
+    "CourseAcr": "ICE",
+    "CourseName": "IC Engine",
+    "Credits": 4.5
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 7,
+    "CourseCode": 102706,
+    "CourseAcr": "OR",
+    "CourseName": "Operations Research OE-II",
+    "Credits": 3
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 7,
+    "CourseCode": 102702,
+    "CourseAcr": "RAC",
+    "CourseName": "Refrigeration and Air Conditioning PE-III",
+    "Credits": 3
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 7,
+    "CourseCode": 102705,
+    "CourseAcr": "AME",
+    "CourseName": "Automobile Engineering PE-IV",
+    "Credits": 3
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 7,
+    "CourseCode": "100709P",
+    "CourseAcr": "P1",
+    "CourseName": "Project-I",
+    "Credits": ""
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 8,
+    "CourseCode": 102801,
+    "CourseAcr": "POM",
+    "CourseName": "Principles of Management PE-V",
+    "Credits": 3
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 8,
+    "CourseCode": 102804,
+    "CourseAcr": "ECM",
+    "CourseName": "Energy Conservation and Management PE-VI",
+    "Credits": 3
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 8,
+    "CourseCode": 102807,
+    "CourseAcr": "SFM",
+    "CourseName": "Safety Management OE-III",
+    "Credits": 3
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 8,
+    "CourseCode": 102808,
+    "CourseAcr": "NCM",
+    "CourseName": "Non-Convetional Manufacturing OE-IV",
+    "Credits": 3
+  },
+  {
+    "Branch": "Mechanical Engineering",
+    "Semester": 8,
+    "CourseCode": "100801P",
+    "CourseAcr": "P2",
+    "CourseName": "Project-II",
+    "Credits": ""
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 1,
+    "CourseCode": 100110,
+    "CourseAcr": "PHY",
+    "CourseName": "Engineering Physics",
+    "Credits": 4
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 1,
+    "CourseCode": 100102,
+    "CourseAcr": "M1",
+    "CourseName": "Engineering Mathematics-I",
+    "Credits": 4
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 1,
+    "CourseCode": 100111,
+    "CourseAcr": "PPS",
+    "CourseName": "Programming for Problem Solving",
+    "Credits": 4
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 1,
+    "CourseCode": 100113,
+    "CourseAcr": "IWP",
+    "CourseName": "IT Workshop",
+    "Credits": 3
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 1,
+    "CourseCode": 100114,
+    "CourseAcr": "BECE",
+    "CourseName": "Basic Electronics Engineering",
+    "Credits": 4
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 1,
+    "CourseCode": "100115P",
+    "CourseAcr": "SBM",
+    "CourseName": "Swachha Bharat Mission",
+    "Credits": 1
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 2,
+    "CourseCode": 100215,
+    "CourseAcr": "CHE",
+    "CourseName": "Engineering Chemistry",
+    "Credits": 4
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 2,
+    "CourseCode": 100202,
+    "CourseAcr": "M2",
+    "CourseName": "Engineering Mathematics-II",
+    "Credits": 4
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 2,
+    "CourseCode": 100216,
+    "CourseAcr": "ENG",
+    "CourseName": "Communicative English",
+    "Credits": 4
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 2,
+    "CourseCode": 100218,
+    "CourseAcr": "PYP",
+    "CourseName": "Python Programming",
+    "Credits": 3
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 2,
+    "CourseCode": 100219,
+    "CourseAcr": "IWD",
+    "CourseName": "Introduction to Web Design",
+    "Credits": 4
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 2,
+    "CourseCode": "100220P",
+    "CourseAcr": "SYNN",
+    "CourseName": "Sports/Yoga/NCC/NSS",
+    "Credits": 1
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 3,
+    "CourseCode": "",
+    "CourseAcr": "DE",
+    "CourseName": "Digital Electronics",
+    "Credits": ""
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 3,
+    "CourseCode": "",
+    "CourseAcr": "DSA",
+    "CourseName": "Data Structure and Algorithm",
+    "Credits": ""
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 3,
+    "CourseCode": "",
+    "CourseAcr": "OOPS",
+    "CourseName": "OOPs Using JAVA",
+    "Credits": ""
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 3,
+    "CourseCode": "",
+    "CourseAcr": "DM",
+    "CourseName": "Discrete Mathematics & Graph Theory",
+    "Credits": ""
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 3,
+    "CourseCode": "",
+    "CourseAcr": "OS",
+    "CourseName": "Operating System",
+    "Credits": ""
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 3,
+    "CourseCode": "",
+    "CourseAcr": "UHV",
+    "CourseName": "Universal Human Values",
+    "Credits": ""
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 3,
+    "CourseCode": "",
+    "CourseAcr": "IKS",
+    "CourseName": "Indian Knowledge System",
+    "Credits": ""
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 5,
+    "CourseCode": 153502,
+    "CourseAcr": "DBMS",
+    "CourseName": "Database Management System",
+    "Credits": ""
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 5,
+    "CourseCode": 153501,
+    "CourseAcr": "ML",
+    "CourseName": "Machine Learning",
+    "Credits": ""
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 5,
+    "CourseCode": 153503,
+    "CourseAcr": "CN",
+    "CourseName": "Computer Networks",
+    "Credits": ""
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 5,
+    "CourseCode": 153504,
+    "CourseAcr": "PYP",
+    "CourseName": "Python Programming",
+    "Credits": ""
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 5,
+    "CourseCode": "",
+    "CourseAcr": "PPLE",
+    "CourseName": "Professional Practice, Law & Ethics",
+    "Credits": ""
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 5,
+    "CourseCode": "",
+    "CourseAcr": "TOC",
+    "CourseName": "Theory of Computation PE-I",
+    "Credits": ""
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 5,
+    "CourseCode": "",
+    "CourseAcr": "SEM",
+    "CourseName": "Seminar",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 1,
+    "CourseCode": 100110,
+    "CourseAcr": "PHY",
+    "CourseName": "Engineering Physics",
+    "Credits": 4
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 1,
+    "CourseCode": 100102,
+    "CourseAcr": "M1",
+    "CourseName": "Engineering Mathematics-I",
+    "Credits": 4
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 1,
+    "CourseCode": 100111,
+    "CourseAcr": "PPS",
+    "CourseName": "Programming for Problem Solving",
+    "Credits": 4
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 1,
+    "CourseCode": 100106,
+    "CourseAcr": "BEE",
+    "CourseName": "Basic Electrical Engineering",
+    "Credits": 4
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 1,
+    "CourseCode": 100112,
+    "CourseAcr": "WP",
+    "CourseName": "Workshop Practices",
+    "Credits": 3
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 1,
+    "CourseCode": "100115P",
+    "CourseAcr": "SBM",
+    "CourseName": "Swachha Bharat Mission",
+    "Credits": 1
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 2,
+    "CourseCode": 100215,
+    "CourseAcr": "CHE",
+    "CourseName": "Engineering Chemistry",
+    "Credits": 4
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 2,
+    "CourseCode": 100102,
+    "CourseAcr": "M1",
+    "CourseName": "Engineering Mathematics-II",
+    "Credits": 4
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 2,
+    "CourseCode": 100216,
+    "CourseAcr": "ENG",
+    "CourseName": "Communicative English",
+    "Credits": 4
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 2,
+    "CourseCode": 100209,
+    "CourseAcr": "BE",
+    "CourseName": "Basic Electronics",
+    "Credits": 4
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 2,
+    "CourseCode": 100217,
+    "CourseAcr": "EGD",
+    "CourseName": "Engg. Graphics & Design",
+    "Credits": 3
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 2,
+    "CourseCode": "100220P",
+    "CourseAcr": "SYNN",
+    "CourseName": "Sports/Yoga/NCC/NSS",
+    "Credits": 1
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 3,
+    "CourseCode": 103301,
+    "CourseAcr": "ECA",
+    "CourseName": "Electrical Cicuit Analysis",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 3,
+    "CourseCode": 103302,
+    "CourseAcr": "AE",
+    "CourseName": "Analog Electronics",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 3,
+    "CourseCode": 103303,
+    "CourseAcr": "EM1",
+    "CourseName": "Electrical Machine-I",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 3,
+    "CourseCode": 103304,
+    "CourseAcr": "M3",
+    "CourseName": "Engineering Mathematics-III",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 3,
+    "CourseCode": 103305,
+    "CourseAcr": "EMC",
+    "CourseName": "Engineering Mechanics",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 3,
+    "CourseCode": 103306,
+    "CourseAcr": "UHV",
+    "CourseName": "Universal Human Values",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 3,
+    "CourseCode": 103307,
+    "CourseAcr": "IKS",
+    "CourseName": "Indian Knowledge System",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 5,
+    "CourseCode": "",
+    "CourseAcr": "CS",
+    "CourseName": "Control Systems",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 5,
+    "CourseCode": "",
+    "CourseAcr": "MP",
+    "CourseName": "Microprocessor",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 5,
+    "CourseCode": "",
+    "CourseAcr": "PWE",
+    "CourseName": "Power Electronics",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 5,
+    "CourseCode": "",
+    "CourseAcr": "PS1",
+    "CourseName": "Power System-I (Apparatus and Modelling)",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 5,
+    "CourseCode": "",
+    "CourseAcr": "WSE",
+    "CourseName": "Wind and Solar Energy Systems PE-I",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electrical Engineering",
+    "Semester": 5,
+    "CourseCode": "",
+    "CourseAcr": "GESCC",
+    "CourseName": "Graduate Employability Skill and Competitive Courses",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 1,
+    "CourseCode": 100110,
+    "CourseAcr": "PHY",
+    "CourseName": "Engineering Physics",
+    "Credits": 4
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 1,
+    "CourseCode": 100102,
+    "CourseAcr": "M1",
+    "CourseName": "Engineering Mathematics-I",
+    "Credits": 4
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 1,
+    "CourseCode": 100111,
+    "CourseAcr": "PPS",
+    "CourseName": "Programming for Problem Solving",
+    "Credits": 4
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 1,
+    "CourseCode": 100106,
+    "CourseAcr": "BEE",
+    "CourseName": "Basic Electrical Engineering",
+    "Credits": 4
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 1,
+    "CourseCode": 100112,
+    "CourseAcr": "WP",
+    "CourseName": "Workshop Practices",
+    "Credits": 3
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 1,
+    "CourseCode": "100115P",
+    "CourseAcr": "SBM",
+    "CourseName": "Swachha Bharat Mission",
+    "Credits": 1
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 2,
+    "CourseCode": 100215,
+    "CourseAcr": "CHE",
+    "CourseName": "Engineering Chemistry",
+    "Credits": 4
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 2,
+    "CourseCode": 100102,
+    "CourseAcr": "M1",
+    "CourseName": "Engineering Mathematics-II",
+    "Credits": 4
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 2,
+    "CourseCode": 100216,
+    "CourseAcr": "ENG",
+    "CourseName": "Communicative English",
+    "Credits": 4
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 2,
+    "CourseCode": 100209,
+    "CourseAcr": "BE",
+    "CourseName": "Basic Electronics",
+    "Credits": 4
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 2,
+    "CourseCode": 100217,
+    "CourseAcr": "EGD",
+    "CourseName": "Engg. Graphics & Design",
+    "Credits": 3
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 2,
+    "CourseCode": "100220P",
+    "CourseAcr": "SYNN",
+    "CourseName": "Sports/Yoga/NCC/NSS",
+    "Credits": 1
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 3,
+    "CourseCode": 104301,
+    "CourseAcr": "EDC",
+    "CourseName": "Electronic Devices and Circuit Theory",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 3,
+    "CourseCode": 104302,
+    "CourseAcr": "OOP",
+    "CourseName": "Object Oriented Programming",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 3,
+    "CourseCode": 104303,
+    "CourseAcr": "NT",
+    "CourseName": "Network Theory",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 3,
+    "CourseCode": 104304,
+    "CourseAcr": "SS",
+    "CourseName": "Signal & System",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 3,
+    "CourseCode": 104305,
+    "CourseAcr": "M3",
+    "CourseName": "Engineering Mathematics-III",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 3,
+    "CourseCode": 104306,
+    "CourseAcr": "UHV",
+    "CourseName": "Universal Human Values",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 3,
+    "CourseCode": 104307,
+    "CourseAcr": "IKS",
+    "CourseName": "Indian Knowledge System",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 5,
+    "CourseCode": 104505,
+    "CourseAcr": "MM",
+    "CourseName": "Microprocessor and Microcontroller",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 5,
+    "CourseCode": 104504,
+    "CourseAcr": "LICA",
+    "CourseName": "Linear Integrated Circuit and Application",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 5,
+    "CourseCode": 104503,
+    "CourseAcr": "LCS",
+    "CourseName": "Linear Control System",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 5,
+    "CourseCode": 104502,
+    "CourseAcr": "DSP",
+    "CourseName": "Digital Signal Processing",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 5,
+    "CourseCode": 104506,
+    "CourseAcr": "PTSP",
+    "CourseName": "Probability Theory and Stochastic Process",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 5,
+    "CourseCode": 104501,
+    "CourseAcr": "CNS",
+    "CourseName": "Computer Networks and Security",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 5,
+    "CourseCode": "xxxxxx",
+    "CourseAcr": "CoI/EIKT",
+    "CourseName": "Constitution of India/Essence of Indian Knowledge System",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 1,
+    "CourseCode": 100101,
+    "CourseAcr": "CHE",
+    "CourseName": "Engineering Chemistry",
+    "Credits": 4
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 1,
+    "CourseCode": 100102,
+    "CourseAcr": "M1",
+    "CourseName": "Engineering Mathematics-I",
+    "Credits": 4
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 1,
+    "CourseCode": 100103,
+    "CourseAcr": "ENG",
+    "CourseName": "Communicative English",
+    "Credits": 4
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 1,
+    "CourseCode": 100105,
+    "CourseAcr": "EMC",
+    "CourseName": "Engineering Mechanics",
+    "Credits": 4
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 1,
+    "CourseCode": 100104,
+    "CourseAcr": "EGD",
+    "CourseName": "Engg. Graphics & Design",
+    "Credits": 3
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 1,
+    "CourseCode": "100109P",
+    "CourseAcr": "SYNN",
+    "CourseName": "Sports/Yoga/NCC/NSS",
+    "Credits": 1
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 2,
+    "CourseCode": 100201,
+    "CourseAcr": "PHY",
+    "CourseName": "Engineering Physics",
+    "Credits": 4
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 2,
+    "CourseCode": 100202,
+    "CourseAcr": "M2",
+    "CourseName": "Engineering Mathematics-II",
+    "Credits": 4
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 2,
+    "CourseCode": 100203,
+    "CourseAcr": "PPS",
+    "CourseName": "Programming for Problem Solving",
+    "Credits": 4
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 2,
+    "CourseCode": 100211,
+    "CourseAcr": "WP",
+    "CourseName": "Workshop",
+    "Credits": 3
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 2,
+    "CourseCode": 100212,
+    "CourseAcr": "BEE",
+    "CourseName": "Basic Electrical Engineering",
+    "Credits": 4
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 2,
+    "CourseCode": "100214P",
+    "CourseAcr": "SBM",
+    "CourseName": "Swacha Bharat Mission",
+    "Credits": 1
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 3,
+    "CourseCode": 119305,
+    "CourseAcr": "ML",
+    "CourseName": "Machine Learning",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 3,
+    "CourseCode": 119308,
+    "CourseAcr": "IKS",
+    "CourseName": "Indian Knowledge System",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 3,
+    "CourseCode": 119306,
+    "CourseAcr": "MTE",
+    "CourseName": "EML",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 3,
+    "CourseCode": 119304,
+    "CourseAcr": "FLM",
+    "CourseName": "Fluid Mechanics",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 3,
+    "CourseCode": 119303,
+    "CourseAcr": "GI",
+    "CourseName": "Geo Informatics",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 3,
+    "CourseCode": 119307,
+    "CourseAcr": "UHV",
+    "CourseName": "Universal Human Values",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 3,
+    "CourseCode": 119302,
+    "CourseAcr": "M3",
+    "CourseName": "Engineering Mathematics-III",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 3,
+    "CourseCode": 119301,
+    "CourseAcr": "SM",
+    "CourseName": "Solid Mechanics",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 5,
+    "CourseCode": 119501,
+    "CourseAcr": "ADCS",
+    "CourseName": "Analysis & Design of Concrete Structure",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 5,
+    "CourseCode": 119502,
+    "CourseAcr": "EE1",
+    "CourseName": "Environmental Engineering-I",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 5,
+    "CourseCode": 119503,
+    "CourseAcr": "GE1",
+    "CourseName": "Geotechnical Engineering-I",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 5,
+    "CourseCode": 119504,
+    "CourseAcr": "HYE",
+    "CourseName": "Hydraulics Engineering",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 5,
+    "CourseCode": 119505,
+    "CourseAcr": "HWRE",
+    "CourseName": "Hydrology & Water Resources Engineering",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 5,
+    "CourseCode": 119506,
+    "CourseAcr": "MOM",
+    "CourseName": "Mechanics of Materials",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 5,
+    "CourseCode": 119507,
+    "CourseAcr": "TE",
+    "CourseName": "Transportation Engineering",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering with Computer Applications",
+    "Semester": 5,
+    "CourseCode": "119XXX",
+    "CourseAcr": "ML",
+    "CourseName": "Machine Learning",
+    "Credits": ""
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 8,
+    "CourseCode": "",
+    "CourseAcr": "DMS",
+    "CourseName": "Digital Marketing and Search Engine Optimization",
+    "Credits": ""
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 8,
+    "CourseCode": "",
+    "CourseAcr": "RES",
+    "CourseName": "Renewable Energy Systems",
+    "Credits": ""
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 8,
+    "CourseCode": "",
+    "CourseAcr": "AICS",
+    "CourseName": "AI in Cyber Security",
+    "Credits": ""
+  },
+  {
+    "Branch": "Computer Science Engineering (Data Science)",
+    "Semester": 8,
+    "CourseCode": "",
+    "CourseAcr": "AND",
+    "CourseName": "Autonumous Drones",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 8,
+    "CourseCode": "",
+    "CourseAcr": "STLC",
+    "CourseName": "Satellite Communication",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 8,
+    "CourseCode": "",
+    "CourseAcr": "WSN",
+    "CourseName": "Wireless Sensor Network",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 8,
+    "CourseCode": "",
+    "CourseAcr": "MEMS",
+    "CourseName": "Introduction to MEMS",
+    "Credits": ""
+  },
+  {
+    "Branch": "Electronics and Communication Engineering",
+    "Semester": 8,
+    "CourseCode": "",
+    "CourseAcr": "IOT",
+    "CourseName": "Internet of Things",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 8,
+    "CourseCode": "",
+    "CourseAcr": "REL",
+    "CourseName": "Railway Engineering",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 8,
+    "CourseCode": "",
+    "CourseAcr": "EPI",
+    "CourseName": "Economic Policies in India",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 8,
+    "CourseCode": "",
+    "CourseAcr": "CEM",
+    "CourseName": "Construction Engineering Material",
+    "Credits": ""
+  },
+  {
+    "Branch": "Civil Engineering",
+    "Semester": 8,
+    "CourseCode": "",
+    "CourseAcr": "CNM",
+    "CourseName": "Contract Management",
+    "Credits": ""
+  },
+  {
+    "Branch": "Applied Science",
+    "Semester": 8,
+    "CourseCode": "",
+    "CourseAcr": "FL",
+    "CourseName": "Foreign Language",
+    "Credits": ""
+  }
+]
