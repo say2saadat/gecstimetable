@@ -401,7 +401,8 @@ tr:nth-child(even) {
 
 <script>
 const facultyDetails = {
-"AW": { name: "Mr. Awnish Kumar", designation: "Technical Assistant", department: "Mechanical Engineering" },
+/* -------List of Technical Assistants-----------*/
+  "AW": { name: "Mr. Awnish Kumar", designation: "Technical Assistant", department: "Mechanical Engineering" },
   "KK": { name: "Mr. Karnvir Kumar", designation: "Technical Assistant", department: "Mechanical Engineering" },
   "PD": { name: "Mr. Pradeep Singh", designation: "Workshop Instructor", department: "Mechanical Engineering" },
   "SJ": { name: "Mr. Suraj Kumar", designation: "Weilding Workshop Instructor", department: "Mechanical Engineering" },
@@ -487,6 +488,9 @@ const subjectDetails = {
 "MTE-L":{name:"Material Testing & Evaluation (Lecture)",semester:"3",department:"Civil Engineering"},
 "MTE-P":{name:"Material Testing & Evaluation (Practical)",semester:"3",department:"Civil Engineering"},
 
+"GI-L":{name:"Geo Informatics (Lecture)",semester:"3",department:"Civil Engineering"},
+"GI-P":{name:"Geo Informatics (Lecture)",semester:"3",department:"Civil Engineering"},
+
 "FLM-L":{name:"Fluid Mechanics (Lecture)",semester:"3",department:"Common"},
 "FLM-P":{name:"Fluid Mechanics (Practical)",semester:"3",department:"Common"},
 
@@ -496,8 +500,21 @@ const subjectDetails = {
 "SM-L":{name:"Solid Mechanics (Lecture)",semester:"3",department:"Civil Engineering"},
 "SM-P":{name:"Solid Mechanics (Practical)",semester:"3",department:"Civil Engineering"},
 
-"GI-L":{name:"Geo Informatics (Lecture)",semester:"3",department:"Civil Engineering"},
-"GI-P":{name:"Geo Informatics (Lecture)",semester:"3",department:"Civil Engineering"},
+"FM-L":{name:"Fluid Mechanics (Lecture)",semester:"3",department:"Civil Engineering"},
+"FM-P":{name:"Fluid Mechanics (Practical)",semester:"3",department:"Civil Engineering"},
+
+"ECA-L": {name:"Electrical Circuit Analysis(Lecture)",semester:"3",department:"Electrical Engineering"},
+"ECA-P": {name:"Electrical Circuit Analysis(Practical)",semester:"3",department:"Electrical Engineering"},
+
+"AEC-L":{name: "Analog Electronics(Lecture)",semester:"3",department:"Electrical Engineering"},
+"AEC-P":{name: "Analog Electronics(Practical)",semester:"3",department:"Electrical Engineering"},
+
+"EM1-L":{name: "Electrical Machine-I (Lecture)",semester:"3",department:"Electrical Engineering"},
+"EM1-P":{name: "Electrical Machine-I (Practical)",semester:"3",department:"Electrical Engineering"},
+
+"EM-L":{name: "Engineering Mechanics(Lecture)",semester:"3"},
+"EM-P":{name: "Engineering Mechanics(Practical)",semester:"3"},
+"EM-T":{name: "Engineering Mechanics(Tutorial)",semester:"3"},
 
 "ADCS-L":{name:"Analysis & Design of Concrete Structure (Lecture)",semester:"5",department:"Civil Engineering"},
 "ADCS-P":{name:"Analysis & Design of Concrete Structure (Practical)",semester:"5",department:"Civil Engineering"},
@@ -511,8 +528,8 @@ const subjectDetails = {
 "HYE-L":{name:"Hydraulics Engineering (Lecture)",semester:"5",department:"Civil Engineering"},
 "HYE-P":{name:"Hydraulics Engineering (Practical)",semester:"5",department:"Civil Engineering"},
 
-"HWR-L":{name:"Hydrology & Water Resources Engineering (Lecture)",semester:"5",department:"Civil Engineering"},
-"HWR-P":{name:"Hydrology & Water Resources Engineering (Practical)",semester:"5",department:"Civil Engineering"},
+"HWRE-L":{name:"Hydrology & Water Resources Engineering (Lecture)",semester:"5",department:"Civil Engineering"},
+"HWRE-P":{name:"Hydrology & Water Resources Engineering (Practical)",semester:"5",department:"Civil Engineering"},
 
 "MOM-L":{name:"Mechanics of Materials (Lecture)",semester:"5",department:"Civil Engineering"},
 "MOM-P":{name:"Mechanics of Materials (Practical)",semester:"5",department:"Civil Engineering"},
@@ -520,11 +537,35 @@ const subjectDetails = {
 "TE-L":{name:"Transportation Engineering (Lecture)",semester:"5",department:"Civil Engineering"},
 "TE-P":{name:"Transportation Engineering (Practical)",semester:"5",department:"Civil Engineering"},
 
+"TD-L":{name:"Thermodynamics (Lecture)",semester:"3",department:"Mechanical Engineering"},
+"TD-P":{name:"Thermodynamics (Practical)",semester:"3",department:"Mechanical Engineering"},
+
+"MSE-L":{name:"Material Science and Engineering(Lecture)",semester:"3",department:"Mechanical Engineering"},
+
+"BECE-L":{name: "Basic Electronics Engineering(Lecture)",semester:"3"},
+"BECE-P":{name: "Basic Electronics Engineering(Practical)",semester:"3"},
+
 "DSA-L":{name:"Data Structure and Algorithm (Lecture)",semester:"3",department:"CSE (Data Science)"},
 "DSA-P":{name:"Data Structure and Algorithm (Practical)",semester:"3",department:"CSE (Data Science)"},
 
-"OOPS-L":{name:"OOPs Using JAVA (Lecture)",semester:"3",department:"CSE (Data Science)"},
-"OOPS-P":{name:"OOPs Using JAVA (Practical)",semester:"3",department:"CSE (Data Science)"},
+"DM-L":{name:"Discrete Mathematics and Graph Theory (Lecture)",semester:"3",department:"CSE (Data Science)"},
+"DM-P":{name:"Discrete Mathematics and Graph Theory (Practical)",semester:"3",department:"CSE (Data Science)"},
+"DM-T":{name:"Discrete Mathematics and Graph Theory (Tutorial)",semester:"3",department:"CSE (Data Science)"},
+
+"OS-L":{name:"Operating Systems (Lecture)",semester:"3",department:"CSE (Data Science)"},
+"OS-P":{name:"Operating Systems (Practical)",semester:"3",department:"CSE (Data Science)"},
+
+"DE-L":{name:"Digital Electronics (Lecture)",semester:"3",department:"CSE (Data Science)"},
+"DE-P":{name:"Digital Electronics (Practical)",semester:"3",department:"CSE (Data Science)"},
+
+"OOP-L":{name:"OOPs Using JAVA (Lecture)",semester:"3",department:"CSE (Data Science)"},
+"OOP-P":{name:"OOPs Using JAVA (Practical)",semester:"3",department:"CSE (Data Science)"},
+
+"EDC-L":{name:"Electronic Devices and Circuit Theory(Lecture)",semester:"3",department: "Electronics and Communication Engineering"},
+"EDC-P":{name:"Electronic Devices and Circuit Theory(Practical)",semester:"3",department: "Electronics and Communication Engineering"},
+
+"NT-L":{name:"Network Theory (Lecture)",semester:"3",department: "Electronics and Communication Engineering"},
+"NT-P":{name:"Network Theory (Practical)",semester:"3",department: "Electronics and Communication Engineering"},
 
 "DBMS-L":{name:"Database Management System (Lecture)",semester:"5",department:"CSE (Data Science)"},
 "DBMS-P":{name:"Database Management System (Practical)",semester:"5",department:"CSE (Data Science)"},
@@ -534,8 +575,10 @@ const subjectDetails = {
 
 "CN-L":{name:"Computer Networks (Lecture)",semester:"5",department:"Common"},
 "CN-P":{name:"Computer Networks (Practical)",semester:"5",department:"Common"},
-"PYP-L":{name:"Python Programming (Lecture)",semester:"2",department:"CSE (Data Science)"},
-"PYP-P":{name:"Python Programming(Practical)",semester:"2",department:"CSE (Data Science)"},
+
+"PYP-L":{name:"Python Programming (Lecture)",department:"CSE (Data Science)"},
+"PYP-P":{name:"Python Programming(Practical)",department:"CSE (Data Science)"},
+
 "FL-P":{name:"Foreign Language (Practical)",department:"Common"},
 
 "DMS-L": {name:"Digital Marketing and Search Engine Optimization", semester:"8", department:"Common"},
@@ -551,7 +594,6 @@ const subjectDetails = {
 "CEM-L": {name:"Construction Engineering Material", semester:"8", department:"Common"},
 "CNM-L": {name:"Contract Management", semester:"8", department:"Common"},
 };
-
 
 const API_URL = "data/faculty_timetable.json";
 const timeSlots = [
@@ -756,6 +798,7 @@ function closePopup(){
 </body>
 
 </html>
+
 
 
 
