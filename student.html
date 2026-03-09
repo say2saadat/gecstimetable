@@ -23,19 +23,19 @@
     .card {
       background: #ffffff;
       width: 100%;
-      max-width: 800px;
-      padding: 60px 20px;
+      max-width: 700px;
+      padding: 80px 40px;
       border-radius: 12px;
       box-shadow: 0 15px 30px rgba(0,0,0,0.2);
       }
     .card.big {
-      max-width: 1100px;   /* bigger after table shows */
+      max-width: 1200px;   /* bigger after table shows */
       }
 
     h2 {
       text-align: center;
       color: #0b3c5d;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
       font-size: 22px;
     }
 
@@ -175,11 +175,27 @@
       font-size: 12px;
       min-width: 100px;
     }
+
+    #popupBox {
+    width: 320px;
+    max-width: 90%;
+    text-align: left;
+    }
+
+    #popupBox h3 {
+    margin-top: 0;
+    font-size: 18px;
+    }
+
+    #popupBox p {
+    margin: 6px 0;
+    font-size: 14px;
+    } 
     
     /* ===== Mobile specific tweaks ===== */
     @media (max-width: 600px) {
       h2 {
-        font-size: 20px;
+        font-size: 16px;
       }
       th, td {
         height: 35px;
@@ -230,8 +246,8 @@
       margin: 2px auto;
       margin-right: auto;        /* 👈 centers horizontally */
       display: block;          /* 👈 REQUIRED */
-      font-size: 15px;
-      padding: 12px;
+      font-size: 12px;
+      padding: 10px;
       
       }
 
@@ -249,7 +265,20 @@
       padding: 14px;
     }
 
-    }
+    #popupBox {
+    width: 260px;
+    padding: 14px;
+    top: 30%;
+  }
+
+  #popupBox h3 {
+    font-size: 16px;
+  }
+
+  #popupBox p {
+    font-size: 13px;
+  }
+}
   </style>
 </head>
 
@@ -340,12 +369,295 @@
 
     <div class="note">
     Academic Office GEC Sheohar <br>
-   For any concern write to: academics@gecsheohar.ac.in
+    academics@gecsheohar.ac.in
   </div>
 
 </div>
 
 <script>
+const facultyDetails = {
+
+  "KVC": { name: "Prof. (Dr.) Keshavendra Choudhary", department: "Mechanical Engineering" },
+  "CDK": { name: "Dr. Chandan Kumar", department: "Mechanical Engineering" },
+  "AMK": { name: "Prof. Amit Kumar", department: "Mechanical Engineering" },
+  "AVK": { name: "Prof. Avinash Kumar", department: "Mechanical Engineering" },
+  "VKK": { name: "Prof. Vikram Kumar", department: "Mechanical Engineering" },
+  "VSK": { name: "Prof. Vinay Shankar Kumar", department: "Mechanical Engineering" },
+  "RKS": { name: "Prof. Raju Kumar Sharma", department: "Mechanical Engineering" },
+  "SMK": { name: "Prof. Suryamani Kumar", department: "Mechanical Engineering" },
+  "SRJ": { name: "Prof. Siraj Ahmed", department: "Mechanical Engineering" },
+
+  "SDK": { name: "Prof. Sudhir Kumar", department: "Electrical Engineering" },
+  "NSA": { name: "Prof. Md. Nasim Akhter", department: "Electrical Engineering" },
+  "SKJ": { name: "Prof. Saurabh Kumar Jha", department: "Electrical Engineering" },
+  "NTK": { name: "Prof. Nishant Kumar", department: "Electrical Engineering" },
+  "JTK": { name: "Prof. Jitendra Kumar", department: "Electrical Engineering" },
+  "SNT": { name: "Prof. Sanat", department: "Electrical Engineering" },
+
+  "SDT": { name: "Dr. Shahadat Hussain", department: "Computer Science and Engineering (Data Science)" },
+  "ARK": { name: "Prof. Arun Kumar", department: "Computer Science and Engineering (Data Science)" },
+  "ANP": { name: "Prof. Anupam Kumar", department: "Computer Science and Engineering (Data Science)" },
+  "NCR": { name: "Prof. Nischay Ranjan", department: "Computer Science and Engineering (Data Science)" },
+  "DPI": { name: "Prof. Deepa Kumari", department: "Computer Science and Engineering (Data Science)" },
+  "ASP": { name: "Prof. Anshu Priya", department: "Computer Science and Engineering (Data Science)" },
+
+  "DPK": { name: "Prof. Deepak Kumar", department: "Civil Engineering" },
+  "MSA": { name: "Prof. Md. Shadab Alam", department: "Civil Engineering" },
+  "RVS": { name: "Prof. Ravishankar", department: "Civil Engineering" },
+  "PNK": { name: "Prof. Pankaj Kumar", department: "Civil Engineering" },
+  "RSR": { name: "Prof. Raushan Kumar Ravi", department: "Civil Engineering" },
+  "FKH": { name: "Prof. Fahim Ahmed Khan", department: "Civil Engineering" },
+  "RKR": { name: "Prof. Rakesh Kumar Ravi", department: "Civil Engineering" },
+  "SSU": { name: "Prof. Saurabh Suman", department: "Civil Engineering" },
+
+  "MUK": { name: "Dr. Mukesh Kumar", department: "Electronics and Communication Engineering" },
+  "RVK": { name: "Dr. Ravindra Kumar", department: "Electronics and Communication Engineering" },
+  "SJK": { name: "Dr. Sanjeev Kumar", department: "Electronics and Communication Engineering" },
+  "RCV": { name: "Dr. Ruchi Varma", department: "Electronics and Communication Engineering" },
+  "ASK": { name: "Dr. Anshu Kumari", department: "Electronics and Communication Engineering" },
+  "BMK": { name: "Prof. Brij Mohan Kumar", department: "Electronics and Communication Engineering" },
+  "MKT": { name: "Prof. Munan Kumar Thakur", department: "Electronics and Communication Engineering" },
+
+  "DSS": { name: "Dr. Dinesh Sah", department: "Applied Science" },
+  "YGP": { name: "Dr. Yogendra Kumar Poddar", department: "Applied Science" },
+  "RKD": { name: "Dr. Ram Kumar Das", department: "Applied Science" },
+  "AKA": { name: "Prof. Ankur Ashutosh", department: "Applied Science" },
+  "ADP": { name: "Prof. Aditya Narayan Pandey", department: "Applied Science" },
+  "RVR": { name: "Prof. Ravi Ranjan", department: "Applied Science" },
+  "SSI": { name: "Prof. Sumit Sardesai", department: "Applied Science" },
+  "ABK": { name: "Prof. Abhishek Kumar", department: "Applied Science" },
+  "MKP": { name: "Dr. Mukesh Kumar Pandey", department: "Applied Science" },
+  "KSM": { name: "Prof. Krishna Murari", department: "Applied Science" },
+  "MTD": { name: "Dr. Matiram Das", department: "Applied Science" },
+  
+  /* -------List of Technical Assistants-----------*/
+  "AW": { name: "Mr. Awnish Kumar", designation: "Technical Assistant", department: "Mechanical Engineering" },
+  "KK": { name: "Mr. Karnvir Kumar", designation: "Technical Assistant", department: "Mechanical Engineering" },
+  "PD": { name: "Mr. Pradeep Singh", designation: "Workshop Instructor", department: "Mechanical Engineering" },
+  "SJ": { name: "Mr. Suraj Kumar", designation: "Weilding Workshop Instructor", department: "Mechanical Engineering" },
+
+  "NR": { name: "Mr. Nikhil Ranjan", designation: "Technical Assistant", department: "Electrical Engineering" },
+  "MN": { name: "Mr. Manish Kumar", designation: "Technical Assistant", department: "Electrical Engineering" },
+
+  "SK": { name: "Mr. Shekhar Kumar", designation: "Technical Assistant", department: "Computer Science and Engineering (Data Science)" },
+  "RV": { name: "Mr. Ravi Kumar", designation: "Technical Assistant", department: "Computer Science and Engineering (Data Science)" },
+
+  "SP": { name: "Mr. Shafquet Parwez", designation: "Technical Assistant", department: "Civil Engineering" },
+  "PJ": { name: "Mr. Pankaj Kumar", designation: "Technical Assistant", department: "Civil Engineering" },
+
+  "DP": { name: "Mr. Dipak Kumar", designation: "Technical Assistant", department: "Electronics and Communication Engineering" },
+  "AR": { name: "Mr. Aman Raj", designation: "Technical Assistant", department: "Electronics and Communication Engineering" },
+
+  "PI": { name: "Ms. Priyanka Kumari", designation: "Technical Assistant", department: "Applied Science" },
+  "ST": { name: "Mr. Santu Kumar", designation: "Technical Assistant", department: "Applied Science" },
+  
+  /*--------------Room No ---------*/
+  "G1": {name: "Class Group-1"},
+  "G2": {name: "Class Group-2"},
+  "R-CCL": {name: "Computer Centre Lab", department: "Computer Science and Engineering"},
+  "R-CDL": {name: "CAD Lab", department: "Computer Science and Engineering"},
+  "R-SH2": {name: "Seminar Hall-2"},
+  "R-DWL": {name: "Drawing Lab", department: "Mechanical Engineering"},
+  "R-MPL": {name: "Manufacturing Process Lab", department: "Mechanical Engineering"},
+  "R-PRJL": {name: "Project Lab", department: "Electronics and Communication Engineering"},
+  "R-AEL": {name: "Analog Electronics Lab", department: "Electronics and Communication Engineering"},
+  "R-LNGL": {name: "Language Lab", department: "Applied Sciece"}
+};
+
+const subjectDetails = {
+
+"M1-L":{name:"Engineering Mathematics-I (Lecture)",semester:"2",department:"Common"},
+"M1-P":{name:"Engineering Mathematics-I (Practical)",semester:"2",department:"Common"},
+
+"M2-L":{name:"Engineering Mathematics-II (Lecture)",semester:"2",department:"Common"},
+"M2-P":{name:"Engineering Mathematics-II (Practical)",semester:"2",department:"Common"},
+
+"M3-L":{name:"Engineering Mathematics-III (Lecture)",semester:"3",department:"Common"},
+"M3-P":{name:"Engineering Mathematics-III (Practical)",semester:"3",department:"Common"},
+
+"CHE-L":{name:"Engineering Chemistry (Lecture)",semester:"2",department:"Common"},
+"CHE-P":{name:"Engineering Chemistry (Practical)",semester:"2",department:"Common"},
+
+"PHY-L":{name:"Engineering Physics (Lecture)",semester:"2",department:"Common"},
+"PHY-P":{name:"Engineering Physics (Practical)",semester:"2",department:"Common"},
+
+"ENG-L":{name:"Communicative English (Lecture)",semester:"2",department:"Common"},
+"ENG-P":{name:"Communicative English (Practical)",semester:"2",department:"Common"},
+
+"EGD-L":{name:"Engg. Graphics & Design (Lecture)",semester:"2",department:"Common"},
+"EGD-P":{name:"Engg. Graphics & Design (Practical)",semester:"2",department:"Common"},
+
+"PPS-L":{name:"Programming for Problem Solving (Lecture)",semester:"2",department:"Common"},
+"PPS-P":{name:"Programming for Problem Solving (Practical)",semester:"2",department:"Common"},
+
+"BEE-L":{name:"Basic Electrical Engineering (Lecture)",semester:"2",department:"Common"},
+"BEE-P":{name:"Basic Electrical Engineering (Practical)",semester:"2",department:"Common"},
+
+"BE-L":{name:"Basic Electronics (Lecture)",semester:"2",department:"Common"},
+"BE-P":{name:"Basic Electronics (Practical)",semester:"2",department:"Common"},
+
+"WP-L":{name:"Workshop / Workshop Practices (Lecture)",semester:"2",department:"Common"},
+"WP-P":{name:"Workshop / Workshop Practices (Practical)",semester:"2",department:"Common"},
+
+"SYNN-L":{name:"Sports / Yoga / NCC / NSS (Lecture)",semester:"2",department:"Common"},
+"SYNN-P":{name:"Sports / Yoga / NCC / NSS (Practical)",semester:"2",department:"Common"},
+
+"SBM-L":{name:"Swachha Bharat Mission (Lecture)",semester:"2",department:"Common"},
+"SBM-P":{name:"Swachha Bharat Mission (Practical)",semester:"2",department:"Common"},
+
+"UHV-L":{name:"Universal Human Values (Lecture)",semester:"3",department:"Common"},
+"UHV-P":{name:"Universal Human Values (Practical)",semester:"3",department:"Common"},
+
+"IKS-L":{name:"Indian Knowledge System (Lecture)",semester:"3",department:"Common"},
+"IKS-P":{name:"Indian Knowledge System (Practical)",semester:"3",department:"Common"},
+
+"EMC-L":{name:"Engineering Mechanics (Lecture)",semester:"3",department:"Common"},
+"EMC-P":{name:"Engineering Mechanics (Practical)",semester:"3",department:"Common"},
+
+"MTE-L":{name:"Material Testing & Evaluation (Lecture)",semester:"3",department:"Civil Engineering"},
+"MTE-P":{name:"Material Testing & Evaluation (Practical)",semester:"3",department:"Civil Engineering"},
+
+"FLM-L":{name:"Fluid Mechanics (Lecture)",semester:"3",department:"Common"},
+"FLM-P":{name:"Fluid Mechanics (Practical)",semester:"3",department:"Common"},
+
+"SG-L":{name:"Surveying and Geomatics (Lecture)",semester:"3",department:"Civil Engineering"},
+"SG-P":{name:"Surveying and Geomatics (Practical)",semester:"3",department:"Civil Engineering"},
+
+"SM-L":{name:"Solid Mechanics (Lecture)",semester:"3",department:"Civil Engineering"},
+"SM-P":{name:"Solid Mechanics (Practical)",semester:"3",department:"Civil Engineering"},
+
+"ADCS-L":{name:"Analysis & Design of Concrete Structure (Lecture)",semester:"5",department:"Civil Engineering"},
+"ADCS-P":{name:"Analysis & Design of Concrete Structure (Practical)",semester:"5",department:"Civil Engineering"},
+
+"EE1-L":{name:"Environmental Engineering-I (Lecture)",semester:"5",department:"Civil Engineering"},
+"EE1-P":{name:"Environmental Engineering-I (Practical)",semester:"5",department:"Civil Engineering"},
+
+"GE1-L":{name:"Geotechnical Engineering-I (Lecture)",semester:"5",department:"Civil Engineering"},
+"GE1-P":{name:"Geotechnical Engineering-I (Practical)",semester:"5",department:"Civil Engineering"},
+
+"HYE-L":{name:"Hydraulics Engineering (Lecture)",semester:"5",department:"Civil Engineering"},
+"HYE-P":{name:"Hydraulics Engineering (Practical)",semester:"5",department:"Civil Engineering"},
+
+"HWRE-L":{name:"Hydrology & Water Resources Engineering (Lecture)",semester:"5",department:"Civil Engineering"},
+"HWRE-P":{name:"Hydrology & Water Resources Engineering (Practical)",semester:"5",department:"Civil Engineering"},
+
+"MOM-L":{name:"Mechanics of Materials (Lecture)",semester:"5",department:"Civil Engineering"},
+"MOM-P":{name:"Mechanics of Materials (Practical)",semester:"5",department:"Civil Engineering"},
+
+"TE-L":{name:"Transportation Engineering (Lecture)",semester:"5",department:"Civil Engineering"},
+"TE-P":{name:"Transportation Engineering (Practical)",semester:"5",department:"Civil Engineering"},
+
+"DSA-L":{name:"Data Structure and Algorithm (Lecture)",semester:"3",department:"CSE (Data Science)"},
+"DSA-P":{name:"Data Structure and Algorithm (Practical)",semester:"3",department:"CSE (Data Science)"},
+
+"OOPS-L":{name:"OOPs Using JAVA (Lecture)",semester:"3",department:"CSE (Data Science)"},
+"OOPS-P":{name:"OOPs Using JAVA (Practical)",semester:"3",department:"CSE (Data Science)"},
+
+"DBMS-L":{name:"Database Management System (Lecture)",semester:"5",department:"CSE (Data Science)"},
+"DBMS-P":{name:"Database Management System (Practical)",semester:"5",department:"CSE (Data Science)"},
+
+"ML-L":{name:"Machine Learning (Lecture)",semester:"5",department:"Common"},
+"ML-P":{name:"Machine Learning (Practical)",semester:"5",department:"Common"},
+
+"CN-L":{name:"Computer Networks (Lecture)",semester:"5",department:"Common"},
+"CN-P":{name:"Computer Networks (Practical)",semester:"5",department:"Common"},
+"PYP-L":{name:"Python Programming (Lecture)",semester:"2",department:"CSE (Data Science)"},
+"PYP-P":{name:"Python Programming(Practical)",semester:"2",department:"CSE (Data Science)"},
+"FL-P":{name:"Foreign Language (Practical)",department:"Common"},
+
+"DMS-L": {name:"Digital Marketing and Search Engine Optimization", semester:"8", department:"Common"},
+"RES-L": {name:"Renewable Energy Systems", semester:"8", department:"Common"},
+"AICS-L": {name:"AI in Cyber Security", semester:"8", department:"Common"},
+"AND-L": {name:"Autonomous Drones", semester:"8", department:"Common"},
+"STLC-L": {name:"Satellite Communication", semester:"8", department:"Common"},
+"WSN-L": {name:"Wireless Sensor Network", semester:"8", department:"Common"},
+"MEMS-L": {name:"Introduction to MEMS", semester:"8", department:"Common"},
+"IOT-L": {name:"Internet of Things", semester:"8", department:"Common"},
+"REL-L": {name:"Railway Engineering", semester:"8", department:"Common"},
+"EPI-L": {name:"Economic Policies in India", semester:"8", department:"Common"},
+"CEM-L": {name:"Construction Engineering Material", semester:"8", department:"Common"},
+"CNM-L": {name:"Contract Management", semester:"8", department:"Common"},
+};
+
+function formatCell(text) {
+
+  if (!text) return "";
+
+  let formatted = text;
+
+  // 1️⃣ Replace Faculty Codes (Exact Match Only)
+  Object.keys(facultyDetails).forEach(code => {
+
+    let regex = new RegExp("(?<!\\w)" + code + "(?!\\w)", "g");
+
+    formatted = formatted.replace(regex, function(match) {
+      return `<span style="color:green; cursor:pointer; font-weight:bold;"
+                onclick="showFaculty('${code}')">${match}</span>`;
+    });
+
+  });
+
+  // 2️⃣ Replace Subject Codes ONLY ending with -L / -P / -T
+  formatted = formatted.replace(
+    /(?<!\w)[A-Z0-9]+-(L|P|T)(?!\w)/g,
+    function(match) {
+      return `<span style="color:blue; cursor:pointer; font-weight:bold;"
+                onclick="showSubject('${match}')">${match}</span>`;
+    }
+  );
+
+  return formatted;
+}
+
+function showFaculty(code) {
+
+  let data = facultyDetails[code];
+  if (!data) return;
+
+  // check if code is exactly 3 alphabets (faculty)
+  let isFaculty = /^[A-Z]{3}$/.test(code);
+
+  let heading = isFaculty ? "<h3>Faculty Details</h3>" : "";
+
+  document.getElementById("popupContent").innerHTML = `
+    ${heading}
+    <p><b>Name:</b> ${data.name}</p>
+    ${data.designation ? `<p><b>Designation:</b> ${data.designation}</p>` : ""}
+    <p><b>Department:</b> ${data.department}</p>
+  `;
+
+  document.getElementById("popupBox").style.display = "block";
+}
+function showSubject(code) {
+
+  let data = subjectDetails[code];
+
+  if (!data) {
+    document.getElementById("popupContent").innerHTML = `
+      <h3>Subject</h3>
+      <p>Details not available</p>
+    `;
+  } else {
+
+    let deptLine = data.department === "Common"
+      ? ""
+      : `<p><b>Department:</b> ${data.department}</p>`;
+
+    document.getElementById("popupContent").innerHTML = `
+      <h3>Subject Details</h3>
+      <p><b>Name:</b> ${data.name}</p>
+      <p><b>Semester:</b> ${data.semester}</p>
+      ${deptLine}
+    `;
+  }
+
+  document.getElementById("popupBox").style.display = "block";
+}
+
+function closePopup() {
+  document.getElementById("popupBox").style.display = "none";
+}
+
 const API = "https://script.google.com/macros/s/AKfycbw0duReaY8Ng6Lldu4HLtVteum8G4KNviHY0pP0AMvtxwe_FOErLoaoTVANraUy_3CX/exec?type=student";
 
 async function loadTimetable() {
@@ -416,7 +728,8 @@ function renderTable(rows) {
     table += "<tr>";
     Object.keys(row).forEach(key => {
       if (key !== "Branch" && key !== "Semester") {
-        table += `<td>${row[key] || ""}</td>`;
+        let cellData = row[key] || "";
+        table += `<td>${formatCell(cellData)}</td>`;
       }
     });
     table += "</tr>";
@@ -486,10 +799,10 @@ function downloadPDF() {
   });
 }
 </script>
+<div id="popupBox" style="display:none; position:fixed; top:25%; left:50%; transform:translateX(-50%); background:white; padding:18px; border-radius:8px; box-shadow:0px 0px 15px rgba(0,0,0,0.3); z-index:1000;">
+  <span onclick="closePopup()" style="float:right; cursor:pointer; font-weight:bold;">X</span>
+  <div id="popupContent"></div>
+</div>
 
 </body>
-
 </html>
-
-
-

@@ -34,7 +34,7 @@ body {
   background: #ffffff;
   width: 100%;
   max-width: 800px;
-  padding: 60px 10px;
+  padding: 80px 40px;
   border-radius: 12px;
   box-shadow: 0 15px 30px rgba(0,0,0,0.2);
   transition: 0.1s;
@@ -229,6 +229,52 @@ tr:nth-child(even) {
   min-width: 100px;
 }
 
+.popup{
+  display:none;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.4);
+  z-index:1000;
+}
+
+.popup-content{
+  background:#fff;
+  padding:16px;
+  margin:0;
+  width:320px;
+  max-width:90%;
+  border-radius:8px;
+  text-align:left;
+  position:absolute;
+  top:25%;
+  left:50%;
+  transform:translateX(-50%);
+}
+.popup-content h3{
+  margin-top:0;
+  margin-bottom:8px;
+  font-size:18px;
+}
+
+.popup-content p{
+  margin:4px 0;
+  font-size:14px;
+}
+
+.close-btn{
+  float:right;
+  cursor:pointer;
+  font-size:22px;
+}
+
+.clickable{
+  color:#0066cc;
+  cursor:pointer;
+  font-weight:600;
+}
 /* =====================
    MOBILE RESPONSIVE
 ===================== */
@@ -325,7 +371,7 @@ tr:nth-child(even) {
             <th>10:00 AM<br>11:00 AM</th>
             <th>11:00 AM<br>12:00 PM</th>
             <th>12:00 PM<br>01:00 PM</th>
-            <th>Lunch<br>Break</th>
+            <th>Lunch<br>Hour</th>
             <th>02:00 PM<br>03:00 PM</th>
             <th>03:00 PM<br>04:00 PM</th>
             <th>04:00 PM<br>05:00 PM</th>
@@ -349,11 +395,161 @@ tr:nth-child(even) {
 
     <div class="note">
       Academic Office GEC Sheohar<br>
-      For any concern write to: academics@gecsheohar.ac.in
+      academics@gecsheohar.ac.in
     </div>
   </div>
 
 <script>
+const facultyDetails = {
+"AW": { name: "Mr. Awnish Kumar", designation: "Technical Assistant", department: "Mechanical Engineering" },
+  "KK": { name: "Mr. Karnvir Kumar", designation: "Technical Assistant", department: "Mechanical Engineering" },
+  "PD": { name: "Mr. Pradeep Singh", designation: "Workshop Instructor", department: "Mechanical Engineering" },
+  "SJ": { name: "Mr. Suraj Kumar", designation: "Weilding Workshop Instructor", department: "Mechanical Engineering" },
+
+  "NR": { name: "Mr. Nikhil Ranjan", designation: "Technical Assistant", department: "Electrical Engineering" },
+  "MN": { name: "Mr. Manish Kumar", designation: "Technical Assistant", department: "Electrical Engineering" },
+
+  "SK": { name: "Mr. Shekhar Kumar", designation: "Technical Assistant", department: "Computer Science and Engineering (Data Science)" },
+  "RV": { name: "Mr. Ravi Kumar", designation: "Technical Assistant", department: "Computer Science and Engineering (Data Science)" },
+
+  "SP": { name: "Mr. Shafquet Parwez", designation: "Technical Assistant", department: "Civil Engineering" },
+  "PJ": { name: "Mr. Pankaj Kumar", designation: "Technical Assistant", department: "Civil Engineering" },
+
+  "DP": { name: "Mr. Dipak Kumar", designation: "Technical Assistant", department: "Electronics and Communication Engineering" },
+  "AR": { name: "Mr. Aman Raj", designation: "Technical Assistant", department: "Electronics and Communication Engineering" },
+
+  "PI": { name: "Ms. Priyanka Kumari", designation: "Technical Assistant", department: "Applied Science" },
+  "ST": { name: "Mr. Santu Kumar", designation: "Technical Assistant", department: "Applied Science" },
+  
+  /*--------------Room No ---------*/
+  "G1": {name: "Class Group-1"},
+  "G2": {name: "Class Group-2"},
+  "R-CCL": {name: "Computer Centre Lab", department: "Computer Science and Engineering"},
+  "R-CDL": {name: "CAD Lab", department: "Computer Science and Engineering"},
+  "R-SH2": {name: "Seminar Hall-2"},
+  "R-DWL": {name: "Drawing Lab", department: "Mechanical Engineering"},
+  "R-MPL": {name: "Manufacturing Process Lab", department: "Mechanical Engineering"},
+  "R-PRJL": {name: "Project Lab", department: "Electronics and Communication Engineering"},
+  "R-AEL": {name: "Analog Electronics Lab", department: "Electronics and Communication Engineering"},
+  "R-LNGL": {name: "Language Lab", department: "Applied Sciece"}
+};
+
+const subjectDetails = {
+
+"M1-L":{name:"Engineering Mathematics-I (Lecture)",semester:"2",department:"Common"},
+"M1-P":{name:"Engineering Mathematics-I (Practical)",semester:"2",department:"Common"},
+
+"M2-L":{name:"Engineering Mathematics-II (Lecture)",semester:"2",department:"Common"},
+"M2-P":{name:"Engineering Mathematics-II (Practical)",semester:"2",department:"Common"},
+
+"M3-L":{name:"Engineering Mathematics-III (Lecture)",semester:"3",department:"Common"},
+"M3-P":{name:"Engineering Mathematics-III (Practical)",semester:"3",department:"Common"},
+
+"CHE-L":{name:"Engineering Chemistry (Lecture)",semester:"2",department:"Common"},
+"CHE-P":{name:"Engineering Chemistry (Practical)",semester:"2",department:"Common"},
+
+"PHY-L":{name:"Engineering Physics (Lecture)",semester:"2",department:"Common"},
+"PHY-P":{name:"Engineering Physics (Practical)",semester:"2",department:"Common"},
+
+"ENG-L":{name:"Communicative English (Lecture)",semester:"2",department:"Common"},
+"ENG-P":{name:"Communicative English (Practical)",semester:"2",department:"Common"},
+
+"EGD-L":{name:"Engg. Graphics & Design (Lecture)",semester:"2",department:"Common"},
+"EGD-P":{name:"Engg. Graphics & Design (Practical)",semester:"2",department:"Common"},
+
+"PPS-L":{name:"Programming for Problem Solving (Lecture)",semester:"2",department:"Common"},
+"PPS-P":{name:"Programming for Problem Solving (Practical)",semester:"2",department:"Common"},
+
+"BEE-L":{name:"Basic Electrical Engineering (Lecture)",semester:"2",department:"Common"},
+"BEE-P":{name:"Basic Electrical Engineering (Practical)",semester:"2",department:"Common"},
+
+"BE-L":{name:"Basic Electronics (Lecture)",semester:"2",department:"Common"},
+"BE-P":{name:"Basic Electronics (Practical)",semester:"2",department:"Common"},
+
+"WP-L":{name:"Workshop / Workshop Practices (Lecture)",semester:"2",department:"Common"},
+"WP-P":{name:"Workshop / Workshop Practices (Practical)",semester:"2",department:"Common"},
+
+"SYNN-L":{name:"Sports / Yoga / NCC / NSS (Lecture)",semester:"2",department:"Common"},
+"SYNN-P":{name:"Sports / Yoga / NCC / NSS (Practical)",semester:"2",department:"Common"},
+
+"SBM-L":{name:"Swachha Bharat Mission (Lecture)",semester:"2",department:"Common"},
+"SBM-P":{name:"Swachha Bharat Mission (Practical)",semester:"2",department:"Common"},
+
+"UHV-L":{name:"Universal Human Values (Lecture)",semester:"3",department:"Common"},
+"UHV-P":{name:"Universal Human Values (Practical)",semester:"3",department:"Common"},
+
+"IKS-L":{name:"Indian Knowledge System (Lecture)",semester:"3",department:"Common"},
+"IKS-P":{name:"Indian Knowledge System (Practical)",semester:"3",department:"Common"},
+
+"EMC-L":{name:"Engineering Mechanics (Lecture)",semester:"3",department:"Common"},
+"EMC-P":{name:"Engineering Mechanics (Practical)",semester:"3",department:"Common"},
+
+"MTE-L":{name:"Material Testing & Evaluation (Lecture)",semester:"3",department:"Civil Engineering"},
+"MTE-P":{name:"Material Testing & Evaluation (Practical)",semester:"3",department:"Civil Engineering"},
+
+"FLM-L":{name:"Fluid Mechanics (Lecture)",semester:"3",department:"Common"},
+"FLM-P":{name:"Fluid Mechanics (Practical)",semester:"3",department:"Common"},
+
+"SG-L":{name:"Surveying and Geomatics (Lecture)",semester:"3",department:"Civil Engineering"},
+"SG-P":{name:"Surveying and Geomatics (Practical)",semester:"3",department:"Civil Engineering"},
+
+"SM-L":{name:"Solid Mechanics (Lecture)",semester:"3",department:"Civil Engineering"},
+"SM-P":{name:"Solid Mechanics (Practical)",semester:"3",department:"Civil Engineering"},
+
+"ADCS-L":{name:"Analysis & Design of Concrete Structure (Lecture)",semester:"5",department:"Civil Engineering"},
+"ADCS-P":{name:"Analysis & Design of Concrete Structure (Practical)",semester:"5",department:"Civil Engineering"},
+
+"EE1-L":{name:"Environmental Engineering-I (Lecture)",semester:"5",department:"Civil Engineering"},
+"EE1-P":{name:"Environmental Engineering-I (Practical)",semester:"5",department:"Civil Engineering"},
+
+"GE1-L":{name:"Geotechnical Engineering-I (Lecture)",semester:"5",department:"Civil Engineering"},
+"GE1-P":{name:"Geotechnical Engineering-I (Practical)",semester:"5",department:"Civil Engineering"},
+
+"HYE-L":{name:"Hydraulics Engineering (Lecture)",semester:"5",department:"Civil Engineering"},
+"HYE-P":{name:"Hydraulics Engineering (Practical)",semester:"5",department:"Civil Engineering"},
+
+"HWR-L":{name:"Hydrology & Water Resources Engineering (Lecture)",semester:"5",department:"Civil Engineering"},
+"HWR-P":{name:"Hydrology & Water Resources Engineering (Practical)",semester:"5",department:"Civil Engineering"},
+
+"MOM-L":{name:"Mechanics of Materials (Lecture)",semester:"5",department:"Civil Engineering"},
+"MOM-P":{name:"Mechanics of Materials (Practical)",semester:"5",department:"Civil Engineering"},
+
+"TE-L":{name:"Transportation Engineering (Lecture)",semester:"5",department:"Civil Engineering"},
+"TE-P":{name:"Transportation Engineering (Practical)",semester:"5",department:"Civil Engineering"},
+
+"DSA-L":{name:"Data Structure and Algorithm (Lecture)",semester:"3",department:"CSE (Data Science)"},
+"DSA-P":{name:"Data Structure and Algorithm (Practical)",semester:"3",department:"CSE (Data Science)"},
+
+"OOPS-L":{name:"OOPs Using JAVA (Lecture)",semester:"3",department:"CSE (Data Science)"},
+"OOPS-P":{name:"OOPs Using JAVA (Practical)",semester:"3",department:"CSE (Data Science)"},
+
+"DBMS-L":{name:"Database Management System (Lecture)",semester:"5",department:"CSE (Data Science)"},
+"DBMS-P":{name:"Database Management System (Practical)",semester:"5",department:"CSE (Data Science)"},
+
+"ML-L":{name:"Machine Learning (Lecture)",semester:"5",department:"Common"},
+"ML-P":{name:"Machine Learning (Practical)",semester:"5",department:"Common"},
+
+"CN-L":{name:"Computer Networks (Lecture)",semester:"5",department:"Common"},
+"CN-P":{name:"Computer Networks (Practical)",semester:"5",department:"Common"},
+"PYP-L":{name:"Python Programming (Lecture)",semester:"2",department:"CSE (Data Science)"},
+"PYP-P":{name:"Python Programming(Practical)",semester:"2",department:"CSE (Data Science)"},
+"FL-P":{name:"Foreign Language (Practical)",department:"Common"},
+
+"DMS-L": {name:"Digital Marketing and Search Engine Optimization", semester:"8", department:"Common"},
+"RES-L": {name:"Renewable Energy Systems", semester:"8", department:"Common"},
+"AICS-L": {name:"AI in Cyber Security", semester:"8", department:"Common"},
+"AND-L": {name:"Autonomous Drones", semester:"8", department:"Common"},
+"STLC-L": {name:"Satellite Communication", semester:"8", department:"Common"},
+"WSN-L": {name:"Wireless Sensor Network", semester:"8", department:"Common"},
+"MEMS-L": {name:"Introduction to MEMS", semester:"8", department:"Common"},
+"IOT-L": {name:"Internet of Things", semester:"8", department:"Common"},
+"REL-L": {name:"Railway Engineering", semester:"8", department:"Common"},
+"EPI-L": {name:"Economic Policies in India", semester:"8", department:"Common"},
+"CEM-L": {name:"Construction Engineering Material", semester:"8", department:"Common"},
+"CNM-L": {name:"Contract Management", semester:"8", department:"Common"},
+};
+
+
 const API_URL = "https://script.google.com/macros/s/AKfycbw0duReaY8Ng6Lldu4HLtVteum8G4KNviHY0pP0AMvtxwe_FOErLoaoTVANraUy_3CX/exec";
 
 const timeSlots = [
@@ -365,6 +561,40 @@ const timeSlots = [
   "03:00PM-04:00PM",
   "04:00PM-05:00PM"
 ];
+
+function formatCell(text) {
+
+  if (!text) return "";
+
+  let formatted = text;
+
+  /* 1️⃣ Technical Assistant / Staff codes */
+  Object.keys(facultyDetails).forEach(code => {
+
+    let regex = new RegExp("(?<!\\w)" + code + "(?!\\w)", "g");
+
+    formatted = formatted.replace(regex, function(match) {
+
+      /* ignore faculty codes (3 uppercase letters) */
+      if(/^[A-Z]{3}$/.test(code)) return match;
+
+      return `<span style="color:green; cursor:pointer; font-weight:bold;"
+              onclick="showFaculty('${code}')">${match}</span>`;
+    });
+
+  });
+
+  /* 2️⃣ Subject codes */
+  formatted = formatted.replace(
+    /(?<!\w)[A-Z0-9]+-(L|P|T)(?!\w)/g,
+    function(match) {
+      return `<span style="color:blue; cursor:pointer; font-weight:bold;"
+              onclick="showSubject('${match}')">${match}</span>`;
+    }
+  );
+
+  return formatted;
+}
 
 function loadTimetable() {
   const empId = document.getElementById("empId").value.trim();
@@ -398,7 +628,7 @@ function loadTimetable() {
       timetableData.forEach(dayRow => {
         const tr = document.createElement("tr");
         tr.innerHTML = `<td><b>${dayRow["Day"]}</b></td>` +
-          timeSlots.map(t => `<td>${dayRow[t] || ""}</td>`).join("");
+          timeSlots.map(t => `<td>${formatCell(dayRow[t] || "")}</td>`).join("");
         tbody.appendChild(tr);
       });
       document.querySelector(".card").classList.add("big");
@@ -465,10 +695,57 @@ function downloadPDF() {
     footer.remove();
   });
 }
-  
+
+function showFaculty(code) {
+
+  let data = facultyDetails[code];
+  if (!data) return;
+
+  document.getElementById("popupDetails").innerHTML = `
+    <p><b>Name:</b> ${data.name}</p>
+    ${data.designation ? `<p><b>Designation:</b> ${data.designation}</p>` : ""}
+    <p><b>Department:</b> ${data.department}</p>
+  `;
+
+  document.getElementById("popupBox").style.display = "block";
+}
+
+function showSubject(code) {
+
+  let data = subjectDetails[code];
+
+  if (!data) {
+    document.getElementById("popupDetails").innerHTML = `
+      <h3>Subject</h3>
+      <p>Details not available</p>
+    `;
+  } else {
+
+    let deptLine = data.department === "Common"
+      ? ""
+      : `<p><b>Department:</b> ${data.department}</p>`;
+
+    document.getElementById("popupDetails").innerHTML = `
+      <h3>Subject Details</h3>
+      <p><b>Name:</b> ${data.name}</p>
+      <p><b>Semester:</b> ${data.semester}</p>
+      ${deptLine}
+    `;
+  }
+
+  document.getElementById("popupBox").style.display = "block";
+}
+
+function closePopup(){
+  document.getElementById("popupBox").style.display="none";
+}
+
 </script>
-
+<div id="popupBox" class="popup">
+  <div class="popup-content">
+    <span class="close-btn" onclick="closePopup()">×</span>
+    <div id="popupDetails"></div>
+  </div>
+</div>
 </body>
-
 </html>
-
