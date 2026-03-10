@@ -220,7 +220,7 @@
     "Semester": 2,
     "Day": "Monday",
     "10:00 AM\n11:00 AM": "BE-L, RVK, R-01",
-    "11:00 AM\n12:00PM": "M1-L, MTD, R-01",
+    "11:00 AM\n12:00PM": "M2-L, MTD, R-01",
     "12:00 PM\n01:00PM": "ENG-L, KSM, R-01",
     "Lunch": "",
     "02:00 PM\n03:00PM": "LIB",
@@ -232,7 +232,7 @@
     "Semester": 2,
     "Day": "Tuesday",
     "10:00 AM\n11:00 AM": "BE-L, RVK, R-01",
-    "11:00 AM\n12:00PM": "M1-L, MTD, R-01",
+    "11:00 AM\n12:00PM": "M2-L, MTD, R-01",
     "12:00 PM\n01:00PM": "EGD-L, CDK, R01",
     "Lunch": "",
     "02:00 PM\n03:00PM": "(G1, ENG-P, KSM +RV) & \n(G2-LIB)",
@@ -244,7 +244,7 @@
     "Semester": 2,
     "Day": "Wednesday",
     "10:00 AM\n11:00 AM": "BE-L, RVK, R-01",
-    "11:00 AM\n12:00PM": "M1-L, MTD, R-01",
+    "11:00 AM\n12:00PM": "M2-L, MTD, R-01",
     "12:00 PM\n01:00PM": "CHE-L, YGP, R-01",
     "Lunch": "",
     "02:00 PM\n03:00PM": "LIB",
@@ -279,7 +279,7 @@
     "Branch": "ECE",
     "Semester": 2,
     "Day": "Saturday",
-    "10:00 AM\n11:00 AM": "M1-T, MTD, R-01",
+    "10:00 AM\n11:00 AM": "M2-T, MTD, R-01",
     "11:00 AM\n12:00PM": "EGD-P, CDK +AW, R-DWL",
     "12:00 PM\n01:00PM": "EGD-P, CDK +AW, R-DWL",
     "Lunch": "",
@@ -597,7 +597,7 @@
     "Lunch": "",
     "02:00 PM\n03:00PM": "(G1, ECA-P, SNT +NR) & \n(G2, AEC-P, SDK +MN)",
     "03:00 PM\n04:00PM": "(G1, ECA-P, SNT +NR) & \n(G2, AEC-P, SDK +MN)",
-    "04:00 PM\n05:00PM": "M3-L, RKD, R-11"
+    "04:00 PM\n05:00PM": "M3-L, MTD, R-11"
   },
   {
     "Branch": "EE",
@@ -619,7 +619,7 @@
     "11:00 AM\n12:00PM": "IKS-L, ABK, R-11",
     "12:00 PM\n01:00PM": "ECA-L, SNT, R-11",
     "Lunch": "",
-    "02:00 PM\n03:00PM": "LIB",
+    "02:00 PM\n03:00PM": "M3-L, MTD, R-11",
     "03:00 PM\n04:00PM": "(G1, ECA-P, SNT +NR) & \n(G1, AEC-P, SDK +MN)",
     "04:00 PM\n05:00PM": "(G1, ECA-P, SNT +NR) & \n(G1, AEC-P, SDK +MN"
   },
@@ -629,7 +629,7 @@
     "Day": "Friday",
     "10:00 AM\n11:00 AM": "AEC-L, SDK, R-11",
     "11:00 AM\n12:00PM": "EM1-L, SKJ, R-11",
-    "12:00 PM\n01:00PM": "M3-L, RKD, R-11",
+    "12:00 PM\n01:00PM": "LIB",
     "Lunch": "",
     "02:00 PM\n03:00PM": "EM-T, VSK, R-11",
     "03:00 PM\n04:00PM": "G2, EM1-P, SKJ +MN",
@@ -641,9 +641,9 @@
     "Day": "Saturday",
     "10:00 AM\n11:00 AM": "AEC-L, SDK, R-11",
     "11:00 AM\n12:00PM": "EM-L, VSK, R-11",
-    "12:00 PM\n01:00PM": "M3-T, RKD, R-11",
+    "12:00 PM\n01:00PM": "M3-T, MTD, R-11",
     "Lunch": "",
-    "02:00 PM\n03:00PM": "M3-L, RKD, R-11",
+    "02:00 PM\n03:00PM": "M3-L, MTD, R-11",
     "03:00 PM\n04:00PM": "EM1-L, SKJ, R-11",
     "04:00 PM\n05:00PM": "LIB"
   },
@@ -1161,7 +1161,7 @@
     "Lunch": "",
     "02:00 PM\n03:00PM": "PYP-L,  ASP, R-08",
     "03:00 PM\n04:00PM": "DBMS-L,  ANP, R-08",
-    "04:00 PM\n05:00PM": "CN-L,  NCR, R-14"
+    "04:00 PM\n05:00PM": "CNS-L,  NCR, R-14"
   },
   {
     "Branch": "CSE (DS)",
@@ -1173,7 +1173,7 @@
     "Lunch": "",
     "02:00 PM\n03:00PM": "DBMS-L,  ANP, R-08",
     "03:00 PM\n04:00PM": "DBMS-L,  ANP, R-08",
-    "04:00 PM\n05:00PM": "CN-L,  NCR, R-14"
+    "04:00 PM\n05:00PM": "CNS-L,  NCR, R-14"
   },
   {
     "Branch": "CSE (DS)",
@@ -1183,9 +1183,9 @@
     "11:00 AM\n12:00PM": "LIB",
     "12:00 PM\n01:00PM": "LIB",
     "Lunch": "",
-    "02:00 PM\n03:00PM": "TOC-L,  ANP, R-08",
+    "02:00 PM\n03:00PM": "PE1-L,  ANP, R-08",
     "03:00 PM\n04:00PM": "ML-L,  SDT, R-08",
-    "04:00 PM\n05:00PM": "CN-L,  NCR, R-14"
+    "04:00 PM\n05:00PM": "CNS-L,  NCR, R-14"
   },
   {
     "Branch": "CSE (DS)",
@@ -1195,7 +1195,7 @@
     "11:00 AM\n12:00PM": "STR-L,  AFCSE R-CDL",
     "12:00 PM\n01:00PM": "LIB",
     "Lunch": "",
-    "02:00 PM\n03:00PM": "TOC-L,  ANP, R-08",
+    "02:00 PM\n03:00PM": "PE1-L,  ANP, R-08",
     "03:00 PM\n04:00PM": "ML-L,  SDT, R-08",
     "04:00 PM\n05:00PM": "PYP-L,  ASP, R-08"
   },
@@ -1220,7 +1220,7 @@
     "12:00 PM\n01:00PM": "CN-P, NCR +RK, R-CCL",
     "Lunch": "",
     "02:00 PM\n03:00PM": "PPLE-L, SSI, R-08",
-    "03:00 PM\n04:00PM": "TOC-L,  ANP, R-08",
+    "03:00 PM\n04:00PM": "PE1-L,  ANP, R-08",
     "04:00 PM\n05:00PM": "ML-L,  SDT, R-08"
   },
   {
