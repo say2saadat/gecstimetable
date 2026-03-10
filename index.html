@@ -83,53 +83,89 @@
     color: #0f477a;
     font-weight: bold;
   }
+/* - - - - - - - - Emergency Notice Block 1 of 3- - - - */
+.notice-box{
+  margin:20px auto;
+  padding:15px;
+  background:#fff3f3;
+  border-left:6px solid #c62828;
+  border-radius:6px;
+  text-align:justify;
+  font-size:14px;
+  color:#333;
+  line-height:1.6;
+}
 
-  /* ---------- Mobile Specific ---------- */
-  @media (max-width: 400px) {
-    h1 {
-      font-size: 20px;
-      line-height: 1.2;
-      margin-bottom: 8px;
-    }
+.notice-box h3{
+  margin-top:0;
+  margin-bottom:10px;
+  color:#c62828;
+  text-align:center;
+}
 
-    h2 {
-      font-size: 16px;
-      margin-bottom: 15px;
-    }
+.notice-box p{
+  text-align:justify;
+}
+/* - - - - - - - - Emergency Notice Block 1 of 3- - - - */
 
-    .card {
-    background: #ffffff;
-    width: 95%;
-    max-width: 500px;
-    padding: 15px 10px;
-    border-radius: 14px;
-    text-align: center;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.25);
-  }
-    .logo {
-      max-width:100px;
-      margin-bottom: 5px;
-    }
+/* ---------- Mobile Specific ---------- */
+@media (max-width: 400px) {
+h1 {
+   font-size: 20px;
+   line-height: 1.2;
+   margin-bottom: 8px;
+   }
 
-    button {
-    width: 70%;
-    max-width: 160px;
-    padding: 12px;
-    font-size: 12px;
-    border-radius: 6px;
-    border: 1px;
-    background: #074072;
-    color: white;
-    cursor: pointer;
-    transition: 0.3s;
+h2 {
+   font-size: 16px;
+   margin-bottom: 15px;
   }
 
-    .button-group {
-      flex-direction: column;
-      align-items: center;
-      padding: 10px;
-    }
+.card {
+  background: #ffffff;
+  width: 95%;
+  max-width: 500px;
+  padding: 15px 10px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.25);
   }
+ .logo {
+    max-width:100px;
+    margin-bottom: 5px;
+    }
+
+  button {
+   width: 70%;
+   max-width: 160px;
+   padding: 12px;
+   font-size: 12px;
+   border-radius: 6px;
+   border: 1px;
+   background: #074072;
+   color: white;
+   cursor: pointer;
+   transition: 0.3s;
+  }
+
+ .button-group {
+   flex-direction: column;
+   align-items: center;
+   padding: 10px;
+   }
+/* - - - - - - - - Emergency Notice Block 2 of 3- - - - */
+.notice-box{
+  font-size:13px;
+  padding:12px;
+  margin:15px 5px;
+  text-align:justify;
+}
+
+.notice-box h3{
+  text-align:center;
+}
+/* - - - - - - - - Emergency Notice Block 2 of 3- - - - */
+}
 </style>
 </head>
 
@@ -137,16 +173,34 @@
 
 <div class="card">
 
-  <!-- Logo -->
-  <img src="gecs_logo.jpeg" alt="GEC Sheohar Logo" class="logo">
+<!-- Logo -->
+<img src="gecs_logo.jpeg" alt="GEC Sheohar Logo" class="logo">
 
-  <!-- College Name -->
-  <h1>Government Engineering College Sheohar</h1>
+<!-- College Name -->
+<h1>Government Engineering College Sheohar</h1>
 
-  <!-- System Title -->
-  <h2>Academic Timetable</h2>
+<!-- System Title -->
+<h2>Academic Timetable</h2>
 
-  <!-- Buttons -->
+<!-- Emergency Notice Block 3 of 3 -->
+<div class="notice-box">
+<h3>Notice</h3>
+<p>
+In view of the <b>Mid-Semester Examination</b> for the <b>3rd and 5th semesters</b>, 
+classes of the <b>2nd semester</b> will remain suspended from 
+<b>11/03/2026 to 14/03/2026</b>, as the classrooms will be utilized for conducting the examinations.
+</p>
+<p>
+However, classes of the <b>8th semester</b> will continue as per the regular schedule and will remain unaffected.
+</p>
+<p>
+All <b>laboratory classes of the 2nd semester</b> will be conducted as per the existing schedule.
+</p>
+</div>
+  
+<!-- Emergency Notice Block 23 of 3 -->
+
+<!-- Buttons -->
   <div class="button-group">
     <button onclick="location.href='faculty.html'">Faculty Timetable</button>
     <button onclick="location.href='student.html'">Student Timetable</button>
