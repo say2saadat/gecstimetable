@@ -86,7 +86,7 @@
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "ST-P, CE-5th, R-CDL",
+    "02:00PM-03:00PM": "ST-L, CE-5th, R-CDL",
     "03:00PM-04:00PM": "",
     "04:00PM-05:00PM": ""
   },
@@ -99,7 +99,7 @@
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "ST-P, CECA-5th, R-CDL",
+    "02:00PM-03:00PM": "ST-L, CECA-5th, R-CDL",
     "03:00PM-04:00PM": "",
     "04:00PM-05:00PM": ""
   },
@@ -3594,7 +3594,7 @@
     "Day": "Monday",
     "10:00-11:00AM": "",
     "11:00AM-12:00PM": "IKS-L, 3rd, R-06",
-    "12:00PM-01:00PM": "IKS-L, 3rd, R-11",
+    "12:00PM-01:00PM": "IKS-L, EE-3rd, R-11",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "IKS-L, CSE-3rd, R-12",
     "03:00PM-04:00PM": "IKS-L, CSE-3rd, R-12",
@@ -3611,7 +3611,7 @@
     "Lunch Hours": "",
     "02:00PM-03:00PM": "IKS-L, CSE-3rd, R-12",
     "03:00PM-04:00PM": "",
-    "04:00PM-05:00PM": "IKS-L, ME-3rd, R-07"
+    "04:00PM-05:00PM": ""
   },
   {
     "EmployeeID": 8012,
@@ -3624,7 +3624,7 @@
     "Lunch Hours": "",
     "02:00PM-03:00PM": "IKS-L, EE-3rd, R-11",
     "03:00PM-04:00PM": "",
-    "04:00PM-05:00PM": "IKS-L, ME-3rd, R-07"
+    "04:00PM-05:00PM": ""
   },
   {
     "EmployeeID": 8012,
@@ -3632,12 +3632,12 @@
     "Department": "Applied Science",
     "Day": "Thursday",
     "10:00-11:00AM": "",
-    "11:00AM-12:00PM": "IKS-L, 3rd, R-11",
+    "11:00AM-12:00PM": "IKS-L, EE-3rd, R-11",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
     "03:00PM-04:00PM": "",
-    "04:00PM-05:00PM": "IKS-L, 3rd, R-13"
+    "04:00PM-05:00PM": "IKS-L, ECE-3rd, R-13"
   },
   {
     "EmployeeID": 8012,
@@ -3645,12 +3645,12 @@
     "Department": "Applied Science",
     "Day": "Friday",
     "10:00-11:00AM": "",
-    "11:00AM-12:00PM": "IKS-L, 3rd, R-06",
+    "11:00AM-12:00PM": "IKS-L, CECA-3rd, R-06",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
     "03:00PM-04:00PM": "",
-    "04:00PM-05:00PM": "IKS-L, 3rd, R-13"
+    "04:00PM-05:00PM": "IKS-L, ECE-3rd, R-13"
   },
   {
     "EmployeeID": 8012,
@@ -3658,11 +3658,11 @@
     "Department": "Applied Science",
     "Day": "Saturday",
     "10:00-11:00AM": "",
-    "11:00AM-12:00PM": "IKS-L, 3rd, R-06",
-    "12:00PM-01:00PM": "IKS-L, ME-3rd, R-07",
+    "11:00AM-12:00PM": "IKS-L, CECA-3rd, R-06",
+    "12:00PM-01:00PM": "",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
     "03:00PM-04:00PM": "",
-    "04:00PM-05:00PM": "IKS-L, 3rd, R-13"
+    "04:00PM-05:00PM": "IKS-L, ECE-3rd, R-13"
   }
 ]
