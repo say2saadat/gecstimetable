@@ -278,8 +278,8 @@
     "Department": "Civil Engineering",
     "Day": "Thursday",
     "10:00-11:00AM": "",
-    "11:00AM-12:00PM": "TE-P, CE-5th, R-TEL",
-    "12:00PM-01:00PM": "TE-P, CE-5th, R-TEL",
+    "11:00AM-12:00PM": "",
+    "12:00PM-01:00PM": "",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
     "03:00PM-04:00PM": "",
@@ -434,8 +434,8 @@
     "Department": "Civil Engineering",
     "Day": "Thursday",
     "10:00-11:00AM": "CEM-L, 8th, R-08",
-    "11:00AM-12:00PM": "",
-    "12:00PM-01:00PM": "",
+    "11:00AM-12:00PM": "TE-P, CE-5th, R-TEL",
+    "12:00PM-01:00PM": "TE-P, CE-5th, R-TEL",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "GI-L, 3rd, R-06",
     "03:00PM-04:00PM": "MTE-P, 3rd, SP",
@@ -2345,7 +2345,7 @@
     "Department": "Electronics & Communication Engineering",
     "Day": "Monday",
     "10:00-11:00AM": "",
-    "11:00AM-12:00PM": "SS-L, 3rd, R-13",
+    "11:00AM-12:00PM": "SS, 3rd, R-13",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "BECE-L, ME-3rd, R-07",
@@ -2362,7 +2362,7 @@
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "PTSP-L, 5tH, R-14",
-    "03:00PM-04:00PM": "SS-L, 3rd, R-13",
+    "03:00PM-04:00PM": "SS, 3rd, R-13",
     "04:00PM-05:00PM": ""
   },
   {
@@ -2385,7 +2385,7 @@
     "Day": "Thursday",
     "10:00-11:00AM": "",
     "11:00AM-12:00PM": "",
-    "12:00PM-01:00PM": "SS-L, 3rd, R-13",
+    "12:00PM-01:00PM": "SS, 3rd, R-13",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
     "03:00PM-04:00PM": "",
@@ -2496,7 +2496,7 @@
     "04:00PM-05:00PM": ""
   },
   {
-    "EmployeeID": "40231948",
+    "EmployeeID": 40231948,
     "Name": "Ms. Anshu Priya",
     "Department": "CSE (Data Science)",
     "Day": "Monday",
@@ -2509,7 +2509,7 @@
     "04:00PM-05:00PM": ""
   },
   {
-    "EmployeeID": "40231948",
+    "EmployeeID": 40231948,
     "Name": "Ms. Anshu Priya",
     "Department": "CSE (Data Science)",
     "Day": "Tuesday",
@@ -2522,7 +2522,7 @@
     "04:00PM-05:00PM": ""
   },
   {
-    "EmployeeID": "40231948",
+    "EmployeeID": 40231948,
     "Name": "Ms. Anshu Priya",
     "Department": "CSE (Data Science)",
     "Day": "Wednesday",
@@ -2535,12 +2535,12 @@
     "04:00PM-05:00PM": ""
   },
   {
-    "EmployeeID": "40231948",
+    "EmployeeID": 40231948,
     "Name": "Ms. Anshu Priya",
     "Department": "CSE (Data Science)",
     "Day": "Thursday",
-    "10:00-11:00AM": "",
-    "11:00AM-12:00PM": "",
+    "10:00-11:00AM": "IWD-P, 2nd, +RV, R-CDL",
+    "11:00AM-12:00PM": "IWD-P, 2nd, +RV, R-CDL",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
@@ -2548,7 +2548,7 @@
     "04:00PM-05:00PM": "PYP-L, 5th, R-08"
   },
   {
-    "EmployeeID": "40231948",
+    "EmployeeID": 40231948,
     "Name": "Ms. Anshu Priya",
     "Department": "CSE (Data Science)",
     "Day": "Friday",
@@ -2561,7 +2561,7 @@
     "04:00PM-05:00PM": "PYP-L, 5th, R-08"
   },
   {
-    "EmployeeID": "40231948",
+    "EmployeeID": 40231948,
     "Name": "Ms. Anshu Priya",
     "Department": "CSE (Data Science)",
     "Day": "Saturday",
