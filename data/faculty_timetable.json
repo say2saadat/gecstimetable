@@ -86,7 +86,7 @@
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "ST-L, CE-5th, R-CDL",
+    "02:00PM-03:00PM": "STR-L, CE-5th, R-CDL",
     "03:00PM-04:00PM": "",
     "04:00PM-05:00PM": ""
   },
@@ -99,7 +99,7 @@
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "ST-L, CECA-5th, R-CDL",
+    "02:00PM-03:00PM": "STR-L-L, CECA-5th, R-CDL",
     "03:00PM-04:00PM": "",
     "04:00PM-05:00PM": ""
   },
@@ -476,7 +476,7 @@
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "FM-L, 3rd CECA, R-06",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "ST-P, CE-5th, R-CDL",
+    "02:00PM-03:00PM": "STR-L, CE-5th, R-CDL",
     "03:00PM-04:00PM": "",
     "04:00PM-05:00PM": ""
   },
@@ -489,7 +489,7 @@
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "FM-L, 3rd CECA, R-06",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "ST-P, CECA-5th, R-CDL",
+    "02:00PM-03:00PM": "STR-L, CECA-5th, R-CDL",
     "03:00PM-04:00PM": "",
     "04:00PM-05:00PM": ""
   },
@@ -1474,8 +1474,8 @@
     "Department": "Electrical Engineering",
     "Day": "Saturday",
     "10:00-11:00AM": "AEC-L, 3rd, R-11",
-    "11:00AM-12:00PM": "ST-L, 5th, R-10",
-    "12:00PM-01:00PM": "ST-L, 5th, R-10",
+    "11:00AM-12:00PM": "STR-L-L, 5th, R-10",
+    "12:00PM-01:00PM": "STR-L-L, 5th, R-10",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
     "03:00PM-04:00PM": "",
