@@ -440,8 +440,8 @@
     "12:00 PM\n01:00PM": "MTE-L, RKR, R-05",
     "Lunch": "",
     "02:00 PM\n03:00PM": "SG-L, PNK, R-05",
-    "03:00 PM\n04:00PM": "(G1, SM-P, FKH +PJ) & \n(G2, SG-P, PNK +SP",
-    "04:00 PM\n05:00PM": "(G1, SM-P, FKH +PJ) & \n(G2, SG-P, PNK +SP"
+    "03:00 PM\n04:00PM": "(G1, SM-P, FKH +PK) & \n(G2, SG-P, PNK +SP",
+    "04:00 PM\n05:00PM": "(G1, SM-P, FKH +PK) & \n(G2, SG-P, PNK +SP"
   },
   {
     "Branch": "CE",
@@ -452,8 +452,8 @@
     "12:00 PM\n01:00PM": "SM-L, RSR, R-05",
     "Lunch": "",
     "02:00 PM\n03:00PM": "LIB",
-    "03:00 PM\n04:00PM": "(G2, SM-P, FKH +PJ) & \n(G1, SG-P, PNK +SP)",
-    "04:00 PM\n05:00PM": "(G2, SM-P, FKH +PJ) & \n(G1, SG-P, PNK +SP"
+    "03:00 PM\n04:00PM": "(G2, SM-P, FKH +PK) & \n(G1, SG-P, PNK +SP)",
+    "04:00 PM\n05:00PM": "(G2, SM-P, FKH +PK) & \n(G1, SG-P, PNK +SP"
   },
   {
     "Branch": "CE",
@@ -476,8 +476,8 @@
     "12:00 PM\n01:00PM": "SG-L, PNK, R-05",
     "Lunch": "",
     "02:00 PM\n03:00PM": "FM-L, SSU, R-05",
-    "03:00 PM\n04:00PM": "(G1, FM-P, SSU +PJ) & \n(G2, MTE-P, RKR +SP)",
-    "04:00 PM\n05:00PM": "(G1, FM-P, SSU +PJ) & \n(G2, MTE-P, RKR +SP"
+    "03:00 PM\n04:00PM": "(G1, FM-P, SSU +PK) & \n(G2, MTE-P, RKR +SP)",
+    "04:00 PM\n05:00PM": "(G1, FM-P, SSU +PK) & \n(G2, MTE-P, RKR +SP"
   },
   {
     "Branch": "CE",
@@ -488,8 +488,8 @@
     "12:00 PM\n01:00PM": "FM-L, SSU, R-05",
     "Lunch": "",
     "02:00 PM\n03:00PM": "IKS-L, RSR, R-05",
-    "03:00 PM\n04:00PM": "(G2, FM-P, SSU +PJ) & \n(G1, MTE-P, RKR +SP)",
-    "04:00 PM\n05:00PM": "(G2, FM-P, SSU +PJ) & \n(G1, MTE-P, RKR +SP"
+    "03:00 PM\n04:00PM": "(G2, FM-P, SSU +PK) & \n(G1, MTE-P, RKR +SP)",
+    "04:00 PM\n05:00PM": "(G2, FM-P, SSU +PK) & \n(G1, MTE-P, RKR +SP"
   },
   {
     "Branch": "CE",
@@ -824,16 +824,16 @@
     "12:00 PM\n01:00PM": "FM-L, SSU, R-06",
     "Lunch": "",
     "02:00 PM\n03:00PM": "MTE-L, RKR, R-06",
-    "03:00 PM\n04:00PM": "(G1, FM-P, SSU +PJ) & \n(G2, MTE-P, RKR +SP)",
-    "04:00 PM\n05:00PM": "(G1, FM-P, SSU +PJ) & \n(G2, MTE-P, RKR +SP"
+    "03:00 PM\n04:00PM": "(G1, FM-P, SSU +PK) & \n(G2, MTE-P, RKR +SP)",
+    "04:00 PM\n05:00PM": "(G1, FM-P, SSU +PK) & \n(G2, MTE-P, RKR +SP"
   },
   {
     "Branch": "CECA",
     "Semester": 3,
     "Day": "Thursday",
     "10:00 AM\n11:00 AM": "M3-L, RKD, R-SH2",
-    "11:00 AM\n12:00PM": "G2, FM-P, SSU +PJ",
-    "12:00 PM\n01:00PM": "G2, FM-P, SSU +PJ",
+    "11:00 AM\n12:00PM": "G2, FM-P, SSU +PK",
+    "12:00 PM\n01:00PM": "G2, FM-P, SSU +PK",
     "Lunch": "",
     "02:00 PM\n03:00PM": "GI-L, RKR, R-06",
     "03:00 PM\n04:00PM": "UHV-L, SSI R-06",
@@ -867,8 +867,8 @@
     "Branch": "CE",
     "Semester": 5,
     "Day": "Monday",
-    "10:00 AM\n11:00 AM": "GE1-P,  PNK +PJ, R-GEL",
-    "11:00 AM\n12:00PM": "GE1-P,  PNK +PJ, R-GEL",
+    "10:00 AM\n11:00 AM": "GE1-P,  PNK +PK, R-GEL",
+    "11:00 AM\n12:00PM": "GE1-P,  PNK +PK, R-GEL",
     "12:00 PM\n01:00PM": "",
     "Lunch": "",
     "02:00 PM\n03:00PM": "STR-L, RVS+SSU, R-CDL",
@@ -904,8 +904,8 @@
     "Semester": 5,
     "Day": "Thursday",
     "10:00 AM\n11:00 AM": "MOM-L, FKH, R-CDL",
-    "11:00 AM\n12:00PM": "TE-P, RKR +PJ, R-TEL",
-    "12:00 PM\n01:00PM": "TE-P, RKR +PJ, R-TEL",
+    "11:00 AM\n12:00PM": "TE-P, RKR +PK, R-TEL",
+    "12:00 PM\n01:00PM": "TE-P, RKR +PK, R-TEL",
     "Lunch": "",
     "02:00 PM\n03:00PM": "MOM-L, FKH, R-09",
     "03:00 PM\n04:00PM": "GE1-L, PNK, R-09",
@@ -915,8 +915,8 @@
     "Branch": "CE",
     "Semester": 5,
     "Day": "Friday",
-    "10:00 AM\n11:00 AM": "HYE-P,  SSU +PJ, R-HYEL",
-    "11:00 AM\n12:00PM": "(CE, HYE-P,  SSU +PJ, R-HYEL)\n(CECA, LIB)",
+    "10:00 AM\n11:00 AM": "HYE-P,  SSU +PK, R-HYEL",
+    "11:00 AM\n12:00PM": "(CE, HYE-P,  SSU +PK, R-HYEL)\n(CECA, LIB)",
     "12:00 PM\n01:00PM": "ADCS-L, RVS, R-09",
     "Lunch": "",
     "02:00 PM\n03:00PM": "EE1-L, RKR, R-09",
@@ -1240,8 +1240,8 @@
     "Semester": 5,
     "Day": "Tuesday",
     "10:00 AM\n11:00 AM": "ML-L,  ANP, R-CDL",
-    "11:00 AM\n12:00PM": "TE-P,  MSA +PJ, R-TEL",
-    "12:00 PM\n01:00PM": "TE-P,  MSA +PJ, R-TEL",
+    "11:00 AM\n12:00PM": "TE-P,  MSA +PK, R-TEL",
+    "12:00 PM\n01:00PM": "TE-P,  MSA +PK, R-TEL",
     "Lunch": "",
     "02:00 PM\n03:00PM": "STR-L, RVS+SSU, R-10",
     "03:00 PM\n04:00PM": "EE1-L, RKR, R-09",
@@ -1251,8 +1251,8 @@
     "Branch": "CECA",
     "Semester": 5,
     "Day": "Wednesday",
-    "10:00 AM\n11:00 AM": "GE1-P,  PNK +PJ, R-GEL",
-    "11:00 AM\n12:00PM": "GE1-P,  PNK +PJ, R-GEL",
+    "10:00 AM\n11:00 AM": "GE1-P,  PNK +PK, R-GEL",
+    "11:00 AM\n12:00PM": "GE1-P,  PNK +PK, R-GEL",
     "12:00 PM\n01:00PM": "ML-L,  ANP, R-CDL",
     "Lunch": "",
     "02:00 PM\n03:00PM": "HYE-L, SSU.R-09",
