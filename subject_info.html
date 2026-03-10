@@ -18,8 +18,8 @@ body {
 
 .card {
   background: white;
-  width: 100%;
-  max-width: 900px;
+  width: 80%;
+  max-width: 700px;
   padding: 80px;
   border-radius: 12px;
   box-shadow: 0 15px 30px rgba(0,0,0,0.2);
@@ -139,9 +139,11 @@ html+=`
 <thead>
 <tr>
 <th>Sr No</th>
-<th>Subject Code</th>
-<th>Subject Name</th>
 <th>Semester</th>
+<th>Subject Code</th>
+<th>Subject Acronym</th>
+<th>Subject Name</th>
+<th>Credits</th>
 </tr>
 </thead>
 
@@ -153,9 +155,11 @@ deptGroups[dept].forEach((sub,index)=>{
 html+=`
 <tr>
 <td>${index+1}</td>
-<td>${sub.SubjectCode || ""}</td>
-<td style="text-align:left">${sub.SubjectName || ""}</td>
 <td>${sub.Semester || ""}</td>
+<td>${sub.SubjectCode || ""}</td>
+<td>${sub.SubjectAcr || ""}</td>
+<td style="text-align:left">${sub.SubjectName || ""}</td>
+<td>${sub.Credits || ""}</td>
 </tr>
 `;
 
@@ -185,4 +189,5 @@ console.error(err);
 
 </body>
 </html>
+
 
