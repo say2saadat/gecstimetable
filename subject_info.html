@@ -20,7 +20,7 @@ body {
   background: white;
   width: 100%;
   max-width: 900px;
-  padding: 20px;
+  padding: 80px;
   border-radius: 12px;
   box-shadow: 0 15px 30px rgba(0,0,0,0.2);
 }
@@ -31,7 +31,6 @@ h2 {
   margin-bottom: 15px;
 }
 
-/* ===== LOADING TEXT ===== */
 #loading {
   text-align: center;
   font-size: 14px;
@@ -39,40 +38,45 @@ h2 {
   font-weight: bold;
 }
 
-/* ===== TABLE ===== */
-.table-wrapper {
-  overflow-x: auto;
-  display: none;
+.dept-section{
+  margin-bottom:35px;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
+.dept-title{
+  background:#0b3c5d;
+  color:white;
+  padding:8px;
+  text-align:center;
+  border-radius:6px;
+  margin-bottom:8px;
+  font-size:15px;
 }
 
-th, td {
-  border: 1px solid #cfd8dc;
-  padding: 8px;
-  text-align: center;
-  font-size: 13px;
+table{
+  width:100%;
+  border-collapse:collapse;
 }
 
-th {
-  background: #0b3c5d;
-  color: white;
-  position: sticky;
-  top: 0;
+th,td{
+  border:1px solid #cfd8dc;
+  padding:8px;
+  font-size:13px;
+  text-align:center;
 }
 
-tr:nth-child(even) {
-  background: #f8fbff;
+th{
+  background:#0b3c5d;
+  color:white;
 }
 
-/* ===== MOBILE ===== */
-@media (max-width: 600px) {
-  th, td {
-    font-size: 12px;
-    padding: 6px;
+tr:nth-child(even){
+  background:#f6f9fc;
+}
+
+@media (max-width:600px){
+  th,td{
+    font-size:12px;
+    padding:6px;
   }
 }
 </style>
@@ -81,53 +85,102 @@ tr:nth-child(even) {
 <body>
 
 <div class="card">
-  <h2>Subject Information</h2>
+<h2>Subject Information</h2>
 
-  <div id="loading">Loading Subject information…</div>
+<div id="loading">Loading Subject information…</div>
 
-  <div class="table-wrapper" id="tableWrapper">
-    <table id="facultyTable">
-      <thead></thead>
-      <tbody></tbody>
-    </table>
-  </div>
+<div id="tableWrapper"></div>
+
 </div>
 
 <script>
+
+/* ===== CHANGE THIS WHEN USING JSON ===== */
 const API_URL = "data/subject_info.json";
 
 fetch(API_URL)
-  .then(res => res.json())
-  .then(data => {
-    const thead = document.querySelector("#facultyTable thead");
-    const tbody = document.querySelector("#facultyTable tbody");
+.then(res => res.json())
+.then(data => {
 
-    if (!data || data.length === 0) {
-      document.getElementById("loading").innerText = "No data found";
-      return;
-    }
+const container = document.getElementById("tableWrapper");
 
-    const headers = Object.keys(data[0]);
+if(!data || data.length===0){
+document.getElementById("loading").innerText="No data found";
+return;
+}
 
-    thead.innerHTML =
-      "<tr>" + headers.map(h => `<th>${h}</th>`).join("") + "</tr>";
+/* ===== GROUP BY DEPARTMENT ===== */
 
-    tbody.innerHTML = "";
+const deptGroups={};
 
-    data.forEach(row => {
-      const tr = document.createElement("tr");
-      tr.innerHTML = headers.map(h => `<td>${row[h] || ""}</td>`).join("");
-      tbody.appendChild(tr);
-    });
+data.forEach(row=>{
+const dept=row.Department || "Other";
 
-    document.getElementById("loading").style.display = "none";
-    document.getElementById("tableWrapper").style.display = "block";
-  })
-  .catch(err => {
-    document.getElementById("loading").innerText =
-      "Error loading data. Please try again.";
-    console.error(err);
-  });
+if(!deptGroups[dept]){
+deptGroups[dept]=[];
+}
+
+deptGroups[dept].push(row);
+});
+
+let html="";
+
+/* ===== CREATE TABLE FOR EACH DEPARTMENT ===== */
+
+Object.keys(deptGroups).forEach(dept=>{
+
+html+=`
+<div class="dept-section">
+
+<h3 class="dept-title">${dept}</h3>
+
+<table>
+
+<thead>
+<tr>
+<th>Sr No</th>
+<th>Subject Code</th>
+<th>Subject Name</th>
+<th>Semester</th>
+</tr>
+</thead>
+
+<tbody>
+`;
+
+deptGroups[dept].forEach((sub,index)=>{
+
+html+=`
+<tr>
+<td>${index+1}</td>
+<td>${sub.SubjectCode || ""}</td>
+<td style="text-align:left">${sub.SubjectName || ""}</td>
+<td>${sub.Semester || ""}</td>
+</tr>
+`;
+
+});
+
+html+=`
+</tbody>
+</table>
+</div>
+`;
+
+});
+
+container.innerHTML=html;
+
+document.getElementById("loading").style.display="none";
+
+})
+
+.catch(err=>{
+document.getElementById("loading").innerText=
+"Error loading data. Please try again.";
+console.error(err);
+});
+
 </script>
 
 </body>
