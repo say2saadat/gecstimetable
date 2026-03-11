@@ -1165,8 +1165,8 @@
     "11:00AM-12:00PM": "EM-L, 3rd, R-11",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "SBM, 2nd, R-02",
-    "03:00PM-04:00PM": "SBM, 2nd, R-02",
+    "02:00PM-03:00PM": "SBM-L, 2nd, R-02",
+    "03:00PM-04:00PM": "SBM-L, 2nd, R-02",
     "04:00PM-05:00PM": ""
   },
   {
@@ -1387,8 +1387,8 @@
     "12:00PM-01:00PM": "FMC-L,  5th, R-T3",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
-    "03:00PM-04:00PM": "ANSYS-P-5th, BK",
-    "04:00PM-05:00PM": "ANSYS-P-5th, BK"
+    "03:00PM-04:00PM": "ANSYS-P, 5th, BK, R-CDL",
+    "04:00PM-05:00PM": "ANSYS-P, 5th, BK, R-CDL"
   },
   {
     "EmployeeID": 40042931,
@@ -1811,7 +1811,7 @@
     "Name": "Mr. Jitendra Kumar",
     "Department": "Electrical Engineering",
     "Day": "Tuesday",
-    "10:00-11:00AM": "PE1-L,  5th, R-10",
+    "10:00-11:00AM": "WSES-L,  5th, R-10",
     "11:00AM-12:00PM": "BEE-L, 2nd, R-04",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
@@ -1826,7 +1826,7 @@
     "Day": "Wednesday",
     "10:00-11:00AM": "",
     "11:00AM-12:00PM": "BEE-L, 2nd, R-04",
-    "12:00PM-01:00PM": "PE1-L,  5th, R-10",
+    "12:00PM-01:00PM": "WSES-L,  5th, R-10",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
     "03:00PM-04:00PM": "",
@@ -1843,7 +1843,7 @@
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
     "03:00PM-04:00PM": "",
-    "04:00PM-05:00PM": "PE-I-L, 5th, R-10"
+    "04:00PM-05:00PM": "WSES-L,  5th, R-10"
   },
   {
     "EmployeeID": 40043777,
@@ -2608,7 +2608,7 @@
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "ML-L, CECA-5th, R-CDL",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "PE-I-L, 5th, R-08",
+    "02:00PM-03:00PM": "TOC-L, 5th, R-08",
     "03:00PM-04:00PM": "",
     "04:00PM-05:00PM": ""
   },
@@ -2621,7 +2621,7 @@
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "PE-I-L, 5th, R-08",
+    "02:00PM-03:00PM": "TOC-L, 5th, R-08",
     "03:00PM-04:00PM": "",
     "04:00PM-05:00PM": ""
   },
@@ -2648,7 +2648,7 @@
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
-    "03:00PM-04:00PM": "PE-I-L, 5th, R-08",
+    "03:00PM-04:00PM": "TOC-L, 5th, R-08",
     "04:00PM-05:00PM": ""
   },
   {
@@ -2764,8 +2764,8 @@
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "OS, 3rd, R-12",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "OOP, ECE-3rd, R-13",
-    "03:00PM-04:00PM": "OOP, ECE-3rd, RVK",
+    "02:00PM-03:00PM": "OOPS, ECE-3rd, R-13",
+    "03:00PM-04:00PM": "OOPS, ECE-3rd, RVK",
     "04:00PM-05:00PM": "CN-L, 5th, R--08"
   },
   {
@@ -2773,7 +2773,7 @@
     "Name": "Mr. Nischay Ranjan",
     "Department": "CSE (Data Science)",
     "Day": "Thursday",
-    "10:00-11:00AM": "OOP, ECE-3rd, R-13",
+    "10:00-11:00AM": "OOPS, ECE-3rd, R-13",
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "OS, 3rd, R-12",
     "Lunch Hours": "",
@@ -2786,7 +2786,7 @@
     "Name": "Mr. Nischay Ranjan",
     "Department": "CSE (Data Science)",
     "Day": "Friday",
-    "10:00-11:00AM": "OOP, ECE-3rd, R-13",
+    "10:00-11:00AM": "OOPS, ECE-3rd, R-13",
     "11:00AM-12:00PM": "CN-L, 8th, R-14",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
@@ -3607,7 +3607,7 @@
     "Day": "Tuesday",
     "10:00-11:00AM": "",
     "11:00AM-12:00PM": "",
-    "12:00PM-01:00PM": "",
+    "12:00PM-01:00PM": "COI-L,  ECE-5th, R-14",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "IKS-L, CSE-3rd, R-12",
     "03:00PM-04:00PM": "",
@@ -3659,7 +3659,7 @@
     "Day": "Saturday",
     "10:00-11:00AM": "",
     "11:00AM-12:00PM": "IKS-L, CECA-3rd, R-06",
-    "12:00PM-01:00PM": "",
+    "12:00PM-01:00PM": "COI-L,  ECE-5th, R-14",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
     "03:00PM-04:00PM": "",
