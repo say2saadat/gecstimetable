@@ -2440,8 +2440,8 @@
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
-    "03:00PM-04:00PM": "PPS-P, 2nd, SHK",
-    "04:00PM-05:00PM": "PPS-P, 2nd, SHK"
+    "03:00PM-04:00PM": "PPS-P, 2nd, SK, R-CCL",
+    "04:00PM-05:00PM": "PPS-P, 2nd, SK, R-CCL"
   },
   {
     "EmployeeID": 40000471,
@@ -2488,8 +2488,8 @@
     "Department": "CSE (Data Science)",
     "Day": "Saturday",
     "10:00-11:00AM": "",
-    "11:00AM-12:00PM": "PPS-P, 2nd, SHK",
-    "12:00PM-01:00PM": "PPS-P, 2nd, SHK",
+    "11:00AM-12:00PM": "PPS-P, 2nd, SK, R-CDL",
+    "12:00PM-01:00PM": "PPS-P, 2nd, SK, R-CDL",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
     "03:00PM-04:00PM": "",
@@ -2569,8 +2569,8 @@
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "DSA-P, 3rd, SHK",
-    "03:00PM-04:00PM": "DSA-P, 3rd, SHK",
+    "02:00PM-03:00PM": "DSA-P, 3rd, SK, R-CCL",
+    "03:00PM-04:00PM": "DSA-P, 3rd, SK, R-CCL",
     "04:00PM-05:00PM": ""
   },
   {
@@ -2695,8 +2695,8 @@
     "Name": "Mrs. Deepa Kumari",
     "Department": "CSE (Data Science)",
     "Day": "Thursday",
-    "10:00-11:00AM": "OOPS-P, 3rd, SHK",
-    "11:00AM-12:00PM": "OOPS-P, 3rd, SHK",
+    "10:00-11:00AM": "OOPS-P, 3rd, SK, R-CCL",
+    "11:00AM-12:00PM": "OOPS-P, 3rd, SK, R-CCL",
     "12:00PM-01:00PM": "AICS-L, 8th, R-09",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "PYP-L, 2nd, R-03",
