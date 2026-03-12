@@ -1264,8 +1264,8 @@
     "Semester": 5,
     "Day": "Thursday",
     "10:00 AM\n11:00 AM": "",
-    "11:00 AM\n12:00PM": "HWR-P,  AKA & DPK +SP, R-HWRL",
-    "12:00 PM\n01:00PM": "HWR-P,  AKA & DPK +SP, R-HWRL",
+    "11:00 AM\n12:00PM": "HWRE-P,  AKA & DPK +SP, R-HWRL",
+    "12:00 PM\n01:00PM": "HWRE-P,  AKA & DPK +SP, R-HWRL",
     "Lunch": "",
     "02:00 PM\n03:00PM": "",
     "03:00 PM\n04:00PM": "GE1-L, PNK, R-09",
@@ -1292,8 +1292,8 @@
     "12:00 PM\n01:00PM": "ADCS-L, RVS, R-09",
     "Lunch": "",
     "02:00 PM\n03:00PM": "HYE-L,  SSU, R-09",
-    "03:00 PM\n04:00PM": "HWR-L,  DPK, R-09",
-    "04:00 PM\n05:00PM": "HWR-L,  DPK, R-09"
+    "03:00 PM\n04:00PM": "HWRE-L,  DPK, R-09",
+    "04:00 PM\n05:00PM": "HWRE-L,  DPK, R-09"
   },
   {
     "Branch": "CE",
