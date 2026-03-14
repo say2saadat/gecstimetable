@@ -641,8 +641,8 @@
     "Name": "Mr. Ankur Ashutosh",
     "Department": "Civil Engineering",
     "Day": "Tuesday",
-    "10:00-11:00AM": "HWRE-P, CE-5th, R-HWRL",
-    "11:00AM-12:00PM": "HWRE-P, CE-5th, R-HWRL",
+    "10:00-11:00AM": "HWR-P, CE-5th, R-HWRL",
+    "11:00AM-12:00PM": "HWR-P, CE-5th, R-HWRL",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
@@ -681,8 +681,8 @@
     "Department": "Civil Engineering",
     "Day": "Friday",
     "10:00-11:00AM": "",
-    "11:00AM-12:00PM": "HWRE-P, CECA-5th, R-HWRL",
-    "12:00PM-01:00PM": "HWRE-P, CECA-5th, R-HWRL",
+    "11:00AM-12:00PM": "HWR-P, CECA-5th, R-HWRL",
+    "12:00PM-01:00PM": "HWR-P, CECA-5th, R-HWRL",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
     "03:00PM-04:00PM": "",
@@ -3189,7 +3189,7 @@
     "Name": "Dr. Mukesh Kumar Pandey",
     "Department": "Applied Science",
     "Day": "Saturday",
-    "10:00-11:00AM": "PHY-P, 2nd, ME, ST",
+    "10:00-11:00AM": "PHY-P, ME-2nd, ST",
     "11:00AM-12:00PM": "PHY-P, 2nd, ME, ST",
     "12:00PM-01:00PM": "PHY-L, ME-2nd, R-02",
     "Lunch Hours": "",
@@ -3208,7 +3208,7 @@
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
     "03:00PM-04:00PM": "",
-    "04:00PM-05:00PM": "CHE-L, 2nd,  EE"
+    "04:00PM-05:00PM": ""
   },
   {
     "EmployeeID": 8040,
@@ -3221,7 +3221,7 @@
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
     "03:00PM-04:00PM": "",
-    "04:00PM-05:00PM": "CHE-L, 2nd,  EE, R-01"
+    "04:00PM-05:00PM": "CHE-L, EE-2nd,  R-01"
   },
   {
     "EmployeeID": 8040,
@@ -3245,7 +3245,7 @@
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "CHE-L, 2nd,  EE, R-01",
+    "02:00PM-03:00PM": "CHE-L, EE-2nd,  R-01",
     "03:00PM-04:00PM": "",
     "04:00PM-05:00PM": ""
   },
@@ -3267,11 +3267,11 @@
     "Name": "Dr. Yogendra Kumar Poddar",
     "Department": "Applied Science",
     "Day": "Saturday",
-    "10:00-11:00AM": "",
+    "10:00-11:00AM": "CHE-L, EE-2nd, R-03",
     "11:00AM-12:00PM": "CHE-P, 2nd, G1, EE",
     "12:00PM-01:00PM": "CHE-P, 2nd, G1, EE",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "CHE-L, 2nd, EE, R-03",
+    "02:00PM-03:00PM": "",
     "03:00PM-04:00PM": "",
     "04:00PM-05:00PM": ""
   },
