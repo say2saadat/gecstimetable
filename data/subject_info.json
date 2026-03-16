@@ -18,6 +18,14 @@
   {
     "Department": "Civil Engineering",
     "Semester": 1,
+    "SubjectCode": 100102,
+    "SubjectAcr": "M2",
+    "SubjectName": "Engineering Mathematics-II",
+    "Credits": 4
+  },
+  {
+    "Department": "Civil Engineering",
+    "Semester": 1,
     "SubjectCode": 100103,
     "SubjectAcr": "ENG",
     "SubjectName": "Communicative English",
@@ -242,14 +250,6 @@
   {
     "Department": "Mechanical Engineering",
     "Semester": 1,
-    "SubjectCode": "100109P",
-    "SubjectAcr": "SYNN",
-    "SubjectName": "Sports/Yoga/NCC/NSS",
-    "Credits": ""
-  },
-  {
-    "Department": "Mechanical Engineering",
-    "Semester": 1,
     "SubjectCode": 100101,
     "SubjectAcr": "CHE",
     "SubjectName": "Engineering Chemistry",
@@ -294,14 +294,6 @@
     "SubjectAcr": "EME",
     "SubjectName": "Elements of Mechanical Engineering",
     "Credits": 4
-  },
-  {
-    "Department": "Mechanical Engineering",
-    "Semester": 2,
-    "SubjectCode": "100214P",
-    "SubjectAcr": "SBM",
-    "SubjectName": "Swacha Bharat Mission",
-    "Credits": 1
   },
   {
     "Department": "Mechanical Engineering",
@@ -484,7 +476,7 @@
     "Semester": 6,
     "SubjectCode": "102xxx",
     "SubjectAcr": "PPE",
-    "SubjectName": "PE-I(Powerplant Engineering)",
+    "SubjectName": "Powerplant Engineering PE-I",
     "Credits": 3
   },
   {
@@ -492,7 +484,7 @@
     "Semester": 6,
     "SubjectCode": "102xxx",
     "SubjectAcr": "CM",
-    "SubjectName": "PE-II(Composite Materials)",
+    "SubjectName": "Composite Materials PE-II",
     "Credits": 3
   },
   {
@@ -682,7 +674,7 @@
   {
     "Department": "Computer Science Engineering (Data Science)",
     "Semester": 3,
-    "SubjectCode": "",
+    "SubjectCode": 153301,
     "SubjectAcr": "DE",
     "SubjectName": "Digital Electronics",
     "Credits": ""
@@ -690,7 +682,7 @@
   {
     "Department": "Computer Science Engineering (Data Science)",
     "Semester": 3,
-    "SubjectCode": "",
+    "SubjectCode": 153302,
     "SubjectAcr": "DSA",
     "SubjectName": "Data Structure and Algorithm",
     "Credits": ""
@@ -698,15 +690,15 @@
   {
     "Department": "Computer Science Engineering (Data Science)",
     "Semester": 3,
-    "SubjectCode": "",
+    "SubjectCode": 153303,
     "SubjectAcr": "OOPS",
-    "SubjectName": "OOPs Using JAVA",
+    "SubjectName": "Object Oriented Programming",
     "Credits": ""
   },
   {
     "Department": "Computer Science Engineering (Data Science)",
     "Semester": 3,
-    "SubjectCode": "",
+    "SubjectCode": 153304,
     "SubjectAcr": "DM",
     "SubjectName": "Discrete Mathematics & Graph Theory",
     "Credits": ""
@@ -714,7 +706,7 @@
   {
     "Department": "Computer Science Engineering (Data Science)",
     "Semester": 3,
-    "SubjectCode": "",
+    "SubjectCode": 153305,
     "SubjectAcr": "OS",
     "SubjectName": "Operating System",
     "Credits": ""
@@ -722,7 +714,47 @@
   {
     "Department": "Computer Science Engineering (Data Science)",
     "Semester": 3,
-    "SubjectCode": "",
+    "SubjectCode": "153301P",
+    "SubjectAcr": "",
+    "SubjectName": "Digital Electronics Lab",
+    "Credits": ""
+  },
+  {
+    "Department": "Computer Science Engineering (Data Science)",
+    "Semester": 3,
+    "SubjectCode": "153302P",
+    "SubjectAcr": "",
+    "SubjectName": "Data Structure and Algorithm Lab",
+    "Credits": ""
+  },
+  {
+    "Department": "Computer Science Engineering (Data Science)",
+    "Semester": 3,
+    "SubjectCode": "153303P",
+    "SubjectAcr": "",
+    "SubjectName": "OOPs Using JAVA Lab",
+    "Credits": ""
+  },
+  {
+    "Department": "Computer Science Engineering (Data Science)",
+    "Semester": 3,
+    "SubjectCode": "153304P",
+    "SubjectAcr": "",
+    "SubjectName": "Operating System Lab",
+    "Credits": ""
+  },
+  {
+    "Department": "Computer Science Engineering (Data Science)",
+    "Semester": 3,
+    "SubjectCode": 153308,
+    "SubjectAcr": "",
+    "SubjectName": "Internship-I",
+    "Credits": ""
+  },
+  {
+    "Department": "Computer Science Engineering (Data Science)",
+    "Semester": 3,
+    "SubjectCode": 153306,
     "SubjectAcr": "UHV",
     "SubjectName": "Universal Human Values",
     "Credits": ""
@@ -730,7 +762,7 @@
   {
     "Department": "Computer Science Engineering (Data Science)",
     "Semester": 3,
-    "SubjectCode": "",
+    "SubjectCode": 153307,
     "SubjectAcr": "IKS",
     "SubjectName": "Indian Knowledge System",
     "Credits": ""
@@ -878,14 +910,6 @@
     "SubjectAcr": "EGD",
     "SubjectName": "Engg. Graphics & Design",
     "Credits": 3
-  },
-  {
-    "Department": "Electrical Engineering",
-    "Semester": 2,
-    "SubjectCode": "100220P",
-    "SubjectAcr": "SYNN",
-    "SubjectName": "Sports/Yoga/NCC/NSS",
-    "Credits": 1
   },
   {
     "Department": "Electrical Engineering",
@@ -1081,26 +1105,10 @@
   },
   {
     "Department": "Electronics and Communication Engineering",
-    "Semester": 2,
-    "SubjectCode": "100220P",
-    "SubjectAcr": "SYNN",
-    "SubjectName": "Sports/Yoga/NCC/NSS",
-    "Credits": 1
-  },
-  {
-    "Department": "Electronics and Communication Engineering",
     "Semester": 3,
     "SubjectCode": 104301,
     "SubjectAcr": "EDC",
     "SubjectName": "Electronic Devices and Circuit Theory",
-    "Credits": ""
-  },
-  {
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 3,
-    "SubjectCode": 104302,
-    "SubjectAcr": "OOP",
-    "SubjectName": "Object Oriented Programming",
     "Credits": ""
   },
   {
@@ -1241,14 +1249,6 @@
   },
   {
     "Department": "Civil Engineering with Computer Applications",
-    "Semester": 1,
-    "SubjectCode": "100109P",
-    "SubjectAcr": "SYNN",
-    "SubjectName": "Sports/Yoga/NCC/NSS",
-    "Credits": 1
-  },
-  {
-    "Department": "Civil Engineering with Computer Applications",
     "Semester": 2,
     "SubjectCode": 100201,
     "SubjectAcr": "PHY",
@@ -1286,14 +1286,6 @@
     "SubjectAcr": "BEE",
     "SubjectName": "Basic Electrical Engineering",
     "Credits": 4
-  },
-  {
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 2,
-    "SubjectCode": "100214P",
-    "SubjectAcr": "SBM",
-    "SubjectName": "Swacha Bharat Mission",
-    "Credits": 1
   },
   {
     "Department": "Civil Engineering with Computer Applications",
@@ -1418,7 +1410,7 @@
   {
     "Department": "Civil Engineering with Computer Applications",
     "Semester": 5,
-    "SubjectCode": "119XXX",
+    "SubjectCode": 119501,
     "SubjectAcr": "ML",
     "SubjectName": "Machine Learning",
     "Credits": ""
@@ -1426,7 +1418,7 @@
   {
     "Department": "Computer Science Engineering (Data Science)",
     "Semester": 8,
-    "SubjectCode": "",
+    "SubjectCode": 100837,
     "SubjectAcr": "DMS",
     "SubjectName": "Digital Marketing and Search Engine Optimization",
     "Credits": ""
@@ -1434,7 +1426,7 @@
   {
     "Department": "Computer Science Engineering (Data Science)",
     "Semester": 8,
-    "SubjectCode": "",
+    "SubjectCode": 100848,
     "SubjectAcr": "RES",
     "SubjectName": "Renewable Energy Systems",
     "Credits": ""
@@ -1442,7 +1434,7 @@
   {
     "Department": "Computer Science Engineering (Data Science)",
     "Semester": 8,
-    "SubjectCode": "",
+    "SubjectCode": 153802,
     "SubjectAcr": "AICS",
     "SubjectName": "AI in Cyber Security",
     "Credits": ""
@@ -1450,7 +1442,7 @@
   {
     "Department": "Computer Science Engineering (Data Science)",
     "Semester": 8,
-    "SubjectCode": "",
+    "SubjectCode": 153810,
     "SubjectAcr": "AND",
     "SubjectName": "Autonumous Drones",
     "Credits": ""
@@ -1458,7 +1450,7 @@
   {
     "Department": "Electronics and Communication Engineering",
     "Semester": 8,
-    "SubjectCode": "",
+    "SubjectCode": 100819,
     "SubjectAcr": "STLC",
     "SubjectName": "Satellite Communication",
     "Credits": ""
@@ -1466,7 +1458,7 @@
   {
     "Department": "Electronics and Communication Engineering",
     "Semester": 8,
-    "SubjectCode": "",
+    "SubjectCode": 104804,
     "SubjectAcr": "WSN",
     "SubjectName": "Wireless Sensor Network",
     "Credits": ""
@@ -1474,7 +1466,7 @@
   {
     "Department": "Electronics and Communication Engineering",
     "Semester": 8,
-    "SubjectCode": "",
+    "SubjectCode": 104809,
     "SubjectAcr": "MEMS",
     "SubjectName": "Introduction to MEMS",
     "Credits": ""
@@ -1482,7 +1474,7 @@
   {
     "Department": "Electronics and Communication Engineering",
     "Semester": 8,
-    "SubjectCode": "",
+    "SubjectCode": 100814,
     "SubjectAcr": "IOT",
     "SubjectName": "Internet of Things",
     "Credits": ""
@@ -1490,7 +1482,7 @@
   {
     "Department": "Civil Engineering",
     "Semester": 8,
-    "SubjectCode": "",
+    "SubjectCode": 101818,
     "SubjectAcr": "REL",
     "SubjectName": "Railway Engineering",
     "Credits": ""
@@ -1498,7 +1490,7 @@
   {
     "Department": "Civil Engineering",
     "Semester": 8,
-    "SubjectCode": "",
+    "SubjectCode": 101838,
     "SubjectAcr": "EPI",
     "SubjectName": "Economic Policies in India",
     "Credits": ""
@@ -1506,7 +1498,7 @@
   {
     "Department": "Civil Engineering",
     "Semester": 8,
-    "SubjectCode": "",
+    "SubjectCode": 101827,
     "SubjectAcr": "CEM",
     "SubjectName": "Construction Engineering Material",
     "Credits": ""
@@ -1514,7 +1506,7 @@
   {
     "Department": "Civil Engineering",
     "Semester": 8,
-    "SubjectCode": "",
+    "SubjectCode": 101803,
     "SubjectAcr": "CNM",
     "SubjectName": "Contract Management",
     "Credits": ""
@@ -1522,9 +1514,49 @@
   {
     "Department": "Applied Science",
     "Semester": 8,
-    "SubjectCode": "",
+    "SubjectCode": "XXXXX",
     "SubjectAcr": "FL",
     "SubjectName": "Foreign Language",
+    "Credits": ""
+  },
+  {
+    "Department": "Electrical Engineering",
+    "Semester": 8,
+    "SubjectCode": 103801,
+    "SubjectAcr": "EHV",
+    "SubjectName": "Electrical and Hybrid Vehicles",
+    "Credits": ""
+  },
+  {
+    "Department": "Electrical Engineering",
+    "Semester": 8,
+    "SubjectCode": 100815,
+    "SubjectAcr": "DIP",
+    "SubjectName": "Digital Image Processing",
+    "Credits": ""
+  },
+  {
+    "Department": "Electrical Engineering",
+    "Semester": 8,
+    "SubjectCode": 103804,
+    "SubjectAcr": "CN",
+    "SubjectName": "Computer Networks",
+    "Credits": ""
+  },
+  {
+    "Department": "Electrical Engineering",
+    "Semester": 8,
+    "SubjectCode": 100804,
+    "SubjectAcr": "PQF",
+    "SubjectName": "Power Quality and FACTS",
+    "Credits": ""
+  },
+  {
+    "Department": "Electrical Engineering",
+    "Semester": 8,
+    "SubjectCode": "100801P",
+    "SubjectAcr": "PR-II",
+    "SubjectName": "Project-II",
     "Credits": ""
   }
 ]
