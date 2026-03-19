@@ -3284,7 +3284,7 @@
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "M2-L, CE+ME+CECA, 2nd, SH-2",
+    "02:00PM-03:00PM": "M2-L, CE+CECA, 2nd, SH-2",
     "03:00PM-04:00PM": "",
     "04:00PM-05:00PM": ""
   },
@@ -3294,10 +3294,10 @@
     "Department": "Applied Science",
     "Day": "Tuesday",
     "10:00-11:00AM": "",
-    "11:00AM-12:00PM": "M3-L, 3rd, SH-2",
+    "11:00AM-12:00PM": "M3-L, CE+CECA-3rd, SH-2",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "M3-L, CE+ME+CECA 2nd, SH-2",
+    "02:00PM-03:00PM": "M2-L, CE+CECA, 2nd, SH-2",
     "03:00PM-04:00PM": "",
     "04:00PM-05:00PM": ""
   },
@@ -3310,7 +3310,7 @@
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "M3-L, CE+ME+CECA 2nd, SH-2",
+    "02:00PM-03:00PM": "M2-L, CE+CECA, 2nd, SH-2",
     "03:00PM-04:00PM": "",
     "04:00PM-05:00PM": ""
   },
@@ -3319,11 +3319,11 @@
     "Name": "Dr. Ram Kumar Das",
     "Department": "Applied Science",
     "Day": "Thursday",
-    "10:00-11:00AM": "M3-L, 3rd CE, SH-2",
+    "10:00-11:00AM": "M3-L, CE+CECA-3rd, SH-2",
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "M2-L, CE+ME+CECA 2nd, SH-2",
+    "02:00PM-03:00PM": "M2-T, CE+CECA, 2nd, SH-2",
     "03:00PM-04:00PM": "",
     "04:00PM-05:00PM": ""
   },
@@ -3332,7 +3332,7 @@
     "Name": "Dr. Ram Kumar Das",
     "Department": "Applied Science",
     "Day": "Friday",
-    "10:00-11:00AM": "M3-L, 3rd CE, SH-2",
+    "10:00-11:00AM": "M3-L, CE+CECA-3rd, SH-2",
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
@@ -3345,13 +3345,13 @@
     "Name": "Dr. Ram Kumar Das",
     "Department": "Applied Science",
     "Day": "Saturday",
-    "10:00-11:00AM": "M3-L, 3rd CE, SH-2",
+    "10:00-11:00AM": "M3-L, CE+CECA-3rd, SH-2",
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
-    "03:00PM-04:00PM": "M2-L, 2nd, SH-2",
-    "04:00PM-05:00PM": "M2-L, 2nd, SH-2"
+    "03:00PM-04:00PM": "",
+    "04:00PM-05:00PM": ""
   },
   {
     "EmployeeID": 40152010,
@@ -3360,18 +3360,18 @@
     "Day": "Monday",
     "10:00-11:00AM": "M3-L, ME+ECE-3rd, SH-2",
     "11:00AM-12:00PM": "",
-    "12:00PM-01:00PM": "M3-L, ECE-3rd, R-13",
+    "12:00PM-01:00PM": "",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
-    "03:00PM-04:00PM": "M2-L, 2nd, SH-2",
-    "04:00PM-05:00PM": "M2-L, 2nd, SH-2"
+    "03:00PM-04:00PM": "M2-L, ME+EE-2nd, SH-2",
+    "04:00PM-05:00PM": "M2-T, ME+EE-2nd, SH-2"
   },
   {
     "EmployeeID": 40152010,
     "Name": "Mr. Aditya Narayan Pandey",
     "Department": "Applied Science",
     "Day": "Tuesday",
-    "10:00-11:00AM": "M2-L, ME+ECE-3rd, SH-2",
+    "10:00-11:00AM": "M3-L, ME+ECE-3rd, SH-2",
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
@@ -3384,9 +3384,9 @@
     "Name": "Mr. Aditya Narayan Pandey",
     "Department": "Applied Science",
     "Day": "Wednesday",
-    "10:00-11:00AM": "M3-L, ME-3rd, SH-2",
+    "10:00-11:00AM": "",
     "11:00AM-12:00PM": "",
-    "12:00PM-01:00PM": "M3-L, ECE-3rd, SH-2",
+    "12:00PM-01:00PM": "M3-L, ME+ECE-3rd, SH-2",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
     "03:00PM-04:00PM": "",
@@ -3416,7 +3416,7 @@
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
     "03:00PM-04:00PM": "",
-    "04:00PM-05:00PM": "M2-L, 2nd, SH-2"
+    "04:00PM-05:00PM": "M2-L, ME+EE-2nd, SH-2"
   },
   {
     "EmployeeID": 40152010,
@@ -3429,7 +3429,7 @@
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
     "03:00PM-04:00PM": "",
-    "04:00PM-05:00PM": "M2-L, 2nd, SH-2"
+    "04:00PM-05:00PM": "M2-L, ME+EE-2nd, SH-2"
   },
   {
     "EmployeeID": 8047,
