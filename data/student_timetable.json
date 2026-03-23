@@ -561,7 +561,7 @@
     "Lunch": "",
     "02:00 PM\n03:00PM": "LIB",
     "03:00 PM\n04:00PM": "BECE-P, MKT +DP, R-PRJL",
-    "04:00 PM\n05:00PM": "UHV-L, SSI R-07"
+    "04:00 PM\n05:00PM": "BECE-P, MKT +DP, R-PRJL"
   },
   {
     "Branch": "ME",
@@ -1085,9 +1085,9 @@
     "Day": "Monday",
     "10:00 AM\n11:00 AM": "(G1, MM-P,  ASK +AR, R-MML)\nG2, LIB",
     "11:00 AM\n12:00PM": "(G1, MM-P,  ASK +AR, R-MML)\nG2, LIB",
-    "12:00 PM\n01:00PM": "LIB",
+    "12:00 PM\n01:00PM": "PTSP-L,  MKT,  R-14",
     "Lunch": "",
-    "02:00 PM\n03:00PM": "PTSP-L,  MKT,  R-14",
+    "02:00 PM\n03:00PM": "LIB",
     "03:00 PM\n04:00PM": "LICA-L,  SJK, R-14",
     "04:00 PM\n05:00PM": "CN-L,  NCR, R-14"
   },
