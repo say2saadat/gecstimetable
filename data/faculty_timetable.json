@@ -1800,9 +1800,9 @@
     "Day": "Monday",
     "10:00-11:00AM": "",
     "11:00AM-12:00PM": "",
-    "12:00PM-01:00PM": "BEE, CECA-2nd, R-04",
+    "12:00PM-01:00PM": "WSES-L,  5th, R-10",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "BEE-L, 2nd, R-04",
+    "02:00PM-03:00PM": "",
     "03:00PM-04:00PM": "",
     "04:00PM-05:00PM": "BEE, CECA-2nd, R-04"
   },
@@ -1811,12 +1811,12 @@
     "Name": "Mr. Jitendra Kumar",
     "Department": "Electrical Engineering",
     "Day": "Tuesday",
-    "10:00-11:00AM": "WSES-L,  5th, R-10",
-    "11:00AM-12:00PM": "BEE-L, 2nd, R-04",
+    "10:00-11:00AM": "",
+    "11:00AM-12:00PM": "BEE-L, CE-2nd, R-04",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "BEE-L, 2nd, R-04",
-    "03:00PM-04:00PM": "",
+    "02:00PM-03:00PM": "",
+    "03:00PM-04:00PM": "BEE, CECA-2nd, R-04",
     "04:00PM-05:00PM": ""
   },
   {
@@ -1825,7 +1825,7 @@
     "Department": "Electrical Engineering",
     "Day": "Wednesday",
     "10:00-11:00AM": "",
-    "11:00AM-12:00PM": "BEE-L, 2nd, R-04",
+    "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "WSES-L,  5th, R-10",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
@@ -1838,8 +1838,8 @@
     "Department": "Electrical Engineering",
     "Day": "Thursday",
     "10:00-11:00AM": "",
-    "11:00AM-12:00PM": "BEE-L, 2nd, R-04",
-    "12:00PM-01:00PM": "BEE-L, 2nd, R-04",
+    "11:00AM-12:00PM": "BEE-L, CE-2nd, R-04",
+    "12:00PM-01:00PM": "",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
     "03:00PM-04:00PM": "",
@@ -1854,9 +1854,9 @@
     "11:00AM-12:00PM": "G1, BEE-P, CECA-2nd +MN",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "G1, BEE-P, 2nd, NR",
-    "03:00PM-04:00PM": "G1, BEE-P, 2nd, NR",
-    "04:00PM-05:00PM": ""
+    "02:00PM-03:00PM": "BEE-L, CE-2nd, R-04",
+    "03:00PM-04:00PM": "G1, BEE-P, CE-2nd, NR",
+    "04:00PM-05:00PM": "G1, BEE-P, CE-2nd, NR"
   },
   {
     "EmployeeID": 40043777,
@@ -1867,8 +1867,8 @@
     "11:00AM-12:00PM": "G2, BEE-P, CECA-2nd +MN",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "G2, BEE-P, 2nd, NR",
-    "03:00PM-04:00PM": "G2, BEE-P, 2nd, NR",
+    "02:00PM-03:00PM": "G2, BEE-P, CE-2nd, NR",
+    "03:00PM-04:00PM": "G2, BEE-P, CE-2nd, NR",
     "04:00PM-05:00PM": "BEE, CECA-2nd, R-04"
   },
   {
