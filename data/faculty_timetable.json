@@ -1331,7 +1331,7 @@
     "Department": "Mechanical Engineering",
     "Day": "Monday",
     "10:00-11:00AM": "",
-    "11:00AM-12:00PM": "TD-L, SMK, R-07",
+    "11:00AM-12:00PM": "TD-L, ME-3rd, R-07",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
@@ -1369,7 +1369,7 @@
     "Name": "Mr. Suryamani Kumar",
     "Department": "Mechanical Engineering",
     "Day": "Thursday",
-    "10:00-11:00AM": "TD-L, SMK, R-07",
+    "10:00-11:00AM": "TD-L, ME-3rd, R-07",
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "FMC-L,  5th, R-T3",
     "Lunch Hours": "",
@@ -1382,7 +1382,7 @@
     "Name": "Mr. Suryamani Kumar",
     "Department": "Mechanical Engineering",
     "Day": "Friday",
-    "10:00-11:00AM": "TD-L, SMK, R-07",
+    "10:00-11:00AM": "TD-L, ME-3rd, R-07",
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "FMC-L,  5th, R-T3",
     "Lunch Hours": "",
@@ -2440,8 +2440,8 @@
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
-    "03:00PM-04:00PM": "PPS-P, 2nd, SK, R-CCL",
-    "04:00PM-05:00PM": "PPS-P, 2nd, SK, R-CCL"
+    "03:00PM-04:00PM": "",
+    "04:00PM-05:00PM": ""
   },
   {
     "EmployeeID": 40000471,
@@ -2452,8 +2452,8 @@
     "11:00AM-12:00PM": "IOT-L, 8th, R-10",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "",
-    "03:00PM-04:00PM": "",
+    "02:00PM-03:00PM": "PPS-P, 2nd, SK, R-CCL",
+    "03:00PM-04:00PM": "PPS-P, 2nd, SK, R-CCL",
     "04:00PM-05:00PM": ""
   },
   {
