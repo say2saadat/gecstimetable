@@ -99,7 +99,7 @@
     "11:00AM-12:00PM": "",
     "12:00PM-01:00PM": "",
     "Lunch Hours": "",
-    "02:00PM-03:00PM": "STR-L-L, CECA-5th, R-CDL",
+    "02:00PM-03:00PM": "STR-L, CECA-5th, R-CDL",
     "03:00PM-04:00PM": "",
     "04:00PM-05:00PM": ""
   },
@@ -1180,7 +1180,7 @@
     "Lunch Hours": "",
     "02:00PM-03:00PM": "HT-P, ME-5th, R-HTL",
     "03:00PM-04:00PM": "HT-P, ME-5th, R-HTL",
-    "04:00PM-05:00PM": ""
+    "04:00PM-05:00PM": "HT-P, 5th, R-HTL"
   },
   {
     "EmployeeID": 40042927,
@@ -1193,7 +1193,7 @@
     "Lunch Hours": "",
     "02:00PM-03:00PM": "",
     "03:00PM-04:00PM": "",
-    "04:00PM-05:00PM": "HT-P, 5th, R-HTL"
+    "04:00PM-05:00PM": ""
   },
   {
     "EmployeeID": 40042927,
@@ -2809,7 +2809,7 @@
   },
   {
     "EmployeeID": 40357462,
-    "Name": "Dr.Shahadat Hussain",
+    "Name": "Dr. Shahadat Hussain",
     "Department": "CSE (Data Science)",
     "Day": "Monday",
     "10:00-11:00AM": "",
@@ -2822,7 +2822,7 @@
   },
   {
     "EmployeeID": 40357462,
-    "Name": "Dr.Shahadat Hussain",
+    "Name": "Dr. Shahadat Hussain",
     "Department": "CSE (Data Science)",
     "Day": "Tuesday",
     "10:00-11:00AM": "",
@@ -2835,7 +2835,7 @@
   },
   {
     "EmployeeID": 40357462,
-    "Name": "Dr.Shahadat Hussain",
+    "Name": "Dr. Shahadat Hussain",
     "Department": "CSE (Data Science)",
     "Day": "Wednesday",
     "10:00-11:00AM": "ML-P, CECA-3rd, RVK",
@@ -2848,7 +2848,7 @@
   },
   {
     "EmployeeID": 40357462,
-    "Name": "Dr.Shahadat Hussain",
+    "Name": "Dr. Shahadat Hussain",
     "Department": "CSE (Data Science)",
     "Day": "Thursday",
     "10:00-11:00AM": "",
@@ -2861,7 +2861,7 @@
   },
   {
     "EmployeeID": 40357462,
-    "Name": "Dr.Shahadat Hussain",
+    "Name": "Dr. Shahadat Hussain",
     "Department": "CSE (Data Science)",
     "Day": "Friday",
     "10:00-11:00AM": "",
@@ -2874,7 +2874,7 @@
   },
   {
     "EmployeeID": 40357462,
-    "Name": "Dr.Shahadat Hussain",
+    "Name": "Dr. Shahadat Hussain",
     "Department": "CSE (Data Science)",
     "Day": "Saturday",
     "10:00-11:00AM": "",
