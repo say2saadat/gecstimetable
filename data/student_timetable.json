@@ -161,10 +161,10 @@
     "Day": "Tuesday",
     "10:00 AM\n11:00 AM": "(G1, ENG-P, KSM +RV) & \n(G2-LIB))",
     "11:00 AM\n12:00PM": "(G1, ENG-P, KSM +RV) & \n(G2-LIB))",
-    "12:00 PM\n01:00PM": "EGD-P, VSK +KK, R-DWL",
+    "12:00 PM\n01:00PM": "BE-L, MUK, R-01",
     "Lunch": "",
     "02:00 PM\n03:00PM": "EGD-P, VSK +KK, R-DWL",
-    "03:00 PM\n04:00PM": "BE-L, MUK, R-01",
+    "03:00 PM\n04:00PM": "EGD-P, VSK +KK, R-DWL",
     "04:00 PM\n05:00PM": "CHE-L, YGP, R-01"
   },
   {
@@ -172,7 +172,7 @@
     "Semester": 2,
     "Day": "Wednesday",
     "10:00 AM\n11:00 AM": "EGD-L, VSK, R-DWL",
-    "11:00 AM\n12:00PM": "EGD-L, VSK, R-DWL",
+    "11:00 AM\n12:00PM": "LIB",
     "12:00 PM\n01:00PM": "ENG-L, KSM, R-10",
     "Lunch": "",
     "02:00 PM\n03:00PM": "ENG-L, KSM, R-01",
@@ -943,8 +943,8 @@
     "11:00 AM\n12:00PM": "MFP-L,  AMK, R-T3",
     "12:00 PM\n01:00PM": "LIB",
     "Lunch": "",
-    "02:00 PM\n03:00PM": "LIB",
-    "03:00 PM\n04:00PM": "LIB",
+    "02:00 PM\n03:00PM": "HT-P,  AVK +KK, R-HTL",
+    "03:00 PM\n04:00PM": "HT-P,  AVK +KK, R-HTL",
     "04:00 PM\n05:00PM": "LIB"
   },
   {
@@ -955,8 +955,8 @@
     "11:00 AM\n12:00PM": "HT-L,  AVK, R-T3",
     "12:00 PM\n01:00PM": "LIB",
     "Lunch": "",
-    "02:00 PM\n03:00PM": "HT-P,  AVK +KK, R-HTL",
-    "03:00 PM\n04:00PM": "HT-P,  AVK +KK, R-HTL",
+    "02:00 PM\n03:00PM": "LIB",
+    "03:00 PM\n04:00PM": "LIB",
     "04:00 PM\n05:00PM": "HT-P,  AVK +KK, R-HTL"
   },
   {
