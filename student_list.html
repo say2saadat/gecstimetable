@@ -69,8 +69,7 @@ button {
 }
 
 table{
-width:90%;
-margin-left: 40px;
+width:100%;
 border-collapse:collapse;
 margin-top:10px;
 }
@@ -270,9 +269,26 @@ header.innerHTML = `
 
 /* Clone table */
 const table = result.querySelector("table").cloneNode(true);
+/* ---- COLUMN WIDTH FIX (PORTRAIT FIT) ---- */
+const headers = table.querySelectorAll("th");
+
+headers.forEach((th, i) => {
+
+if(i === 2) th.style.width = "10%";   // Semester
+if(i === 3) th.style.width = "15%";  // Registration No
+if(i === 4) th.style.width = "30%";  // Name
+if(i === 5) th.style.width = "12%";  // Roll No
+if(i === 6) th.style.width = "15%";  // Remarks
+
+});
+
+/* ---- TEXT WRAP FIX ---- */
+table.querySelectorAll("td, th").forEach(el=>{
+el.style.wordBreak = "break-word";
+});
 
 /* Reduce size */
-table.style.fontSize = "11px";
+table.style.fontSize = "10px";
 table.style.width = "100%";
 
 table.querySelectorAll("th,td").forEach(el=>{
