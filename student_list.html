@@ -69,7 +69,8 @@ button {
 }
 
 table{
-width:100%;
+width:90%;
+margin-left: 40px;
 border-collapse:collapse;
 margin-top:10px;
 }
@@ -187,8 +188,7 @@ color:#0b3c5d;">
   <div id="result"></div>
 </div>
 
-<div style="text-align:center; margin-top:15px;">
-  <div id="downloadSection" style="display:none; text-align:center; margin-top:15px;">
+<div id="downloadSection" style="display:none; text-align:center; margin-top:15px;">
   <button onclick="downloadPDF()">Download PDF</button>
 </div>
 </div>
@@ -206,6 +206,7 @@ const semester=document.getElementById("semester").value;
 
 if(!branch || !semester){
 document.getElementById("result").innerHTML="Please select both Branch and Semester";
+document.getElementById("downloadSection").style.display="none";
 return;
 }
 
@@ -220,6 +221,7 @@ document.getElementById("classInfo").innerHTML =
 "Branch: " + branch + " | Semester: " + semester;
 if(filtered.length===0){
 document.getElementById("result").innerHTML="Semester not running / No records found";
+document.getElementById("downloadSection").style.display="none";
 return;
 }
 
@@ -235,6 +237,7 @@ html+="<tr>"+headers.map(h=>`<td>${row[h] || ""}</td>`).join("")+"</tr>";
 html+="</table>";
 
 document.getElementById("result").innerHTML=html;
+document.getElementById("downloadSection").style.display="block";
 
 }
 
@@ -280,11 +283,16 @@ el.style.padding = "4px";
 temp.appendChild(header);
 temp.appendChild(table);
 
+temp.style.width = "100%";
+temp.style.padding = "10px";
+temp.style.fontFamily = "Arial";
+temp.style.background = "white";   // ⭐ important
+
 document.body.appendChild(temp);
 
 /* PDF options */
 const opt = {
-margin: 0.3,
+margin: 0.2,
 filename: 'Student_List.pdf',
 image: { type: 'jpeg', quality: 0.98 },
 html2canvas: {
