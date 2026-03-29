@@ -24,8 +24,8 @@
   .card {
     background: #ffffff;
     width: 100%;
-    max-width: 900px;
-    padding: 50px 10px;
+    max-width: 800px;
+    padding: 80px 40px;
     border-radius: 14px;
     text-align: center;
     box-shadow: 0 15px 30px rgba(0,0,0,0.25);
@@ -85,15 +85,16 @@
   }
 /* - - - - - - - - Emergency Notice Block 1 of 3- - - - */
 .notice-box{
-  margin:20px auto;
-  padding:15px;
+  margin:15px auto;
+  padding:12px;
   background:#fff3f3;
-  border-left:6px solid #c62828;
+  border-left:5px solid #c62828;
   border-radius:6px;
-  text-align:justify;
-  font-size:14px;
+  font-size:13px;
   color:#333;
-  line-height:1.6;
+  line-height:1.5;
+  text-align:left; 
+  word-break:break-word;
 }
 
 .notice-box h3{
@@ -106,6 +107,24 @@
 .notice-box p{
   text-align:justify;
 }
+
+.notice-link{
+text-align:center;
+margin-top:8px;
+}
+
+.notice-link a{
+color:#0b3c5d;
+font-weight:bold;
+text-decoration:none;
+}
+
+.notice-sign{
+text-align:right;
+margin-top:10px;
+font-size:13px;
+}
+
 /* - - - - - - - - Emergency Notice Block 1 of 3- - - - */
 
 /* ---------- Mobile Specific ---------- */
@@ -155,10 +174,10 @@ h2 {
    }
 /* - - - - - - - - Emergency Notice Block 2 of 3- - - - */
 .notice-box{
-  font-size:13px;
-  padding:12px;
-  margin:15px 5px;
-  text-align:justify;
+  font-size:12px;
+  padding:10px;
+  margin:10px 5px;
+  text-align:left;
 }
 
 .notice-box h3{
@@ -180,17 +199,37 @@ h2 {
 <h1>Government Engineering College Sheohar</h1>
 
 <!-- System Title -->
-<h2>Academic Office</h2>
+<h2>Academic Timetable</h2>
 
 <!-- Emergency Notice Block 3 of 3 -->
+<div class="notice-box">
+<h3>URGENT AND IMPORTANT</h3>
+
+<p>
+All faculty members are required to verify their class schedules in both the <b>faculty</b> and <b>student</b> versions of the timetable. Any discrepancy must be reported immediately for timely correction.
+</p>
+
+<p>
+As faculty members are engaged across multiple departments, changes in one timetable may affect others. Hence, all faculty members are advised to check the timetable regularly.
+</p>
+
+<p class="notice-link">
+For reporting issues, please post the details in the WhatsApp group:
+<a href="https://chat.whatsapp.com/Dx07hSTWfrlAMNCMRLiXAw" target="_blank">Timetable GECS</a></p>
+<p class="notice-sign">
+Regards<br>
+<b>Academic In-charge</b>
+</p>
+</div>
   
 <!-- Emergency Notice Block 3 of 3 -->
 
 <!-- Buttons -->
   <div class="button-group">
-    <button onclick="location.href='faculty.html'">Faculty Timetable</button>
-    <button onclick="location.href='student.html'">Student Timetable</button>
-  </div>
+  <button onclick="location.href='faculty.html'">Faculty Timetable</button>
+  <button onclick="location.href='student.html'">Student Timetable</button>
+  <button onclick="location.href='student_list.html'">Student List</button>
+</div>
 
   <!-- Footer -->
   <div class="footer">
@@ -201,4 +240,3 @@ h2 {
 
 </body>
 </html>
-
