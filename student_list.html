@@ -20,8 +20,8 @@ padding:15px;
 
 .card{
 background:white;
-width:90%;
-max-width:700px;
+width:95%;
+max-width:800px;
 padding:40px;
 border-radius:12px;
 box-shadow:0 15px 30px rgba(0,0,0,0.2);
@@ -106,14 +106,15 @@ align-items:center;
 select, button{
 width:70%;
 max-width:140px;
-font-size:10px;
+font-size:12px;
 padding:8px;
 }
 
 button{
-width:52%;
+width:54%;
 max-width:300px;
-padding:10px;
+padding:12px;
+font-size:14px;
 }
 
 th, td{
@@ -220,7 +221,7 @@ document.getElementById("downloadSection").style.display="none";
 return;
 }
 
-let headers = ["Sr. No.", "Reg. Number", "Name", "Roll No.", "Remarks"];
+let headers = ["Sr. No.", "Reg. Number", "Name", "Roll Number", "Remarks"];
 
 let html="<table>";
 html+="<tr>"+headers.map(h=>`<th>${h}</th>`).join("")+"</tr>";
@@ -249,8 +250,10 @@ return;
 const temp = document.createElement("div");
 
 temp.style.width = "100%";
+temp.style.width = "800px";
 temp.style.padding = "10px";
-temp.style.fontFamily = "Arial";
+temp.style.fontFamily = "Georgia";
+temp.style.margin = "0 auto";
 
 /* Header */
 const header = document.createElement("div");
@@ -271,9 +274,9 @@ const headers = table.querySelectorAll("th");
 headers.forEach((th, i) => {
 
 if(i === 0) th.style.width = "8%";   // Sr No
-if(i === 1) th.style.width = "22%";  // Registration No
-if(i === 2) th.style.width = "30%";  // Name
-if(i === 3) th.style.width = "20%";  // Roll No
+if(i === 1) th.style.width = "20%";  // Registration No
+if(i === 2) th.style.width = "25%";  // Name
+if(i === 3) th.style.width = "15%";  // Roll No
 if(i === 4) th.style.width = "15%";  // Remarks
 
 });
@@ -284,8 +287,11 @@ el.style.wordBreak = "break-word";
 });
 
 /* Reduce size */
-table.style.fontSize = "10px";
-table.style.width = "100%";
+table.style.fontSize = "9px";
+table.style.width = "95%";
+table.style.margin = "0 auto";
+table.style.tableLayout = "fixed";
+table.style.borderCollapse = "collapse";
 
 table.querySelectorAll("th,td").forEach(el=>{
 el.style.padding = "4px";
@@ -295,20 +301,23 @@ el.style.padding = "4px";
 temp.appendChild(header);
 temp.appendChild(table);
 
-temp.style.width = "100%";
+temp.style.width = "90%";   // ⭐ IMPORTANT
+temp.style.margin = "0 auto";
 temp.style.padding = "10px";
-temp.style.fontFamily = "Arial";
+temp.style.fontFamily = "Georgia";
 temp.style.background = "white";   // ⭐ important
 
 document.body.appendChild(temp);
 
 /* PDF options */
 const opt = {
-margin: 0.2,
+margin: [0.3, 0.5, 0.4, 0.5],
 filename: 'Student_List.pdf',
 image: { type: 'jpeg', quality: 0.98 },
 html2canvas: {
   scale: 2,
+  useCORS: true,
+  letterRendering: true,
   scrollY: 0
 },
 jsPDF: {
@@ -318,9 +327,11 @@ jsPDF: {
 }
 };
 
+setTimeout(()=>{
 html2pdf().set(opt).from(temp).save().then(()=>{
 temp.remove();
 });
+}, 300);
 
 }
 
