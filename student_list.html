@@ -20,9 +20,9 @@ padding:15px;
 
 .card{
 background:white;
-width:100%;
-max-width:900px;
-padding:30px;
+width:90%;
+max-width:800px;
+padding:40px;
 border-radius:12px;
 box-shadow:0 15px 30px rgba(0,0,0,0.2);
 }
@@ -104,35 +104,31 @@ align-items:center;
 }
 
 select, button{
-width:90%;
-max-width:300px;
-font-size:14px;
-padding:10px;
+width:70%;
+max-width:140px;
+font-size:10px;
+padding:8px;
 }
 
 button{
-width:90%;
+width:52%;
 max-width:300px;
+padding:10px;
 }
-@media (max-width: 600px){
 
 th, td{
 font-size:11px;
 padding:6px;
 }
-}
 .card{
-padding:20px 10px;
+padding:30px 10px;
 }
-}
-@media (max-width: 600px){
 h1{
 font-size:18px;
 }
 h2{
 font-size:14px;
 }
-
 }
 
 </style>
@@ -224,7 +220,7 @@ document.getElementById("downloadSection").style.display="none";
 return;
 }
 
-let headers=Object.keys(filtered[0]);
+let headers = ["Sr. No.", "Reg. Number", "Name", "Roll No.", "Remarks"];
 
 let html="<table>";
 html+="<tr>"+headers.map(h=>`<th>${h}</th>`).join("")+"</tr>";
@@ -274,11 +270,11 @@ const headers = table.querySelectorAll("th");
 
 headers.forEach((th, i) => {
 
-if(i === 2) th.style.width = "10%";   // Semester
-if(i === 3) th.style.width = "15%";  // Registration No
-if(i === 4) th.style.width = "30%";  // Name
-if(i === 5) th.style.width = "12%";  // Roll No
-if(i === 6) th.style.width = "15%";  // Remarks
+if(i === 0) th.style.width = "8%";   // Sr No
+if(i === 1) th.style.width = "22%";  // Registration No
+if(i === 2) th.style.width = "30%";  // Name
+if(i === 3) th.style.width = "20%";  // Roll No
+if(i === 4) th.style.width = "15%";  // Remarks
 
 });
 
