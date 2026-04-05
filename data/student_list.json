@@ -333,6 +333,24 @@
     "Remarks": ""
   },
   {
+    "Sr. No.": 38,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145029,
+    "Name": "BIBHAV KUMAR",
+    "Roll Number": "S-24116",
+    "Remarks": "*"
+  },
+  {
+    "Sr. No.": 39,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145025,
+    "Name": "PRANAV KUMAR",
+    "Roll Number": "S-24137",
+    "Remarks": "*"
+  },
+  {
     "Sr. No.": 1,
     "Branch": "ME",
     "Semester": 2,
@@ -591,7 +609,7 @@
     "Reg. Number": 25102145029,
     "Name": "AMIT KUMAR",
     "Roll Number": "S-25215",
-    "Remarks": ""
+    "Remarks": "*"
   },
   {
     "Sr. No.": 30,
@@ -609,7 +627,7 @@
     "Reg. Number": 24102145014,
     "Name": "ANAND KUMAR",
     "Roll Number": "S-24222",
-    "Remarks": "*"
+    "Remarks": ""
   },
   {
     "Sr. No.": 1,
@@ -924,7 +942,7 @@
     "Reg. Number": 25103145035,
     "Name": "MOHAMMAD SHAHID ANSARI",
     "Roll Number": "S-25335",
-    "Remarks": ""
+    "Remarks": "*"
   },
   {
     "Sr. No.": 36,
@@ -933,7 +951,7 @@
     "Reg. Number": 25103145036,
     "Name": "RAJAN KUMAR",
     "Roll Number": "S-25310",
-    "Remarks": ""
+    "Remarks": "*"
   },
   {
     "Sr. No.": 37,
@@ -951,7 +969,7 @@
     "Reg. Number": 24103145031,
     "Name": "ABHISHEK KUMAR",
     "Roll Number": "S-24317",
-    "Remarks": "*"
+    "Remarks": ""
   },
   {
     "Sr. No.": 39,
@@ -960,7 +978,7 @@
     "Reg. Number": 24103145032,
     "Name": "HARSH VARDHAN",
     "Roll Number": "S-24329",
-    "Remarks": "*"
+    "Remarks": ""
   },
   {
     "Sr. No.": 1,
@@ -1770,7 +1788,7 @@
     "Reg. Number": 25153145053,
     "Name": "PRINCE KUMAR",
     "Roll Number": "S-25504",
-    "Remarks": ""
+    "Remarks": "*"
   },
   {
     "Sr. No.": 54,
@@ -1788,7 +1806,7 @@
     "Reg. Number": 24153145007,
     "Name": "JYOTI ADITYA",
     "Roll Number": "S-24509",
-    "Remarks": "*"
+    "Remarks": ""
   },
   {
     "Sr. No.": 1,
@@ -2148,7 +2166,7 @@
     "Reg. Number": 25119145040,
     "Name": "HARSH RANJAN",
     "Roll Number": "S-25652",
-    "Remarks": ""
+    "Remarks": "*"
   },
   {
     "Sr. No.": 41,
@@ -2157,7 +2175,7 @@
     "Reg. Number": 25119145041,
     "Name": "RAUNAK RAJ",
     "Roll Number": "S-25650",
-    "Remarks": ""
+    "Remarks": "*"
   },
   {
     "Sr. No.": 42,
@@ -2166,7 +2184,7 @@
     "Reg. Number": 24119145006,
     "Name": "PRAHLAD KUMAR",
     "Roll Number": "S-24615",
-    "Remarks": "*"
+    "Remarks": ""
   },
   {
     "Sr. No.": 43,
@@ -2175,7 +2193,7 @@
     "Reg. Number": 24119145027,
     "Name": "SAHIR MARGUB",
     "Roll Number": "S-24603",
-    "Remarks": "*"
+    "Remarks": ""
   },
   {
     "Sr. No.": 1,
@@ -2379,22 +2397,13 @@
     "Sr. No.": 23,
     "Branch": "CE",
     "Semester": 3,
-    "Reg. Number": 24101145025,
-    "Name": "PRANAV KUMAR",
-    "Roll Number": "S-24137",
-    "Remarks": ""
-  },
-  {
-    "Sr. No.": 24,
-    "Branch": "CE",
-    "Semester": 3,
     "Reg. Number": 24101145026,
     "Name": "NARESH KUMAR",
     "Roll Number": "S-24142",
     "Remarks": ""
   },
   {
-    "Sr. No.": 25,
+    "Sr. No.": 24,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 24101145027,
@@ -2403,7 +2412,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 26,
+    "Sr. No.": 25,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 24101145028,
@@ -2412,16 +2421,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 27,
-    "Branch": "CE",
-    "Semester": 3,
-    "Reg. Number": 24101145029,
-    "Name": "BIBHAV KUMAR",
-    "Roll Number": "S-24116",
-    "Remarks": ""
-  },
-  {
-    "Sr. No.": 28,
+    "Sr. No.": 26,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 24101145030,
@@ -2430,7 +2430,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 29,
+    "Sr. No.": 27,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 24101145031,
@@ -2439,7 +2439,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 30,
+    "Sr. No.": 28,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 24101145032,
@@ -2448,7 +2448,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 31,
+    "Sr. No.": 29,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 24101145033,
@@ -2457,7 +2457,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 32,
+    "Sr. No.": 30,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 24101145034,
@@ -2466,7 +2466,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 33,
+    "Sr. No.": 31,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 24101145036,
@@ -2475,7 +2475,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 34,
+    "Sr. No.": 32,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 24101145037,
@@ -2484,7 +2484,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 35,
+    "Sr. No.": 33,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 24101145039,
@@ -2493,7 +2493,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 36,
+    "Sr. No.": 34,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145901,
@@ -2502,7 +2502,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 37,
+    "Sr. No.": 35,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145902,
@@ -2511,7 +2511,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 38,
+    "Sr. No.": 36,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145903,
@@ -2520,7 +2520,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 39,
+    "Sr. No.": 37,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145904,
@@ -2529,7 +2529,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 40,
+    "Sr. No.": 38,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145905,
@@ -2538,7 +2538,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 41,
+    "Sr. No.": 39,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145906,
@@ -2547,7 +2547,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 42,
+    "Sr. No.": 40,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145907,
@@ -2556,7 +2556,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 43,
+    "Sr. No.": 41,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145908,
@@ -2565,7 +2565,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 44,
+    "Sr. No.": 42,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145909,
@@ -2574,7 +2574,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 45,
+    "Sr. No.": 43,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145910,
@@ -2583,7 +2583,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 46,
+    "Sr. No.": 44,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145911,
@@ -2592,7 +2592,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 47,
+    "Sr. No.": 45,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145912,
@@ -2601,7 +2601,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 48,
+    "Sr. No.": 46,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145913,
@@ -2610,7 +2610,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 49,
+    "Sr. No.": 47,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145914,
@@ -2619,7 +2619,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 50,
+    "Sr. No.": 48,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145915,
@@ -2628,7 +2628,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 51,
+    "Sr. No.": 49,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145916,
@@ -2637,7 +2637,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 52,
+    "Sr. No.": 50,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145917,
@@ -2646,7 +2646,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 53,
+    "Sr. No.": 51,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145918,
@@ -2655,7 +2655,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 54,
+    "Sr. No.": 52,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145919,
@@ -2664,7 +2664,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 55,
+    "Sr. No.": 53,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145920,
@@ -2673,7 +2673,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 56,
+    "Sr. No.": 54,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145921,
@@ -2682,7 +2682,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 57,
+    "Sr. No.": 55,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145922,
@@ -2691,7 +2691,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 58,
+    "Sr. No.": 56,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145923,
@@ -2700,7 +2700,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 59,
+    "Sr. No.": 57,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 25101145924,
@@ -2709,7 +2709,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 60,
+    "Sr. No.": 58,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 23101145015,
@@ -2718,7 +2718,7 @@
     "Remarks": "*"
   },
   {
-    "Sr. No.": 61,
+    "Sr. No.": 59,
     "Branch": "CE",
     "Semester": 3,
     "Reg. Number": 23101145024,
@@ -5347,6 +5347,114 @@
   },
   {
     "Sr. No.": 1,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145002,
+    "Name": "ARYAN VERMA",
+    "Roll Number": "S-23601",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 2,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145003,
+    "Name": "KRISHAN KUMAR",
+    "Roll Number": "S-23617",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 3,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145004,
+    "Name": "ADARSH RAJ",
+    "Roll Number": "S-23621",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 4,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145005,
+    "Name": "RAJAN KUMAR",
+    "Roll Number": "S-23608",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 5,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145006,
+    "Name": "NISHIKANT KUMAR",
+    "Roll Number": "S-23604",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 6,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145008,
+    "Name": "AMAN KUMAR",
+    "Roll Number": "S-23619",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 7,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145011,
+    "Name": "ROHIT KUMAR",
+    "Roll Number": "S-23605",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 8,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145013,
+    "Name": "VIMLESH KUMAR",
+    "Roll Number": "S-23606",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 9,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145014,
+    "Name": "SHIVAM KUMAR",
+    "Roll Number": "S-23622",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 10,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145015,
+    "Name": "SHAMEEM AJAZ",
+    "Roll Number": "S-23615",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 11,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145017,
+    "Name": "ANURAG KUMAR",
+    "Roll Number": "S-23614",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 12,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145018,
+    "Name": "PRADUMAN KUMAR",
+    "Roll Number": "S-23616",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 1,
     "Branch": "ME",
     "Semester": 5,
     "Reg. Number": 23102145001,
@@ -7467,114 +7575,6 @@
     "Reg. Number": 23153145905,
     "Name": "SHIVANSHU KUMAR",
     "Roll Number": "LE-23565",
-    "Remarks": ""
-  },
-  {
-    "Sr. No.": 1,
-    "Branch": "CECA",
-    "Semester": 5,
-    "Reg. Number": 23119145002,
-    "Name": "ARYAN VERMA",
-    "Roll Number": "S-23601",
-    "Remarks": ""
-  },
-  {
-    "Sr. No.": 2,
-    "Branch": "CECA",
-    "Semester": 5,
-    "Reg. Number": 23119145003,
-    "Name": "KRISHAN KUMAR",
-    "Roll Number": "S-23617",
-    "Remarks": ""
-  },
-  {
-    "Sr. No.": 3,
-    "Branch": "CECA",
-    "Semester": 5,
-    "Reg. Number": 23119145004,
-    "Name": "ADARSH RAJ",
-    "Roll Number": "S-23621",
-    "Remarks": ""
-  },
-  {
-    "Sr. No.": 4,
-    "Branch": "CECA",
-    "Semester": 5,
-    "Reg. Number": 23119145005,
-    "Name": "RAJAN KUMAR",
-    "Roll Number": "S-23608",
-    "Remarks": ""
-  },
-  {
-    "Sr. No.": 5,
-    "Branch": "CECA",
-    "Semester": 5,
-    "Reg. Number": 23119145006,
-    "Name": "NISHIKANT KUMAR",
-    "Roll Number": "S-23604",
-    "Remarks": ""
-  },
-  {
-    "Sr. No.": 6,
-    "Branch": "CECA",
-    "Semester": 5,
-    "Reg. Number": 23119145008,
-    "Name": "AMAN KUMAR",
-    "Roll Number": "S-23619",
-    "Remarks": ""
-  },
-  {
-    "Sr. No.": 7,
-    "Branch": "CECA",
-    "Semester": 5,
-    "Reg. Number": 23119145011,
-    "Name": "ROHIT KUMAR",
-    "Roll Number": "S-23605",
-    "Remarks": ""
-  },
-  {
-    "Sr. No.": 8,
-    "Branch": "CECA",
-    "Semester": 5,
-    "Reg. Number": 23119145013,
-    "Name": "VIMLESH KUMAR",
-    "Roll Number": "S-23606",
-    "Remarks": ""
-  },
-  {
-    "Sr. No.": 9,
-    "Branch": "CECA",
-    "Semester": 5,
-    "Reg. Number": 23119145014,
-    "Name": "SHIVAM KUMAR",
-    "Roll Number": "S-23622",
-    "Remarks": ""
-  },
-  {
-    "Sr. No.": 10,
-    "Branch": "CECA",
-    "Semester": 5,
-    "Reg. Number": 23119145015,
-    "Name": "SHAMEEM AJAZ",
-    "Roll Number": "S-23615",
-    "Remarks": ""
-  },
-  {
-    "Sr. No.": 11,
-    "Branch": "CECA",
-    "Semester": 5,
-    "Reg. Number": 23119145017,
-    "Name": "ANURAG KUMAR",
-    "Roll Number": "S-23614",
-    "Remarks": ""
-  },
-  {
-    "Sr. No.": 12,
-    "Branch": "CECA",
-    "Semester": 5,
-    "Reg. Number": 23119145018,
-    "Name": "PRADUMAN KUMAR",
-    "Roll Number": "S-23616",
     "Remarks": ""
   }
 ]
