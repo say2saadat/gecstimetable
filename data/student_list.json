@@ -630,6 +630,15 @@
     "Remarks": "*"
   },
   {
+    "Sr. No.": "",
+    "Branch": "",
+    "Semester": "",
+    "Reg. Number": "",
+    "Name": "",
+    "Roll Number": "",
+    "Remarks": ""
+  },
+  {
     "Sr. No.": 1,
     "Branch": "EE",
     "Semester": 2,
@@ -933,7 +942,7 @@
     "Reg. Number": 25103145034,
     "Name": "NANDAN KUMAR",
     "Roll Number": "S-25336",
-    "Remarks": ""
+    "Remarks": "*"
   },
   {
     "Sr. No.": 35,
@@ -960,7 +969,7 @@
     "Reg. Number": 24103145004,
     "Name": "SATYAM KUMAR",
     "Roll Number": "S-24318",
-    "Remarks": "*"
+    "Remarks": ""
   },
   {
     "Sr. No.": 38,
@@ -1797,7 +1806,7 @@
     "Reg. Number": 25153145054,
     "Name": "PRAKASH VERMA",
     "Roll Number": "S-25528",
-    "Remarks": ""
+    "Remarks": "*"
   },
   {
     "Sr. No.": 55,
@@ -1806,7 +1815,7 @@
     "Reg. Number": 24153145007,
     "Name": "JYOTI ADITYA",
     "Roll Number": "S-24509",
-    "Remarks": "*"
+    "Remarks": ""
   },
   {
     "Sr. No.": 1,
@@ -2175,7 +2184,7 @@
     "Reg. Number": 25119145041,
     "Name": "RAUNAK RAJ",
     "Roll Number": "S-25650",
-    "Remarks": ""
+    "Remarks": "*"
   },
   {
     "Sr. No.": 42,
@@ -2193,7 +2202,7 @@
     "Reg. Number": 24119145027,
     "Name": "SAHIR MARGUB",
     "Roll Number": "S-24603",
-    "Remarks": "*"
+    "Remarks": ""
   },
   {
     "Sr. No.": 1,
@@ -2706,7 +2715,7 @@
     "Reg. Number": 25101145924,
     "Name": "DILKHUSH KUMAR",
     "Roll Number": "LE-25162",
-    "Remarks": ""
+    "Remarks": "*"
   },
   {
     "Sr. No.": 58,
@@ -2724,7 +2733,7 @@
     "Reg. Number": 23101145024,
     "Name": "KAUSHAL KUMAR",
     "Roll Number": "S-23428",
-    "Remarks": "*"
+    "Remarks": ""
   },
   {
     "Sr. No.": 1,
@@ -2873,15 +2882,6 @@
   {
     "Sr. No.": 17,
     "Branch": "ME",
-    "Semester": 2,
-    "Reg. Number": 24102145022,
-    "Name": "VIVEK KUMAR DUBEY",
-    "Roll Number": "S-24231",
-    "Remarks": ""
-  },
-  {
-    "Sr. No.": 18,
-    "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 24102145023,
     "Name": "DEEPAK KUMAR",
@@ -2889,7 +2889,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 19,
+    "Sr. No.": 18,
     "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 24102145024,
@@ -2898,7 +2898,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 20,
+    "Sr. No.": 19,
     "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 24102145025,
@@ -2907,7 +2907,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 21,
+    "Sr. No.": 20,
     "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 24102145027,
@@ -2916,7 +2916,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 22,
+    "Sr. No.": 21,
     "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 24102145028,
@@ -2925,7 +2925,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 23,
+    "Sr. No.": 22,
     "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 24102145029,
@@ -2934,7 +2934,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 24,
+    "Sr. No.": 23,
     "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 24102145030,
@@ -2943,7 +2943,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 25,
+    "Sr. No.": 24,
     "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 24102145031,
@@ -2952,7 +2952,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 26,
+    "Sr. No.": 25,
     "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 25102145901,
@@ -2961,7 +2961,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 27,
+    "Sr. No.": 26,
     "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 25102145902,
@@ -2970,7 +2970,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 28,
+    "Sr. No.": 27,
     "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 25102145903,
@@ -2979,7 +2979,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 29,
+    "Sr. No.": 28,
     "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 25102145904,
@@ -2988,7 +2988,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 30,
+    "Sr. No.": 29,
     "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 25102145905,
@@ -2997,7 +2997,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 31,
+    "Sr. No.": 30,
     "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 25102145906,
@@ -3006,7 +3006,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 32,
+    "Sr. No.": 31,
     "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 25102145907,
@@ -3015,7 +3015,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 33,
+    "Sr. No.": 32,
     "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 25102145908,
@@ -3024,7 +3024,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 34,
+    "Sr. No.": 33,
     "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 25102145909,
@@ -3033,7 +3033,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 35,
+    "Sr. No.": 34,
     "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 25102145910,
@@ -3042,7 +3042,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 36,
+    "Sr. No.": 35,
     "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 25102145911,
@@ -3051,7 +3051,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 37,
+    "Sr. No.": 36,
     "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 25102145912,
@@ -3060,7 +3060,7 @@
     "Remarks": ""
   },
   {
-    "Sr. No.": 38,
+    "Sr. No.": 37,
     "Branch": "ME",
     "Semester": 3,
     "Reg. Number": 25102145913,
